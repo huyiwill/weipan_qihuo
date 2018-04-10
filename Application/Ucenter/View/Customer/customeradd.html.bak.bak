@@ -1,0 +1,113 @@
+<extend name="Base/common"/>
+<block name="content">
+	<div class="main sidebar-minified">
+		<div class="row">
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-indent red"></i><strong>添加会员</strong></h2>
+							<div class="panel-actions">
+								<a href="form-elements.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+								<a href="form-elements.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+								<a href="form-elements.html#" class="btn-close"><i class="fa fa-times"></i></a>
+							</div>
+						</div>
+						<div class="panel-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+								  <label class="control-label" for="date">姓名</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									  <input type="text" id="date" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 99/99/9999</span>
+								  </div>
+								</div>
+								
+								<div class="form-group">
+								  <label class="control-label" for="date">电话</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+									  <input type="text" id="phone" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. (999) 999-9999</span>
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">办公地址</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-usd"></i></span>
+									  <input type="text" id="tin" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 99-9999999</span>
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">身份证信息</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-male"></i></span>
+									  <input type="text" id="ssn" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 999-99-9999</span>
+								  </div>
+								</div>
+								
+								<div class="form-group">
+								  <label class="control-label" for="date">姓名</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									  <input type="text" id="date" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 99/99/9999</span>
+								  </div>
+								</div>
+								
+								<div class="form-group">
+								  <label class="control-label" for="date">电话</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+									  <input type="text" id="phone" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. (999) 999-9999</span>
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">办公地址</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-usd"></i></span>
+									  <input type="text" id="tin" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 99-9999999</span>
+								  </div>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">身份证信息</label>
+								  <div class="controls">
+									<div class="input-group col-sm-4">
+									  <span class="input-group-addon"><i class="fa fa-male"></i></span>
+									  <input type="text" id="ssn" class="form-control">
+									</div>
+									<span class="help-block col-sm-8">ex. 999-99-9999</span>
+								  </div>
+								</div>
+
+								<div class="form-actions">
+								  <button type="submit" class="btn btn-primary">保存</button>
+								  <button type="reset" class="btn btn-default">重置</button>
+								</div>
+							</form>   
+
+						</div>
+					</div>
+				</div><!--/col-->
+
+			</div>
+	</div>
+</block>

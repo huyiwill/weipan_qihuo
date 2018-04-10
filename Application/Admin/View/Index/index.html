@@ -1,0 +1,261 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/index.css" type="text/css" media="screen" />  
+<div class="container-fluid">
+
+    <!-- upper main stats -->
+    <div id="main-stats">
+        <div class="row-fluid stats-row">
+            <div class="span3 stat">
+                <div class="data">
+                    <span class="number">2457</span>
+                    访问量
+                </div>
+                <span class="date">今日</span>
+            </div>
+            <div class="span3 stat">
+                <div class="data">
+                    <span class="number">{$userCount}</span>
+                    用户
+                </div>
+                <span class="date">截止2015年12月</span>
+            </div>
+            <div class="span3 stat">
+                <div class="data">
+                    <span class="number">{$orderCount}</span>
+                    订单
+                </div>
+                <span class="date">最近7天</span>
+            </div>
+            <div class="span3 stat last">
+                <div class="data">
+                    <span class="number">￥{$total}</span>
+                    交易总额
+                </div>
+                <span class="date">最近30天</span>
+            </div>
+        </div>
+    </div>
+    <!-- end upper main stats -->
+
+    <div id="pad-wrapper">
+
+        <!-- statistics chart built with jQuery Flot -->
+        <!--<div class="row-fluid chart">
+            <h4>
+                统计<small>Statistics</small>
+                 <div class="btn-group pull-right">
+                    <button class="glow left">今天</button>
+                    <button class="glow middle active">本月</button>
+                    <button class="glow right">今年</button>
+                </div>
+            </h4>
+            <div class="span12">
+                <div id="statsChart"></div>
+            </div>
+        </div>-->
+        <!-- end statistics chart -->
+        <!-- table sample -->
+        <!-- the script for the toggle all checkboxes from header is located in js/theme.js -->
+        <div class="table-products" style="padding-top: 0;">
+            <div class="row-fluid head">
+                <div class="span12">
+                    <h4>最新交易记录 <small>Orders</small></h4>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                                <th class="span3 sortable">
+                                    订单编号
+                                </th>
+								<th class="span3 sortable">
+                                    <span class="line"></span>用户
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>订单时间
+                                </th>
+                                <th class="span4 sortable">
+                                    <span class="line"></span>产品信息
+                                </th>
+								<th class="span2 sortable">
+                                    <span class="line"></span>数量
+                                </th>
+								<th class="span2 sortable">
+                                    <span class="line"></span>类型
+                                </th>
+								<th class="span2 sortable">
+                                    <span class="line"></span>订单状态
+                                </th>
+								<th class="span3 sortable">
+                                    <span class="line"></span>手续费
+                                </th>
+								<!-- <th class="span3 sortable">
+                                    <span class="line"></span>获取佣金
+                                </th> -->
+								<th class="span3 sortable">
+                                    <span class="line"></span>订单总金额
+                                </th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                    <!-- row -->
+                    <volist name="orders" id="vo">
+                        <tr class="first">
+							<td>
+                                {$vo.orderno}
+                            </td>
+                            <td>
+                                <a href="{:U('User/updateuser',array('uid'=>$vo['uid']))}" class="name">{$vo.username}</a>
+                            </td>
+                            <td>
+                                {$vo.buytime|date='Y-m-d',###}
+                            </td>
+                            <td>
+								<a href="{:U('Goods/gedit',array('pid'=>$vo['pid']))}">{$vo.ptitle}</a>
+                            </td>
+							<td>
+                                {$vo.onumber}手
+                            </td>
+							<td>
+								<if condition='$vo.ostyle eq 1'>
+                                <span class="label label-success">买跌</span></span>
+                            	<else/>
+								<span class="label label-cc">买涨</span></span>
+								</if>
+                            </td>
+                            <td>
+                            	<if condition='$vo.ostaus eq 1'>
+                                <span class="label label-info">平仓</span></span>
+                            	<else/>
+								<span class="label">建仓</span></span>
+								</if>
+                            </td>
+							<td>
+                                <font color="#f00" size="3">￥{$vo['fee']}<font>
+                            </td>
+							<!-- <td>
+                                <font color="#f00" size="3">￥10.13<font>
+                            </td> -->
+							<td>
+                                <font color="#f00" size="4">￥{$vo['uprice']*$vo['onumber']}<font>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+            </div>
+            <!--<div class="pagination">
+              <ul>
+                <li><a href="#">&#8249;</a></li>
+                <li><a class="active" href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">&#8250;</a></li>
+              </ul>
+            </div>-->
+            <div>今日已有<font color="#f00" size="4">{$orderDay}</font>个<a href="{:U('Order/olist')}">订单</a>达成交易
+
+            <a href="../../../Extend/weipay1/index.php">充值</a>
+            </div>
+        </div>
+        <!-- end table sample -->
+
+        <!-- table sample -->
+        <!-- the script for the toggle all checkboxes from header is located in js/theme.js -->
+        <div class="table-products section" style="margin-top: 20px;">
+            <div class="row-fluid head">
+                <div class="span12">
+                    <h4>产品<small>Products</small></h4>
+                </div>
+            </div>
+
+            <div class="row-fluid filter-block">
+                <div class="pull-right">
+                    <input type="text" class="search" />
+                    <!--<a href="{:U('Goods/gadd')}" class="btn-flat new-product">+ 添加产品</a>-->
+                </div>
+            </div>
+
+            <div class="row-fluid">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span7">
+                                <input type="checkbox" />
+                                产品名称
+                            </th>
+                            <th class="span6">
+                                <span class="line"></span>单价
+                            </th>
+                            <th class="span3">
+                                <span class="line"></span>手续费
+                            </th>
+                            <th class="span4">
+                                <span class="line"></span>
+                            </th>
+                            <!--<th class="span3">
+                                <span class="line"></span>所属分类
+                            </th>-->
+                        </tr>
+                    </thead>
+                    <tbody>
+                    	<volist name="plist" id="pl">
+                        <!-- row -->
+                        <tr class="first">
+                            <td>
+                                <input type="checkbox" />
+                                <!--<div class="img">
+                                    
+                                </div>-->
+                                <a href="{:U('Goods/gedit',array('pid'=>$pl['pid']))}">{$pl['ptitle']} </a>
+                            </td>
+                            <td class="description">
+                                <span><font color="#f00">￥{$pl['uprice']}</font></span>
+                            </td>
+                            <td>
+                                {$pl['feeprice']}
+                            </td>
+                            <td>
+                                <!--<span class="label label-success">3665 手</span>-->
+                                <ul class="actions">
+                                    <li><a href="{:U('Goods/gedit',array('pid'=>$pl['pid']))}"><i class="table-edit"></i></a></li>
+                                    <li><i class="table-settings"></i></li>
+                                    <li class="last"><a href="{:U('Goods/gdel',array('pid'=>$pl['pid']))}" onclick="if(confirm('确定要删除吗?')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </volist>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+              <!--<ul>
+                <li><a href="#">&#8249;</a></li>
+                <li><a class="active" href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">&#8250;</a></li>
+              </ul>-->
+            </div>
+            <div></div>
+        </div>
+        <!-- end table sample -->
+    </div>
+</div>
+<!-- scripts -->
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			var eqli = $("#dashboard-menu").children().eq(0);
+			eqli.attr('class','active');
+			$("#dashboard-menu .active .submenu").css("display","block");
+		});
+	</script>
+</block>

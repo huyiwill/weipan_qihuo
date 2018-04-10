@@ -1,0 +1,3600 @@
+[ 2018-04-10T11:09:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:09:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:09:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:09:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:09:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:09:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:09:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:09:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:10:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-04-10T11:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:10:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:11:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:11:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:11:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-04-10T11:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:11:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-04-10T11:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-04-10T11:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-04-10T11:11:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:11:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:11:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-04-10T11:12:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:12:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:12:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:13:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-04-10T11:13:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:13:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:13:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:13:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:13:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:13:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:14:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:14:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:14:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:14:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:14:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-04-10T11:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2018-04-10T11:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:14:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-04-10T11:14:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:14:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:14:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:14:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:24+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:15:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:15:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:15:34+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+
+[ 2018-04-10T11:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-04-10T11:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-04-10T11:15:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:42+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:54+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:15:57+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-04-10T11:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T11:16:00+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+
+[ 2018-04-10T11:16:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T11:16:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:08+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T11:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:10+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:12+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T11:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T11:16:14+08:00 ] 127.0.0.1 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-04-10T14:27:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T14:27:53+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.050003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T14:28:00+08:00 ] 127.0.0.1 /index.php/Admin/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:login
+
+[ 2018-04-10T14:28:03+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname E:\project\qihuo\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T14:28:31+08:00 ] 127.0.0.1 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.050003s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'wpadmin' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T14:28:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.047002s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.049002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.047003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2018-04-10' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2018-04-03' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2018-03-11' )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: total E:\project\qihuo\Application\Admin\Controller\IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.048003s ]
+SQL: SELECT u.uid as uid,u.username as username,o.buytime as buytime,p.pid as pid,p.ptitle as ptitle,p.uprice as uprice,o.onumber as onumber,o.ostyle as ostyle,o.ostaus as ostaus,o.fee as fee,o.orderno as orderno FROM wp_userinfo u,wp_order o,wp_productinfo p WHERE ( u.uid=o.uid and o.pid=p.pid ) ORDER BY o.oid desc LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wp_productinfo` ORDER BY pid desc LIMIT 5   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T14:28:52+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.046002s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1523341732 WHERE ( uid=390 ) [ RunTime:0.002001s ]
+
+[ 2018-04-10T14:28:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.046003s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.051003s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.052003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1523341733 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.052002s ]
+SQL: SELECT * FROM `wp_catproduct` INNER JOIN wp_productinfo on wp_productinfo.cid = wp_catproduct.cid  GROUP BY wp_catproduct.cid ORDER BY wp_catproduct.cid asc  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.042002s ]
+SQL: SELECT * FROM `wp_productinfo` INNER JOIN wp_catproduct on wp_productinfo.cid = wp_catproduct.cid  ORDER BY wp_catproduct.cid asc  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.045002s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.051003s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.049003s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T15:22:03+08:00 ] 127.0.0.1 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.041002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.041002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.005000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.001000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:22:08+08:00 ] 127.0.0.1 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:22:09+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-04-10T15:22:49+08:00 ] 127.0.0.1 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account E:\project\qihuo\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T15:22:54+08:00 ] 127.0.0.1 /index.php/Admin/User/ulist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.040002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.039003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and wxtype=0 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\UserController.class.php 第 188 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.uid as uid,wp_userinfo.utel as utel,wp_userinfo.address as address,wp_userinfo.utime as utime,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.lastlog as lastlog,wp_accountinfo.balance as balance,wp_userinfo.otype as otype FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and wxtype=0 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=68 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:23:02+08:00 ] 127.0.0.1 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.037002s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.039002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.005000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-04-10T15:23:07+08:00 ] 127.0.0.1 /index.php/Admin/Menber/madd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.037002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.040002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Menber - assumed 'Menber' E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [8] Use of undefined constant madd - assumed 'madd' E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [2] Division by zero E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Menber/madd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.037002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Menber - assumed 'Menber' E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [8] Use of undefined constant madd - assumed 'madd' E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [2] Division by zero E:\project\qihuo\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T15:26:09+08:00 ] 127.0.0.1 /index.php/Admin/Menber/madd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.037002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.039002s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.038002s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `username` = 'huyi' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `utel` = '165564564' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given E:\project\qihuo\ThinkPHP\Library\Think\Model.class.php 第 981 行.
+SQL: INSERT INTO `wp_userinfo` (`otype`,`username`,`utel`,`address`,`comname`,`comqua`,`rebate`,`feerebate`,`upwd`,`utime`,`oid`,`managername`) VALUES (2,'huyi','165564564','青山湖区','琅琊阁公司','私营','2','2','b8aeea2157c7e4cb090a51b8907c93dc',1523345169,68,'wpadmin') [ RunTime:0.001000s ]
+SQL: INSERT INTO `wp_accountinfo` (`uid`) VALUES (670) [ RunTime:0.001000s ]
+SQL: INSERT INTO `wp_managerinfo` (`brokerid`,`uid`) VALUES ('362221445588741',670) [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:26:10+08:00 ] 127.0.0.1 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.038003s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.038002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=670 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:26:49+08:00 ] 127.0.0.1 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.038002s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.040003s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.038002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=670 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.001000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-04-10T15:26:53+08:00 ] 127.0.0.1 /index.php/Admin/Coupons/cplist/style/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_experience` [ RunTime:0.036002s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.039002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experience` WHERE ( endtime >=1523345213 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'endtime' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `wp_experience` WHERE ( endtime >=1523345213 ) LIMIT 1  
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\CouponsController.class.php 第 100 行.
+SQL: SELECT * FROM `wp_experience` ORDER BY eid desc LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: endtime E:\project\qihuo\Application\Runtime\Cache\Admin\55be4fd55c4867fb34bc5cdcf0bbc55c.php 第 379 行.
+NOTIC: [8] Undefined index: endtime E:\project\qihuo\Application\Runtime\Cache\Admin\55be4fd55c4867fb34bc5cdcf0bbc55c.php 第 379 行.
+NOTIC: [8] Undefined index: endtime E:\project\qihuo\Application\Runtime\Cache\Admin\55be4fd55c4867fb34bc5cdcf0bbc55c.php 第 379 行.
+NOTIC: [8] Undefined index: endtime E:\project\qihuo\Application\Runtime\Cache\Admin\55be4fd55c4867fb34bc5cdcf0bbc55c.php 第 379 行.
+NOTIC: [8] Undefined index: endtime E:\project\qihuo\Application\Runtime\Cache\Admin\55be4fd55c4867fb34bc5cdcf0bbc55c.php 第 379 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:26:57+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.039003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:00+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.042002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:10+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041003s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:27:13+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:30+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.045003s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `username` = 'langyage' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `utel` = '2255656566' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given E:\project\qihuo\ThinkPHP\Library\Think\Model.class.php 第 981 行.
+SQL: INSERT INTO `wp_userinfo` (`otype`,`ustatus`,`oid`,`username`,`upwd`,`utel`,`utime`) VALUES (0,1,0,'langyage','langyage','2255656566',1523345249) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:31+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:32+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.038002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:34+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.039002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:37+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.038002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:44+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.036002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.041002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:27:49+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.039002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:28:05+08:00 ] 127.0.0.1 /index.php/Admin/Super/sadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.040002s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `username` = 'admin123' ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( `utel` = '132456' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] md5() expects at least 1 parameter, 0 given E:\project\qihuo\ThinkPHP\Library\Think\Model.class.php 第 981 行.
+SQL: INSERT INTO `wp_userinfo` (`otype`,`ustatus`,`oid`,`username`,`upwd`,`utel`,`utime`) VALUES (0,1,0,'admin123','admin','132456',1523345285) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-04-10T15:28:06+08:00 ] 127.0.0.1 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.036002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: row E:\project\qihuo\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-04-10T15:28:11+08:00 ] 127.0.0.1 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.039003s ]
+SQL: SELECT * FROM `wp_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,58 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/new-user.css" type="text/css" media="screen" />
+
+<div class="container-fluid">
+	<div id="pad-wrapper" class="new-user">
+		<div class="row-fluid header">
+			<h3>修改栏目</h3>
+		</div>
+
+		<div class="row-fluid form-wrapper">
+			<!-- left column -->
+			<div class="span9 with-sidebar">
+				<div class="container">
+					<form class="new_user_form" action="{:U('News/tedit')}" method="post">
+						<input name="fid" type="hidden" value="{$gt['fid']}"/>
+						<div class="span12 field-box" style="border-top: 1px solid #dee3ea;">
+							<label>栏目名称:</label>
+							<input class="span3" type="text" value="{$gt['fclass']}" name="fclass">
+						</div>						
+						<div class="span11 field-box actions" style="text-align: right;padding: 30px 20px 15px 0;">
+							<input type="submit" class="btn-glow primary" value="提交">
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- side right column -->
+			<div class="span3 form-sidebar pull-right">
+				<div class="btn-group toggle-inputs hidden-tablet">
+					<button class="glow left active" data-input="inline">内联输入</button>
+					<button class="glow right" data-input="normal">正常输入</button>
+				</div>
+				<div class="alert alert-info hidden-tablet">
+					<i class="icon-lightbulb pull-left"></i>
+					点击上面的按钮可以切换输入方式。
+				</div>                        
+				<h6>说明</h6>
+				<p>建议新建栏目简洁易懂</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(1);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+</block>

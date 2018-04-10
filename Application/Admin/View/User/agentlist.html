@@ -1,0 +1,210 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen">
+<div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                <div class="row-fluid header">
+                    <h3>代理商申请列表</h3>
+                </div>
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span1 sortable">
+                                    编号
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>昵称
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>手机号码
+                                </th>
+                                <th class="span1 sortable">
+                                    <span class="line"></span>地区
+                                </th>
+                                <th class="span1 sortable">
+                                    <span class="line"></span>身份证照片
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>创建日期
+                                </th>
+                                 <th class="span2 sortable">
+                                    <span class="line"></span>姓名
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>身份证号
+                                </th>	
+                                <th class="span1 sortable">
+                                    <span class="line"></span>操作
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="ajaxback">
+                        <volist name="list" id="ult" key="k">
+                        <!-- row -->
+                        <tr class="first">
+                            <td>
+                                {$k}
+                            </td>
+                            <td>
+                               <if condition="$ult['nickname'] eq ''">
+                                暂无昵称
+                                <else/>
+                                     {$ult['nickname']}
+                                </if>
+                           
+                            </td>
+                            <td>
+                                 <if condition="$ult['utel'] eq ''">
+                                 暂无电话
+                                <else/>
+                                    {$ult['utel']}
+                                </if>
+                                
+                            </td>
+                            <td>
+                                {$ult['address']}
+                            </td>
+                            <td>
+                            	<if condition="$ult['portrait'] eq ''"><img src="__IMG__/contact-img.png" class="img-circle avatar hidden-phone" />
+                                <else/>
+                                  <img src="{$ult['portrait']}" class="img-circle avatar hidden-phone" />
+                                </if>
+                            </td>
+                            <td>
+                                {$ult['utime']|date='Y-m-d',###}
+                            </td>
+                            <td>
+                                {$ult['mname']}
+                            </td>
+                            <td>
+                            	{$ult['brokerid']}
+                            </td>
+                            <td>
+                            	<ul class="actions">
+                                    <li><a href="{:U('User/edituser')}?uid={$ult['uid']}&otype=1">通过</a></li>
+                                    <li class="last"><a href="{:U('User/edituser')}?uid={$ult['uid']}&otype=0" onclick="if(confirm('确定要拒绝吗?')){return true;}else{return false;}">拒绝</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </volist>                        
+                        </tbody>
+                    </table>
+        
+                </div>
+                <div class="pagination pull-right">
+                    <ul>
+                        {$page}
+                    </ul>
+                </div>
+                <!-- end users table -->
+            </div>
+        </div>
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(4);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+	
+	$('#top_search').keyup(top_serch);
+	$('#sxsearch').click(top_serch);
+	//搜索结果，ajax返回搜索框搜索结果
+	function top_serch(){
+		//获取点击参数
+		var urlkey = $(this).attr("urlkey");
+		//获取文本框值
+		var keywords = $("#top_search").val(),
+		    sxkey = $("#sxkey  option:selected").val(),
+			formula = $("#formula  option:selected").val(),
+			sxvalue = $("#sxvalue").val();
+		//重新定义提交url
+		var newurl = "";
+		if(urlkey == "search"){
+			newurl = "{:U('User/ulist?step=search')}"
+		}
+		if(urlkey == "sxsearch"){
+			newurl = "{:U('User/ulist?step=sxsearch')}"
+		}
+		$.ajax({  
+		    type: "post",  
+		    url: newurl,    
+        	data:{"keywords":keywords,"sxkey":sxkey,"formula":formula,"sxvalue":sxvalue},
+		    success: function(data) {
+		    	//console.log(data);
+		    	if(data=="null"){
+	            	//$("#loading").hide();
+	            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！</tr></td>');
+	            }else{
+			    	$ulist = "";
+		            $.each(data,function(no,items){
+		            	$ulist += '<tr class="first">';
+		            	$ulist += '<td>'+items.uid+'</td>';
+		            	$ulist += '<td><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'" class="name">'+items.username+'</a></td>';
+		            	$ulist += '<td>'+items.utel+'</td>';
+		            	$ulist += '<td>'+items.utime+'</td>';
+		            	if(items.ocount=='0'){
+		            		$ulist += '<td>0</td>';
+		            	}else{
+		            		$ulist += '<td><a href="">'+items.ocount+'</a></td>';	
+		            	}
+		            	$ulist += '<td><font color="#f00" size="4">￥'+items.balance+'<font></td>';
+		            	$ulist += '<td>';
+		            	if(items.otype == '0'){
+		            		$ulist += '会员';
+		            	}
+		            	if(items.otype == '1'){
+		            		$ulist += '正在申请经纪人';
+		            	}
+		            	if(items.otype == '2'){
+		            		$ulist += '经纪人';
+		            	}
+		            	$ulist += '<ul class="actions">';
+		            	$ulist += '<li><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'"><i class="table-edit"></i></a></li>';
+						$ulist += '<li><i class="table-settings"></i></li>';
+						$ulist += '<li class="last"><a href="{:U(\'User/userdel\')}?uid='+items.uid+'" onclick="if(confirm(\'确定要删除吗?\')){return true;}else{return false;}"><i class="table-delete"></i></a></li>';
+		            	$ulist += '</ul></td></tr>';
+		            })
+		            $("#ajaxback").html($ulist);
+	            }
+		    },
+		    error: function(data) {  
+	            console.log(data);
+	        }
+		  })
+	}
+	
+	$("#sxkey").bind("change",function(){
+		var sxkey = $(this).val();
+		switch(sxkey){
+			case "uid":
+				$("#sxvalue").attr("placeholder","格式：不允许汉字");
+				break;
+			case "username":
+				$("#sxvalue").attr("placeholder","格式：雁过留痕");
+				break;
+			case "utel":
+				$("#sxvalue").attr("placeholder","格式：15022220000");
+				break;
+			case "otype":
+				$("#sxvalue").attr("placeholder","格式：会员/经纪人");
+				break;
+			case "utime":
+				$("#sxvalue").attr("placeholder","格式：1970-10-01");
+				break;
+			case "balance":
+				$("#sxvalue").attr("placeholder","格式：不允许汉字");
+				break;
+			default:
+				$("#sxvalue").text("输入内容");
+		}
+		
+	})
+</script>
+</block>

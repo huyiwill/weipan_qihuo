@@ -1,0 +1,522 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/order-list.css" type="text/css" media="screen" />
+    <link href="__CSS__/lib/bootstrap.datepicker.css" type="text/css" rel="stylesheet" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>交易流水</h3>
+                <div class="span10 pull-right">
+                    <div class="tpsearch">
+                    	订单编号：<input type="text" class="span6 search" placeholder="请输入订单编号查找..." name="orderno" id="orderno"/>
+                    </div>
+                    <div class="tpsearch">
+                    	用户名称：<input type="text" class="span6 search" placeholder="请输入用户名称查找..." name="username" id="username"/>
+                    </div>
+                    <div class="tpsearch">
+                    	交易时间：<input type="text" value="03/29/2014" class="input-large datepicker" style="margin-bottom: 0;" name="buytime" id="buytime">
+                    </div>
+                </div>
+                <div class="span10 pull-right" style="margin-top: 20px;">
+                    <div class="tpsearch">
+                    	订单类型：<select id="ostyle" class="span6" name="ostyle">
+                    				<option value="">默认不选</option>
+	                                <option value="0">买涨</option>
+	                                <option value="1">买跌</option>
+                    			</select>
+                    </div>
+                    <div class="tpsearch">
+                    	订单盈亏：<select id="ploss" class="span6" name="ploss">
+                    				<option value="">默认不选</option>
+	                                <option value="0">盈利</option>
+	                                <option value="1">亏损</option>
+                    			</select>
+                    </div>
+                    <div class="tpsearch">
+                    	订单状态：<select id="ostaus" class="span7">
+                    				<option value="">默认不选</option>
+	                                <option value="0">建仓</option>
+	                                <option value="1">平仓</option>
+                    			</select>
+                    </div>
+                </div>
+                <div class="span10 pull-right" style="margin-top: 20px;">
+                	<a href="javascript:void(0)" class="btn-flat info" id="search_begin">开始查找</a>
+                </div>
+            </div>
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <!--//这个地方动态加载-->
+                <table class="table table-hover">
+                	<thead>
+                        <tr>
+                            <th class="span2 sortable">
+                                <span class="line"></span>编号
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>用户
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>类型
+                            </th>
+                            <th class="span3 sortable">
+                                <span class="line"></span>操作时间
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>产品信息
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>数量(手)
+                            </th>
+                            <th class="span1 sortable">
+                                <span class="line"></span>方向
+                            </th>							
+                            <th class="span1 sortable">
+                                <span class="line"></span>金额
+                            </th>
+                            <th class="span1 sortable">
+                                <span class="line"></span>手续费
+                            </th>
+                            <th class="span1 sortable">
+                                <span class="line"></span>买价
+                            </th>
+                            <th class="span1 sortable">
+                                <span class="line"></span>卖价
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>账户余额
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>出入金
+                            </th>			
+							<th class="span1 sortable">
+                                <span class="line"></span>盈亏
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="ajaxback">
+                    	<volist name="tlist" id="tl">
+                    	<tr class="first">
+							<td>
+	                            {$tl.jno}
+	                        </td>
+	                        <td>
+	                            <a href="{:U('User/updateuser',array('uid'=>$tl['uid']))}" class="name">{$tl.jusername}</a>
+	                        </td>
+	                        <td>{$tl.jtype}</td>
+	                        <td>{$tl.jtime|date='Y-m-d H:s',###}</td>
+	                        <td>
+	                        	<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									{$tl.remarks}
+								</if>
+	                        </td>
+	                        <td>
+	                        	<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									{$tl.number}手
+								</if>
+	                        </td>
+							<td>
+								<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									<if condition='$tl.jostyle eq 1'>
+		                                <!--<span class="label label-success">买跌</span>-->
+		                                <font color="#2fb44e">买跌</font>
+		                            	<else/>
+										<!--<span class="label label-cc">买涨</span>-->
+										<font color="#ed0000">买涨</font>
+									</if>
+								</if>
+							</td>
+							<td>
+								<if condition='$tl.jtype eq "提现"'>
+									{$tl.juprice}
+								<elseif condition='$tl.jtype eq "充值"'/>
+									{$tl.juprice}
+								<else/>
+									{$tl['number']*$tl['juprice']}
+								</if>
+							</td>
+                            <td>
+                            	<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									{$tl.jfee}
+								</if>
+                            </td>
+                            <td>
+                            	<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									<font color="#ed0000" size="3">{$tl.jbuyprice}</font>
+								</if>
+                            </td>
+                            <td>
+                            	<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									<if condition='$tl.jtype neq "建仓"'>
+	                            		<if condition='$tl["jbuyprice"] lt $tl["jsellprice"]'>
+	                        				<font color="#ed0000" size="3">{$tl.jsellprice}</font>
+	                        			<else/>
+	                        				<font color="#2fb44e" size="3">{$tl.jsellprice}</font>
+	                            		</if>
+	                            	<else/>
+										<!--<span class="label">建仓中</span>-->
+										<font color="#ed0000" size="3">0.00</font>
+									</if>
+								</if>
+                            	
+                            </td>
+                            <td><font color="#f00" size="3">{$tl.balance}</font></td>
+							<td>
+								<if condition='$tl.jtype eq "提现"'>
+									<font color="#2fb44e" size="3">-{$tl.juprice}</font>
+								<elseif condition='$tl.jtype eq "充值"'/>
+									<font color="#2fb44e" size="3">-{$tl.juprice}</font>
+								<else/>
+									<if condition='$tl.jaccess egt 0'>
+										<font color="#ed0000" size="3">+{$tl.jaccess}</font>
+									<else/>
+										<font color="#2fb44e" size="3">{$tl.jaccess}</font>
+									</if>
+								</if>
+							</td>
+							<td>
+								<if condition='$tl.jtype eq "提现"'>
+									0
+								<elseif condition='$tl.jtype eq "充值"'/>
+									0
+								<else/>
+									<if condition='$tl.jtype neq "建仓"'>
+	                            		<if condition='$tl["jploss"] egt 0'>
+	                        				<font color="#ed0000" size="3">+{$tl.jploss}</font>
+	                        			<else/>
+	                        				<font color="#2fb44e" size="3">{$tl.jploss}</font>
+	                            		</if>
+	                            	<else/>
+										<!--<span class="label">建仓中</span>-->
+										<font color="#ed0000" size="3">0.00</font>
+									</if>
+								</if>
+							</td>
+							<td>
+								<if condition='$tl.jtype eq "提现"'>
+									等待审核
+								<elseif condition='$tl.jtype eq "充值"'/>
+									等待审核
+								<elseif condition='$tl.jtype eq "返点"'/>
+									{$tl.explain}
+								<else/>
+									<a href="{:U('Order/ocontent',array('oid'=>$tl['oid']))}">查看</a>
+								</if>
+	                        </td>
+	                    </tr>
+	                    </volist>
+						<!-- <tr>
+							<td>统计</td>
+	                        <td colspan="8"></td>
+	                        <td>12312312</td>
+	                        <td>123123</td>
+	                        <td>123123</td>
+	                        <td></td>
+	                        <td></td>
+	                        <td></td>
+						</tr> -->
+                	</tbody>
+                </table>
+                <div class="qjcz">
+					温馨提示：默认查询当天的交易流水
+					<!-- <font color="#f00" size="4">{$tploss}</font>元&nbsp;&nbsp;交易手数：<font color="#f00" size="4">{$num}</font>手&nbsp;&nbsp;交易额统计：<font color="#f00" size="5">{$totals}</font>元 -->
+				</div>
+            </div>
+            <div class="pagination pull-right">
+                <ul>
+                    {$page}
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+    <!-- end main container -->
+<div id="loading" style="width: 100%;height: 105%;position: absolute;top: 0; z-index: 9999;display: none;">
+	<div class="load-center" style="background: #000;position: absolute;width: 60%;height: 14%;bottom: 10%;border-radius: 10px;color: #fff;text-align: center;font-size: 24px;left: 17%;padding: 1%;">
+		<img src="__IMG__/ajax-loading.jpg" alt="ajax-loading" width="40"/><br/>页面加载中...
+	</div>
+</div>
+<!-- scripts -->
+
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/bootstrap.datepicker.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        // datepicker plugin
+        $('.datepicker').datepicker().on('changeDate', function (ev) {
+            $(this).datepicker('hide');
+        });
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(3);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+		
+		/** 
+		 * 时间对象的格式化; 
+		 */  
+		Date.prototype.format = function(format) {  
+		    /* 
+		     * eg:format="yyyy-MM-dd hh:mm:ss"; 
+		     */  
+		    var o = {  
+		        "M+" : this.getMonth() + 1, // month  
+		        "d+" : this.getDate(), // day  
+		        "h+" : this.getHours(), // hour  
+		        "m+" : this.getMinutes(), // minute  
+		        "s+" : this.getSeconds(), // second  
+		        "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter  
+		        "S" : this.getMilliseconds()  
+		        // millisecond  
+		    }  
+		  
+		    if (/(y+)/.test(format)) {  
+		        format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4  
+		                        - RegExp.$1.length));  
+		    }  
+		  
+		    for (var k in o) {  
+		        if (new RegExp("(" + k + ")").test(format)) {  
+		            format = format.replace(RegExp.$1, RegExp.$1.length == 1  
+		                            ? o[k]  
+		                            : ("00" + o[k]).substr(("" + o[k]).length));  
+		        }  
+		    }  
+		    return format;  
+		}
+		
+		var now = new Date().format("MM/dd/yyyy");
+		$(".input-large").attr("value",now);
+	});
+	//搜索结果，ajax返回搜索框搜索结果
+	$('#search_begin').click(function(){
+		//获取文本框值
+		var orderno = $("#orderno").val(),
+			username = $("#username").val(),
+			buytime = $("#buytime").val(),
+		    ostyle = $("#ostyle  option:selected").val(),
+			ploss = $("#ploss  option:selected").val(),
+			ostaus = $("#ostaus option:selected").val();
+			
+		//alert(orderno+username+buytime+ostyle+ploss+ostaus);
+		$.ajax({
+			type: "post",
+			url: "{:U('Order/olist?step=search')}",
+			data:{"orderno":orderno,"username":username,"buytime":buytime,"ostyle":ostyle,"ploss":ploss,"ostaus":ostaus},
+			success: function(data){
+				//console.log(data);
+				if(data=="null"){
+	            	//$("#loading").hide();
+	            	$("#ajaxback").html('<tr class="first"><td colspan="14">没有找到结果，请重新输入！请检查输入的格式是否正确！</tr></td>');
+	            }else{
+	            	//$("#loading").hide();
+	            	$olist = "";
+		            $.each(data,function(no,items){
+		            	console.log(items);
+		            	$olist += '<tr class="first">';
+		            	$olist += '<td>'+items.orderno+'</td>';
+		            	$olist += '<td><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'">'+items.username+'</a></td><td>';
+		            	if(items.ostaus==1){
+		            		$olist += '<span class="label label-info">平仓</span>';
+		            	}else{
+		            		$olist += '<span class="label">建仓</span>';
+		            	}
+		            	$olist += '</td><td>'+items.buytime+'</td>';
+		            	$olist += '<td><a href="{:U(\'Goods/gedit\')}?pid='+items.pid+'">'+items.ptitle+'</a></td>';
+		            	$olist += '<td>'+items.onumber+'手</td>';
+		            	
+		            	$olist += '<td>';
+		            	if(items.ostyle==1){
+		            		$olist += '<span class="label label-success">买涨</span>';
+		            	}else{
+		            		$olist += '<span class="label label-cc">买跌</span>';
+		            	}
+		            	$olist += '</td>';
+		            	$olist += '<td><font color="#f00" size="3">'+items.uprice+'</font></td>';
+		            	$olist += '<td><font color="#f00" size="3">'+items.fee+'</font></td>';
+		            	$olist += '<td><font color="#f00" size="3">'+items.buyprice+'</font></td>';
+		            	$olist += '<td>';
+		            	if(items.ostaus==1){
+		            		$olist += '<font color="#f00" size="3">'+items.sellprice+'</font>';
+		            	}else{
+		            		$olist += '<span class="label">建仓中</span>';
+		            	}
+		            	$olist += '</td>';
+		            	if(items.commission==""){
+		            		$olist += '<td><font color="#f00" size="3">0.00</font></td>';
+		            	}else{
+		            		$olist += '<td><font color="#f00" size="3">'+items.commission+'</font></td>';	
+		            	}
+		            	$olist += '<td><font color="#f00" size="3">'+items.jaccess+'</font></td>';
+		            	$olist += '<td>';
+		            	if(items.ostaus==1){
+		            		$olist += '<font color="#f00" size="4">'+items.ploss+'</font>';
+		            	}else{
+		            		$olist += '<span class="label">建仓中</span>';
+		            	}
+		            	$olist += '</td>';
+		            	$olist += '<td><a href="{:U(\'Order/ocontent\')}?oid='+items.oid+'">查看</a></td>';
+		            	$olist += '</tr>';
+		            })
+		            $("#ajaxback").html($olist);
+	            }
+			},
+			error: function(data){
+				console.log(data);
+			}
+		});
+	})
+	
+	
+	
+	
+	$('#top_search').keyup(top_serch);
+	$('#sxsearch').click(top_serch);
+	function top_serch(){
+		//获取点击参数
+		var urlkey = $(this).attr("urlkey");
+		//获取文本框值
+		var keywords = $("#top_search").val(),
+		    sxkey = $("#sxkey  option:selected").val(),
+			formula = $("#formula  option:selected").val(),
+			sxvalue = $("#sxvalue").val();
+		//重新定义提交url
+		var newurl = "";
+		if(urlkey == "search"){
+			newurl = "{:U('Order/olist?step=search')}"
+		}
+		if(urlkey == "sxsearch"){
+			newurl = "{:U('Order/olist?step=sxsearch')}"
+		}
+		$.ajax({
+        type: "post",  
+        url: newurl,    
+        data:{"keywords":keywords,"sxkey":sxkey,"formula":formula,"sxvalue":sxvalue},
+//      beforeSend:function(XMLHttpRequest){ 
+//            //alert('远程调用开始...'); 
+//            $("#loading").show(); 
+//      },
+        success: function(data) {
+        	//$("#ajaxback").html(data);
+            if(data=="null"){
+            	//$("#loading").hide();
+            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！请检查输入的格式是否正确！</tr></td>');
+            }else{
+            	//$("#loading").hide();
+            	$olist = "";
+	            $.each(data,function(no,items){
+	            	$olist += '<tr class="first">';
+	            	$olist += '<td>'+items.oid+'</td>';
+	            	$olist += '<td><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'">'+items.username+'</a></td>';
+	            	$olist += '<td>'+items.buytime+'</td>';
+	            	$olist += '<td><a href="{:U(\'Goods/gedit\')}?pid='+items.pid+'">'+items.ptitle+'</a></td>';
+	            	$olist += '<td>'+items.onumber+'手</td><td>';
+	            	if(items.ostaus==1){
+	            		$olist += '<span class="label label-info">平仓</span>';
+	            	}else{
+	            		$olist += '<span class="label">建仓</span>';
+	            	}
+	            	$olist += '</td><td>';
+	            	if(items.ostyle==1){
+	            		$olist += '<span class="label label-success">买涨</span>';
+	            	}else{
+	            		$olist += '<span class="label label-cc">买跌</span>';
+	            	}
+	            	$olist += '</td>';
+	            	$olist += '<td><font color="#f00" size="3">￥'+items.buyprice+'<font></td>';
+	            	$olist += '<td>';
+	            	if(items.ostaus==1){
+	            		$olist += '<font color="#f00" size="3">￥'+items.sellprice+'<font>';
+	            	}else{
+	            		$olist += '建仓中';
+	            	}
+	            	$olist += '</td><td>';
+	            	if(items.ostaus==1){
+	            		$olist += '<font color="#f00" size="3">￥'+items.commission+'<font>';
+	            	}else{
+	            		$olist += '建仓中';
+	            	}
+	            	$olist += '</td>';
+	            	$olist += '<td><font color="#f00" size="3">￥'+items.fee+'<font></td>';
+	            	$olist += '<td>';
+	            	if(items.ostaus==1){
+	            		$olist += '<font color="#f00" size="4">￥'+items.ploss+'<font>';
+	            	}else{
+	            		$olist += '建仓中';
+	            	}
+	            	$olist += '</td>';
+	            	$olist += '<td><a href="{:U(\'Order/ocontent\')}?oid='+items.oid+'">查看</a></td>';
+	            	$olist += '</tr>';
+	            })
+	            $("#ajaxback").html($olist);
+            }
+            
+            //console.log(data);
+        },  
+        error: function(data) {  
+            console.log(data);
+        }
+      }); 
+	}
+	
+$("#sxkey").bind("change",function(){
+	var sxkey = $(this).val();
+	switch(sxkey){
+		case "orderno":
+			$("#sxvalue").attr("placeholder","格式：不允许汉字");
+			break;
+		case "username":
+			$("#sxvalue").attr("placeholder","格式：雁过留痕");
+			break;
+		case "buytime":
+			$("#sxvalue").attr("placeholder","格式：1970-10-01");
+			break;
+		case "ostyle":
+			$("#sxvalue").attr("placeholder","格式：买涨/买跌");
+			break;
+		case "ploss":
+			$("#sxvalue").attr("placeholder","格式：数字格式");
+			break;
+		case "ostaus":
+			$("#sxvalue").attr("placeholder","格式：建仓/平仓");
+			break;
+		default:
+			$("#sxvalue").text("输入内容");
+	}
+	
+})
+</script>
+</block>

@@ -1,0 +1,124 @@
+<html>
+<head>
+	<title>期货系统管理中心</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <!-- bootstrap -->
+    <link href="__CSS__/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="__CSS__/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="__CSS__/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- libraries -->
+    <link href="__CSS__/lib/jquery-ui-1.10.2.custom.css" rel="stylesheet" type="text/css" />
+    <link href="__CSS__/lib/font-awesome.css" type="text/css" rel="stylesheet" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="__CSS__/layout.css" />
+    <link rel="stylesheet" type="text/css" href="__CSS__/elements.css" />
+    <link rel="stylesheet" type="text/css" href="__CSS__/icons.css" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		.jg2{color:#2fb44e;}
+		.redd{color:#ed0000;}
+	</style>
+</head>
+<body>
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/order-list.css" type="text/css" media="screen" />
+    <link href="__CSS__/lib/bootstrap.datepicker.css" type="text/css" rel="stylesheet" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>订单列表</h3>
+            </div>
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <!--//这个地方动态加载-->
+                <table class="table table-hover">
+                	<thead>
+                        <tr>
+                            <th class="span2 sortable">
+                                <span class="line"></span>订单编号
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>数量
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>买价
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>止盈
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>止亏
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="ajaxback">
+                    	<volist name="olist" id="vo">
+		                    <tr class="first">
+								<td>
+		                            {$vo.oid}
+		                        </td>
+								<td>
+		                            {$vo.onumber}手
+		                        </td>
+	                            <td>
+	                            	<font color="#f00" size="3">{$vo.buyprice}</font>元
+	                            </td>
+	                            <td>
+	                                {$vo.endprofit}%
+	                            </td>
+	                            <td>
+	                                {$vo.endloss}%
+	                            </td>
+		                    </tr>
+						</volist>
+                	</tbody>
+                </table>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+    <!-- end main container -->
+<div id="loading" style="width: 100%;height: 105%;position: absolute;top: 0; z-index: 9999;display: none;">
+	<div class="load-center" style="background: #000;position: absolute;width: 60%;height: 14%;bottom: 10%;border-radius: 10px;color: #fff;text-align: center;font-size: 24px;left: 17%;padding: 1%;">
+		<img src="__IMG__/ajax-loading.jpg" alt="ajax-loading" width="40"/><br/>页面加载中...
+	</div>
+</div>
+<script src="__JS__/jquery-latest.js"></script>
+<script type="text/javascript">
+//setInterval('butt()', 1000);
+//function butt(){
+//	var nprice = $(".youjia").html();
+//  var url = "{:U('Goods/price')}";
+//  if ($('input[name=cid]').val()==1) {
+//      url = "{:U('Goods/price')}";
+//  }
+// 	else if ($('input[name=cid]').val()==2)
+//	{
+//      url = "{:U('Goods/byprice')}";
+//	}else{
+//      url = "{:U('Goods/toprice')}";
+//	}; 
+//	$.ajax({  
+//  	type: "post",  
+//  	url: url,         
+//   	success: function(data) { 
+//	      	$('.youjia').html(data[0]);
+//	      	//隐藏油价
+//	      	if(data[0]>nprice){
+//	        	$('.youjia').attr("class","l_l redd");
+//	      	}else if(data[0]==nprice){}else{
+//	        	$('.youjia').attr("class","l_l jg2");
+//	        }              
+//      }
+//  }); 
+//}
+</script>
+</body>
+</html>

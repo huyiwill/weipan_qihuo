@@ -1,0 +1,37 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/index.css">
+<link rel="stylesheet" href="__CSS__/pwd.css">
+<div class="wrap">
+  <div class="index" style="min-height: 891px;">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">申请经纪人</h3>
+      </nav>
+    </header>
+    <form id="reviseForm" class="i-form" method="post" enctype="multipart/form-data" action="{:U('Broker/applybroker')}">
+      <ul class="form-box">
+        <li class="f-line clearfix">
+          <label class="f-label">姓名</label>
+          <input id="c-pwd" class="f-input" type="text" maxlength="10" placeholder="请输入姓名" name="mname">
+        </li>
+        <li class="f-line clearfix">
+          <label class="f-label">身份证</label>
+          <input id="b-pwd" class="f-input" type="text" maxlength="18" placeholder="请输入身份证号" name="brokerid">
+        </li>
+
+        <li class="f-line clearfix">
+          <label class="f-label">身份证照片</label>
+          <img src="{$idcover.idcover}"/>
+          <input type="file"  class="f-sub2" name="photoid">
+        </li>
+      </ul>
+      <div id='btnAgree'>
+        <div><input name="" type="checkbox" value="" checked />&nbsp;<span>我已阅读和同意<span id='btnBook'>《服务协议及隐私条款》</span></span></div>   
+      </div>
+      <input type="submit" value="确认申请" class="f-sub">
+    </form>
+  </div>
+</div>
+</block>

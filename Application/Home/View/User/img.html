@@ -1,0 +1,33 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/index.css">
+<link rel="stylesheet" href="__CSS__/pwd.css">
+<div class="content">
+<p class="yh_all">推广链接<p>
+<p><input  id='link' type="text" value="{$url}" class="st"/>&nbsp;&nbsp;<button class="tjrz" id="cop" onclick="copy();">复制推广链接</button></p>
+<p class="form_sfrz"><img alt="二维码" src="http://www.xcsoft.cn/public/qrcode?text={$url}&size=4&level=L&padding=2&logo=">
+<br><button class="tjrz2">点击左上角微信分享推广链接</button><br>
+</div>
+<style>
+.yh_all{ font-size:16px; font-weight:bold; border:none;}
+.zl_table{ border-radius:5px; background:#fff; }
+.zl_table tr{ height:42px; line-height:42px;}
+.st{ width:50%; height:32px; line-height:32px; border:none; border:1px #d5d5d5 solid; border-radius:3px; }
+.tjrz{ background:none; border:none; padding:5.5px 2px; background:#ffb709; border-radius:2px; color:#fff; font-size:14px; margin-top:12px;}
+.tjrz2{ background:none; border:none; padding:9px 35px; background:#19b2ff; border-radius:2px; color:#fff; font-size:14px; margin-top:12px;}
+.form_sfrz{ background:#fcf8e3; border:1px #ebd97b solid; border-radius:5px; padding:20px 0 20px 20px; width:100%; font-size:15px; text-align:center;}
+
+</style>
+
+<script type="text/javascript"> 
+    function copy(){ 
+        var content=$('#link');//对象是多行文本框contents 
+        content.select(); //选择对象 
+        document.execCommand("Copy"); //执行浏览器复制命令
+        $('#cop').html('已复制');
+    } 
+</script> 
+
+
+</block>

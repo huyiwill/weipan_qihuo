@@ -1,0 +1,264 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/index.css">
+<!-- <script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script> -->
+
+<div class="wrap">
+  <div class="index">
+    <header class="list-head" style="width:100%;">
+      <nav class="list-nav clearfix"> <a href="{:U('Index/index')}" target="_self" class="list-back"></a>
+        <input value="{$order.cid}" id="orcid" type="hidden">
+        <h3 class="list-title">{$order.ptitle}</h3>
+      </nav>
+    </header>
+    
+        <div class="news-list2 clearfix">
+          <input value="{$order.wave}" id="orwave" type="hidden">
+          <input value="{$order.ostyle}" id="orostyle" type="hidden">
+          <input value="{$order.uprice}" id="uprice" type="hidden">
+          <p><span class="l_l3">订单号：</span><span class="l_l">{$order.orderno}</span></p>
+          <p><span class="l_l3">建仓时间：</span><span class="l_l">{$order.buytime|date='Y-m-d H:i:s',###}</span></p>
+          <p><span class="l_l3">入仓数量：</span><span class="l_l">{$order.onumber}</span></p>
+          <p class="oprice"><span class="l_l3">入仓价：</span><span class="l_l rucang">{$order.buyprice}</span><span class="r_r">{$order.cname}现价：</span><span class="l_l" id="youjia"></p>
+          <p>
+              <span class="l_l3">止盈：</span><span><input type="text" class="sr_kuang" value="{$order.endprofit}" readOnly="true" id="zhiying">%&nbsp;&nbsp;止损：<input type="text" class="sr_kuang" value="{$order.endloss}" readOnly="true" id="zhikui">%&nbsp;&nbsp;<span class="sz box"><a href="javascript:;" class="bounceIn">设置</a></span></span>
+          </p>
+          <p><span class="l_l3">建仓金额：</span>
+          <if condition="$order.eid eq 1">
+          	<span class="l_l"><em class="ykzjload"><img src="__IMG__/loading.gif" alt="正在加载"/></em></span><else/>
+             <span class="l_l" id="jiancj"></span></if>
+          </p>
+          <p><span class="l_l3">盈亏资金：</span>
+          	<span class="l_l redd" id="ykzj"></span>
+          	<span class="l_l redd" id="mykbfb"></span>
+          <if condition="$order.eid eq 1"><span class="r_r"><img src="__IMG__/ticket-small.png">(已使用{$order.uprice}元体验券)</span></if></p>
+          <p><span class="l_l3">本单盈余：</span><span class="l_l" id="bdyy"></span></p>
+         </div>
+         <p class="qxpc">如该订单在结算时间（凌晨04:00）前还未平仓，将会被强行平仓</p>
+         <input type="button" class="pwd-btn  conform" id="aa" value="确 认 平 仓" >
+
+    <div class="box" style=" margin-top:-150px;">
+    <div id="dialogBg"></div>
+    <div id="dialog" class="">
+        <div class="dialogTop">
+            <a href="javascript:;" class="claseDialogBtn">关闭</a>
+        </div>
+        <!--建仓确认-->
+          <div class="pop-box none" id="buildBox" style="display: block;">
+            <nav class="pop-nav"> <a href="javascript:;" class="back" id="claseDialogBtn"></a>
+              <h3>设置止盈/止损</h3>
+            </nav>
+            <form id="jccg" class="build-form" method="post" action="{:U('Detailed/edityk')}" autocomplete="off">
+            <div class="b-line">
+                <label class="b-label">确认数量：</label>
+                <p class="num qrsl">{$order.onumber}</p>
+            </div>
+            <div class="b-profit">
+                <p class="b-p-t">止盈</p>
+                <ul class="toclearfix">
+                    <li value="0">不设</li>
+                    <li value="10">10%</li>
+                    <li value="20">20%</li>
+                    <li value="30">30%</li>
+                    <li value="40">40%</li>
+                    <li value="50">50%</li>
+                </ul>
+                <p class="b-p-t">止损</p>
+                <ul class="myclearfix">
+                    <li value="0">不设</li>
+                    <li value="10">10%</li>
+                    <li value="20">20%</li>
+                    <li value="30">30%</li>
+                    <li value="40">40%</li>
+                    <li value="50">50%</li>
+                </ul>
+            </div>
+        	  <input type="hidden" name="oid" value="{$order.oid}" id="buyid">
+        		<input type="hidden" name="zy" value="{$order.endprofit}" id="zy">
+        		<input type="hidden" name="zk" value="{$order.endloss}" id="zk">
+        		<input type="submit" class="pwd-btn  save" value="保存设置" onclick="baocun()">
+		        </form>
+          </div>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="loading" style="width: 100%;height: 105%;position: absolute;top: 0; z-index: 9999;display: none;">
+	<div class="load-center" style="background: #000;position: absolute;width: 60%;height: 14%;bottom: 10%;border-radius: 10px;color: #fff;text-align: center;font-size: 24px;left: 17%;padding: 1%;">
+		<img src="__IMG__/ajax-loading.jpg" alt="ajax-loading" width="40"/><br/>页面加载中...
+	</div>
+</div>
+
+<link rel="stylesheet" href="__CSS__/common.css"/>
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<script type="text/javascript">
+  setInterval('butt()', 500);
+  setInterval('mybutt()', 500);
+  function butt(){
+  		var nprice = $("#youjia").html();
+      var url = "{:U('Index/price')}";
+      if ($('#orcid').val()==1) {
+              url = "{:U('Index/price')}";
+      }
+      else if ($('#orcid').val()==2)
+      {
+              url = "{:U('Index/byprice')}";
+      }else{
+              url = "{:U('Index/toprice')}";
+      }; 
+      $.ajax({  
+        type: "post",  
+        url: url,         
+         success: function(data) { 
+          $('#youjia').html(data[0]);
+          //隐藏油价
+          if(data[0]>nprice){
+            $('#youjia').attr("class","l_l redd");
+          }else if(data[0]==nprice){}else{
+            $('#youjia').attr("class","l_l jg2");
+          }              
+        }
+      }); 
+  }
+  function mybutt(){  
+      $.ajax({  
+        type: "post",  
+        url: "{:U('Detailed/orderxq')}",    
+        data:{"oid":$('#buyid').val(),"youjia":$('#youjia').html(),'cid':$('#orcid').val()},
+        beforeSend:function(XMLHttpRequest){ 
+            //alert('远程调用开始...'); 
+       			},
+        success: function(data) {
+           $('#jiancj').html(data['jc']);
+           $('#ykzj').html(data['ykzj']);
+           $('#bdyy').html(data['bdyy']);
+           var sum1= parseFloat(data['ykbfb']*100).toFixed(2);
+           if(sum1!='NaN'){
+           		$('#mykbfb').html('(<em id="ykbfb">'+sum1+'</em>)%');
+           }
+           
+          //盈亏资金
+          var sum= data['ykzj'];
+          if(sum>0){
+            $('#ykzj').attr("class","l_l redd");
+          }else{
+            $('#ykzj').attr("class","l_l jg2");
+          }  
+          
+          if(sum1>0){
+            $('#mykbfb').attr("class","l_l redd");
+          }else{
+            $('#mykbfb').attr("class","l_l jg2");
+          }             
+        },  
+        error: function(data) {  
+        //alert(data);
+            }  
+          }); 
+      }
+</script>
+<script type="text/javascript">
+window.onload=function(){
+		var ref = document.referrer;
+		var lhref = document.location.href;
+		if(lhref.indexOf('marker')>0){
+			if(ref.indexOf('index')>0){
+				getSrceenWH();
+				cted();
+				className = "bounceIn";
+				$('#dialogBg').fadeIn(300);
+				$('#dialog').removeAttr('class').addClass('animated '+className+'').fadeIn();
+			}	
+		}
+}
+var w,h,className;
+function getSrceenWH(){
+	w = $(window).width();
+	h = $(window).height();
+	$('#dialogBg').width(w).height(h);
+}
+
+window.onresize = function(){  
+	getSrceenWH();
+}  
+$(window).resize();  
+
+$(function(){
+	getSrceenWH();
+  cted(); 
+	//显示弹框
+	$('.box a').click(function(){
+
+		className = $(this).attr('class');
+		$('#dialogBg').fadeIn(300);
+		$('#dialog').removeAttr('class').addClass('animated '+className+'').fadeIn();
+	});
+	//关闭弹窗
+	$('#claseDialogBtn').click(function(){
+		$('#dialogBg').css('display','none');
+		$('#dialog').css('display','none');
+	});
+});
+  //获取数据库保持的比例，取出赋值到弹出显示的窗口。
+  function cted(){
+    $('.toclearfix li').each(function(){
+        if($(this).val()==$('#zhiying').val()) {
+            $(".toclearfix  li").eq($(this).index()).addClass("selected").siblings().removeClass("selected");
+        };
+    });
+    $('.myclearfix li').each(function(){
+         if ($(this).val()==$('#zhikui').val()) {
+             $(".myclearfix  li").eq($(this).index()).addClass("selected").siblings().removeClass("selected");
+         };
+    });
+  }
+  $(".toclearfix  li").click(function(){
+     $(".toclearfix  li").eq($(this).index()).addClass("selected").siblings().removeClass("selected");
+  });
+  $(".myclearfix  li").click(function(){
+     $(".myclearfix  li").eq($(this).index()).addClass("selected").siblings().removeClass("selected");
+  });
+  //获取最终改好的数据，并赋值到页面。然后提交方法
+  function baocun(){
+        $('.toclearfix').each(function(){
+        	var zhiyin= $(this).children(".selected").val();
+        	$('#zy').val(zhiyin);
+        });
+       	$('.myclearfix').each(function(){
+            var zhikui= $(this).children(".selected").val();
+            $('#zk').val(zhikui);
+        });
+  }
+
+$("#aa").click(function(){
+   //订单id
+   var oid=$('#buyid').val();
+   //油现价
+   var youjia=$('#youjia').html();
+   //需要给数据库添加的金额
+   var bdyy=$('#bdyy').html();  
+   //建仓金额
+   var jiancj=$('#jiancj').html();
+   //盈亏资金
+   var ykzj=$('#ykzj').html();
+   //产品单价
+   var uprice=$('#uprice').val();
+   $.ajax({  
+        type: "post",  
+        url: "{:U('Detailed/updateore')}",    
+        data:{"oid":oid,"youjia":youjia,"bdyy":bdyy,"jiancj":jiancj,"ykzj":ykzj,'uprice':uprice},
+        success: function(data) {
+           location.href = "{:U('Index/index')}";   
+        },  
+        error: function(data) {  
+            //alert(data);
+        }
+        
+      }); 
+});
+</script>
+
+</block>

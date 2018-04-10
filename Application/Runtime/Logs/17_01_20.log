@@ -1,0 +1,2653 @@
+[ 2017-01-20T04:16:42+08:00 ] 140.205.225.184 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T04:17:25+08:00 ] 140.205.225.184 /extensions/kindeditor/themes/default/default.png)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kindeditor
+
+[ 2017-01-20T07:12:20+08:00 ] 42.156.251.185 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T15:44:27+08:00 ] 39.89.177.153 /index.php/Admin/User/updateuser/uid/68.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined index: userid D:\WWW\ceshi1\Application\Admin\Common\function.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T15:44:31+08:00 ] 39.89.177.153 /index.php/Admin/User/signin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\ceshi1\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T18:12:03+08:00 ] 140.205.201.36 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-20T18:12:45+08:00 ] 140.205.201.36 /extensions/kindeditor/themes/default/default.png)
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Kindeditor
+
+[ 2017-01-20T19:02:55+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'adminwp888' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:02:58+08:00 ] 39.89.177.153 /index.php/Admin/User/signin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\ceshi1\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:03:08+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'wpadmin' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:03:10+08:00 ] 39.89.177.153 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-20' ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2016-12-21' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: total D:\WWW\ceshi1\Application\Admin\Controller\IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT u.uid as uid,u.username as username,o.buytime as buytime,p.pid as pid,p.ptitle as ptitle,p.uprice as uprice,o.onumber as onumber,o.ostyle as ostyle,o.ostaus as ostaus,o.fee as fee,o.orderno as orderno FROM wp_userinfo u,wp_order o,wp_productinfo p WHERE ( u.uid=o.uid and o.pid=p.pid ) ORDER BY o.oid desc LIMIT 5   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo` ORDER BY pid desc LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:17:27+08:00 ] 39.89.177.153 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userid D:\WWW\jikeres0545\Application\Admin\Common\function.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:17:30+08:00 ] 39.89.177.153 /index.php/Admin/User/signin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:17:52+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'wpadmin' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:17:53+08:00 ] 39.89.177.153 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-20' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2016-12-21' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: total D:\WWW\jikeres0545\Application\Admin\Controller\IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015626s ]
+SQL: SELECT u.uid as uid,u.username as username,o.buytime as buytime,p.pid as pid,p.ptitle as ptitle,p.uprice as uprice,o.onumber as onumber,o.ostyle as ostyle,o.ostaus as ostaus,o.fee as fee,o.orderno as orderno FROM wp_userinfo u,wp_order o,wp_productinfo p WHERE ( u.uid=o.uid and o.pid=p.pid ) ORDER BY o.oid desc LIMIT 5   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo` ORDER BY pid desc LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:18:55+08:00 ] 39.89.177.153 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:18:57+08:00 ] 39.89.177.153 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:19:51+08:00 ] 39.89.177.153 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:19:56+08:00 ] 39.89.177.153 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:20:01+08:00 ] 39.89.177.153 /index.php/Admin/Menber/madd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Menber - assumed 'Menber' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [8] Use of undefined constant madd - assumed 'madd' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\f195a412b60564aa030dddfd8777f8cb.php 第 311 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:20:15+08:00 ] 39.89.177.153 /index.php/Admin/Super/slist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( otype=3 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\SuperController.class.php 第 19 行.
+SQL: SELECT * FROM `wp_userinfo` WHERE ( otype=3 ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:20:35+08:00 ] 39.89.177.153 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:20:36+08:00 ] 39.89.177.153 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:21:27+08:00 ] 140.205.201.12 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 128 行.
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:21:38+08:00 ] 39.89.177.153 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:21:41+08:00 ] 39.89.177.153 /index.php/Admin/User/ulist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and wxtype=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\UserController.class.php 第 188 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.uid as uid,wp_userinfo.utel as utel,wp_userinfo.address as address,wp_userinfo.utime as utime,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.lastlog as lastlog,wp_accountinfo.balance as balance,wp_userinfo.otype as otype FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and wxtype=0 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=905 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=68 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:21:46+08:00 ] 39.89.177.153 /index.php/Admin/Menber/mlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and otype=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 98 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.utel as utel,wp_userinfo.utime as utime,wp_userinfo.uid as uid,wp_userinfo.otype as otype,wp_userinfo.ustatus as ustatus,wp_userinfo.oid as oid,wp_userinfo.address as address,wp_userinfo.portrait as portrait,wp_userinfo.lastlog as lastlog,wp_userinfo.managername as managername,wp_userinfo.comname as comname,wp_userinfo.comqua as comqua,wp_userinfo.rebate as rebate,wp_userinfo.feerebate as feerebate,wp_accountinfo.balance as balance FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and otype=2 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jikeres0545\Application\Admin\Controller\MenberController.class.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:21:49+08:00 ] 39.89.177.153 /index.php/Admin/User/ulist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and wxtype=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\UserController.class.php 第 188 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.uid as uid,wp_userinfo.utel as utel,wp_userinfo.address as address,wp_userinfo.utime as utime,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.lastlog as lastlog,wp_accountinfo.balance as balance,wp_userinfo.otype as otype FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and wxtype=0 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.015625s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=905 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=68 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:01+08:00 ] 39.89.177.153 /index.php/Admin/User/userdel/uid/905.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: DELETE FROM `wp_userinfo` WHERE ( uid=905 ) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:02+08:00 ] 39.89.177.153 /index.php/Admin/User/ulist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and wxtype=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\UserController.class.php 第 188 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.uid as uid,wp_userinfo.utel as utel,wp_userinfo.address as address,wp_userinfo.utime as utime,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.lastlog as lastlog,wp_accountinfo.balance as balance,wp_userinfo.otype as otype FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and wxtype=0 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=68 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:08+08:00 ] 39.89.177.153 /index.php/Admin/User/adduser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Use of undefined constant adduser - assumed 'adduser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 311 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 329 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 337 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 341 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 345 行.
+NOTIC: [8] Undefined variable: userme D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 349 行.
+NOTIC: [8] Undefined variable: account D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\9fc37db7a6e71d9614d8aa786c5e8ed6.php 第 375 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:13+08:00 ] 39.89.177.153 /index.php/Admin/User/updateuser/uid/909.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_bankinfo` [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT wp_userinfo.uid as uid,wp_userinfo.username as username,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.otype as otype,wp_userinfo.utel as utel,wp_managerinfo.mname as mname,wp_managerinfo.brokerid as brokerid,wp_bankinfo.bankname as bankname,wp_bankinfo.province as province,wp_bankinfo.city as city,wp_bankinfo.branch as branch,wp_bankinfo.banknumber as banknumber,wp_bankinfo.bankname as bankname,wp_bankinfo.busername as busername,wp_accountinfo.balance as balance,wp_userinfo.utime as utime FROM `wp_userinfo` left JOIN wp_managerinfo on wp_userinfo.uid=wp_managerinfo.uid left JOIN wp_bankinfo on wp_userinfo.uid=wp_bankinfo.uid left JOIN wp_accountinfo on wp_accountinfo.uid=wp_bankinfo.uid  WHERE ( wp_userinfo.uid=909 ) LIMIT 1   [ RunTime:0.015626s ]
+SQL: SELECT `otype` FROM `wp_userinfo` WHERE ( uid=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `balance`,`frozen` FROM `wp_accountinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+NOTIC: [8] Use of undefined constant updateuser - assumed 'updateuser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:25+08:00 ] 39.89.177.153 /index.php/Admin/User/updateuser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_bankinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_managerinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_bankinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `uid`=909,`username`='kiley',`upwd`='1fda771028bb59d05bf7688a2f786f64',`utel`='15977256565',`utime`=1482433726,`agenttype`=0,`otype`=0,`ustatus`=0,`oid`=0,`address`=null,`portrait`=null,`lastlog`=1482473075,`managername`=null,`comname`=null,`comqua`=null,`rebate`=null,`feerebate`=null,`usertype`=0,`wxtype`=0,`openid`='',`nickname`=null WHERE ( uid=909 ) [ RunTime:0.000000s ]
+SQL: UPDATE `wp_accountinfo` SET `balance`=0 WHERE ( uid=909 ) [ RunTime:0.015626s ]
+NOTIC: [8] Undefined index: uid D:\WWW\jikeres0545\Application\Admin\Controller\UserController.class.php 第 357 行.
+SQL: INSERT INTO `wp_bankinfo` (`bankname`,`uid`) VALUES ('支付宝',909) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:27+08:00 ] 39.89.177.153 /index.php/Admin/User/updateuser/uid/909.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_managerinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_bankinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT wp_userinfo.uid as uid,wp_userinfo.username as username,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.otype as otype,wp_userinfo.utel as utel,wp_managerinfo.mname as mname,wp_managerinfo.brokerid as brokerid,wp_bankinfo.bankname as bankname,wp_bankinfo.province as province,wp_bankinfo.city as city,wp_bankinfo.branch as branch,wp_bankinfo.banknumber as banknumber,wp_bankinfo.bankname as bankname,wp_bankinfo.busername as busername,wp_accountinfo.balance as balance,wp_userinfo.utime as utime FROM `wp_userinfo` left JOIN wp_managerinfo on wp_userinfo.uid=wp_managerinfo.uid left JOIN wp_bankinfo on wp_userinfo.uid=wp_bankinfo.uid left JOIN wp_accountinfo on wp_accountinfo.uid=wp_bankinfo.uid  WHERE ( wp_userinfo.uid=909 ) LIMIT 1   [ RunTime:0.015626s ]
+SQL: SELECT `otype` FROM `wp_userinfo` WHERE ( uid=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `balance`,`frozen` FROM `wp_accountinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant User - assumed 'User' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+NOTIC: [8] Use of undefined constant updateuser - assumed 'updateuser' D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+NOTIC: [2] Division by zero D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\6f5d632a680c98676e75eca98b9e94dc.php 第 308 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:40+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:40+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:46+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'kiley' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484911366 WHERE ( uid=909 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:46+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=909 and 1484911366 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=909 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:22:53+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:27+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:28+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.015626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:28+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:28+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:28+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:43+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'kiley' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484911423 WHERE ( uid=909 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:23:43+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=909 and 1484911423 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=909 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:25:56+08:00 ] 39.89.177.153 /index.php/Admin/User/ulist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 and wxtype=0 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\UserController.class.php 第 188 行.
+SQL: SELECT wp_userinfo.username as username,wp_userinfo.uid as uid,wp_userinfo.utel as utel,wp_userinfo.address as address,wp_userinfo.utime as utime,wp_userinfo.oid as oid,wp_userinfo.managername as managername,wp_userinfo.lastlog as lastlog,wp_accountinfo.balance as balance,wp_userinfo.otype as otype FROM `wp_userinfo` left JOIN wp_accountinfo on wp_userinfo.uid=wp_accountinfo.uid  WHERE ( ustatus=0 and wxtype=0 ) ORDER BY wp_userinfo.uid desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=909 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( wp_order.uid=68 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `onumber` FROM `wp_order` WHERE ( ostaus=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `balance` FROM `wp_accountinfo`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:13+08:00 ] 39.89.177.153 /index.php/Admin/User/signinout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:16+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:25+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:25+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:56+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015626s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'test' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:26:57+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:00+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:00+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:06+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484911626 WHERE ( uid=390 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:06+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484911626 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:10+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:11+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:11+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:11+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:11+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:12+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:33+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:38+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484911658 WHERE ( uid=390 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:27:38+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484911658 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:37:23+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.015626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484912243 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:37:49+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484912269 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:38:44+08:00 ] 101.226.102.97 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:38:44+08:00 ] 101.226.102.97 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:39:40+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:39:43+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:02+08:00 ] 101.226.66.180 /index.php/home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:06+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484912406 WHERE ( uid=390 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:06+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484912406 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:08+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:08+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:09+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:09+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:09+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:10+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:10+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:10+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:11+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:11+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:11+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:11+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:12+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:12+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:12+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:13+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:13+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:13+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:14+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:14+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:14+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:15+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:15+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:15+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:16+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:16+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:16+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:17+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:17+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:17+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:18+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:18+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2017-01-20T19:40:18+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:19+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:19+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:19+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:20+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:20+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:20+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:21+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:21+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:21+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:22+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:22+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:22+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:23+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:23+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:23+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:24+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:24+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:24+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:24+08:00 ] 101.226.33.201 /index.php/home/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:24+08:00 ] 101.226.33.201 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:25+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:25+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:25+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:26+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:26+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:26+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:27+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:27+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:27+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:28+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:28+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:28+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:29+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:29+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:40:29+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:30+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:30+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:40:30+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:21+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:21+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:50+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484912810 WHERE ( uid=390 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:50+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484912810 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:52+08:00 ] 39.89.177.153 /index.php/Home/Index/price
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:53+08:00 ] 39.89.177.153 /index.php/Home/Index/toprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:46:53+08:00 ] 39.89.177.153 /index.php/Home/Index/byprice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:47:05+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:51:42+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913102 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:52:21+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913141 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:52:25+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913145 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:52:27+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913147 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:53:36+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913216 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:54:56+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913296 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:55:55+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:55:55+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:56:28+08:00 ] 39.89.177.153 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:56:29+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:56:51+08:00 ] 39.89.177.153 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`username`,`upwd`,`utime` FROM `wp_userinfo` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wp_userinfo` SET `lastlog`=1484913411 WHERE ( uid=390 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:56:51+08:00 ] 39.89.177.153 /index.php/Home/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_experienceinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_experienceinfo` INNER JOIN wp_experience on wp_experienceinfo.eid=wp_experience.eid  WHERE ( wp_experienceinfo.uid=390 and 1484913411 < wp_experienceinfo.endtime and wp_experienceinfo.getstyle=0 ) LIMIT 1   [ RunTime:0.015625s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( `uid` = 390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_catproduct` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_catproduct`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` INNER JOIN wp_productinfo on wp_order.pid=wp_productinfo.pid INNER JOIN wp_catproduct on wp_productinfo.cid=wp_catproduct.cid  WHERE ( wp_order.uid=390 and ostaus=0 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=1 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=2 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsinfo` WHERE ( ncategory=3 ) ORDER BY nid desc LIMIT 3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:57:18+08:00 ] 39.89.177.153 /index.php/Home/User/recharge.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: balc D:\WWW\jikeres0545\Application\Runtime\Cache\Home\6b9e375279391657f9fac7cc0c8be7a9.php 第 32 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:57:21+08:00 ] 39.89.177.153 /index.php/Home/User/recharge.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_balance` [ RunTime:0.000000s ]
+SQL: INSERT INTO `wp_balance` (`bpprice`,`bptime`,`uid`,`bptype`,`remarks`) VALUES (100,1484913441,390,'充值','开始充值') [ RunTime:0.015626s ]
+SQL: SELECT * FROM `wp_balance` WHERE ( bpid=147 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:57:25+08:00 ] 39.89.177.153 /index.php/Home/User/recharge.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: balc D:\WWW\jikeres0545\Application\Runtime\Cache\Home\6b9e375279391657f9fac7cc0c8be7a9.php 第 32 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:57:30+08:00 ] 101.226.66.174 /index.php/home/user/recharge.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:57:30+08:00 ] 101.226.66.174 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.015626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:58:04+08:00 ] 39.89.177.153 /admin.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:58:24+08:00 ] 39.89.177.153 /index.php/Admin/User/signin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT `uid`,`upwd`,`username`,`utel`,`utime`,`otype`,`ustatus` FROM `wp_userinfo` WHERE ( `username` = 'wpadmin' ) AND ( `ustatus` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:58:25+08:00 ] 39.89.177.153 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-20' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2016-12-21' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: total D:\WWW\jikeres0545\Application\Admin\Controller\IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT u.uid as uid,u.username as username,o.buytime as buytime,p.pid as pid,p.ptitle as ptitle,p.uprice as uprice,o.onumber as onumber,o.ostyle as ostyle,o.ostaus as ostaus,o.fee as fee,o.orderno as orderno FROM wp_userinfo u,wp_order o,wp_productinfo p WHERE ( u.uid=o.uid and o.pid=p.pid ) ORDER BY o.oid desc LIMIT 5   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo` ORDER BY pid desc LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.015626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:58:30+08:00 ] 39.89.177.153 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2017-01-20T19:59:03+08:00 ] 39.89.177.153 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: UPDATE `wp_webconfig` SET `isopen`=0 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:10+08:00 ] 39.89.177.153 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: UPDATE `wp_webconfig` SET `isopen`=1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:14+08:00 ] 39.89.177.153 /index.php/Admin/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_order` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_userinfo` WHERE ( ustatus=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-20' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2017-01-13' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_order` WHERE ( date_format(from_UNIXTIME(selltime),'%Y-%m-%d')>='2016-12-21' )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: total D:\WWW\jikeres0545\Application\Admin\Controller\IndexController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT u.uid as uid,u.username as username,o.buytime as buytime,p.pid as pid,p.ptitle as ptitle,p.uprice as uprice,o.onumber as onumber,o.ostyle as ostyle,o.ostaus as ostaus,o.fee as fee,o.orderno as orderno FROM wp_userinfo u,wp_order o,wp_productinfo p WHERE ( u.uid=o.uid and o.pid=p.pid ) ORDER BY o.oid desc LIMIT 5   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_productinfo` ORDER BY pid desc LIMIT 5   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:19+08:00 ] 39.89.177.153 /index.php/Admin/News/typelist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_newsclass` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_newsclass`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:21+08:00 ] 39.89.177.153 /index.php/Admin/Goods/glist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_productinfo` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_productinfo` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: row D:\WWW\jikeres0545\Application\Admin\Controller\GoodsController.class.php 第 57 行.
+SQL: SELECT * FROM `wp_productinfo` INNER JOIN wp_catproduct on wp_catproduct.cid=wp_productinfo.cid  ORDER BY wp_productinfo.pid desc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:22+08:00 ] 39.89.177.153 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:22+08:00 ] 39.89.177.153 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:23+08:00 ] 39.89.177.153 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:24+08:00 ] 39.89.177.153 /index.php/Admin/Goods/price.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:25+08:00 ] 39.89.177.153 /index.php/Admin/Goods/toprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:25+08:00 ] 39.89.177.153 /index.php/Admin/Goods/byprice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T19:59:25+08:00 ] 39.89.177.153 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_webconfig` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_webconfig` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T20:16:16+08:00 ] 39.89.177.153 /index.php/Home/User/recharge.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_accountinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_accountinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `wp_userinfo` WHERE ( uid=390 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: balc D:\WWW\jikeres0545\Application\Runtime\Cache\Home\6b9e375279391657f9fac7cc0c8be7a9.php 第 32 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T20:21:10+08:00 ] 39.89.177.153 /index.php/Admin/Super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userid D:\WWW\jikeres0545\Application\Admin\Common\function.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T20:21:13+08:00 ] 39.89.177.153 /index.php/Admin/User/signin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T20:21:27+08:00 ] 180.153.205.254 /index.php/admin/super/esystem.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: userid D:\WWW\jikeres0545\Application\Admin\Common\function.php 第 5 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-01-20T20:21:29+08:00 ] 180.153.214.176 /index.php/admin/user/signin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: uname D:\WWW\jikeres0545\Application\Runtime\Cache\Admin\1231bb807679ac85075f5ce2a7e2303e.php 第 37 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+

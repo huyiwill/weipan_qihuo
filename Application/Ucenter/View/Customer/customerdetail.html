@@ -1,0 +1,53 @@
+<extend name="Base/common"/>
+<block name="content">
+	<div class="main sidebar-minified">
+		<div class="row">
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-indent red"></i><strong>客户详细</strong></h2>
+							<div class="panel-actions">
+								<a href="form-elements.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
+								<a href="form-elements.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+								<a href="form-elements.html#" class="btn-close"><i class="fa fa-times"></i></a>
+							</div>
+						</div>
+						<div class="panel-body">
+			
+								<div class="form-group">
+								  <label class="control-label" for="date">会员账号：{$user['uid']}</label>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">姓名：<if condition="$user['mname'] eq ''">
+								  暂无录入名字
+								  <else/>{$user['mname']}</if></label>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">电话：{$user['utel']}</label>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">级别：普通会员</label>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">上级：{$user['oname']}</label> 
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">账户余额：{$user['balance']}</label>
+								</div>
+								<div class="form-group">
+								  <label class="control-label" for="date">注册时间:  {$user['utime']|date='Y-m-d',###}</label>
+								</div>
+								<div class="form-actions">
+								  <a onclick="window.history.go(-1)">
+								  <button type="submit" class="btn btn-primary">返回</button>
+								  </a>
+								</div>
+					
+
+						</div>
+					</div>
+				</div><!--/col-->
+
+			</div>
+	</div>
+</block>

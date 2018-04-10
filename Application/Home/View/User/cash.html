@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<title>期货交易系统</title>
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/withdraw.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="index" style="min-height: 1114px;">
+    <header class="list-head">
+      	<nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        	<h3 class="list-title">银行卡提现</h3>
+      	</nav>
+    </header>
+    <form id="withDraw" class="i-form" method="post" action="{:U('User/cash')}" onSubmit="return false;">
+      	<ul class="form-box">
+	        <li class="f-line clearfix">
+	         	<label class="f-label">可提取余额</label>
+	         	<em>{$totle.balance}元</em>
+	          	<input type="hidden" name="counts" value="{$totle.balance}" id="counts">
+	        </li>
+	        <li class="f-line clearfix">
+	          	<label class="f-label">本次提取金额</label>
+	          	<input id="n-money" class="f-input" type="text" placeholder="请输入提取金额" name="bpprice">
+	        </li>
+      	</ul>
+      	<notempty name="binfo">
+      		<if condition="$binfo['bankname'] eq ''">
+      			<ul class="form-box">
+			        <li class="f-line clearfix">
+			          <label class="f-label">选择平台</label>
+			          <select id="Bank" class="f-select" name="bankname">
+			            <option value="0">请选择银行</option>
+			            <option value="支付宝">支付宝</option>
+			            <option value="微信">微信</option>
+			            <option value="中国银行">中国银行</option>
+			            <option value="中国工商银行">中国工商银行</option>
+			            <option value="中国农业银行">中国农业银行</option>
+			            <option value="中国建设银行">中国建设银行</option>
+			            <option value="交通银行">交通银行</option>
+			            <option value="招商银行">招商银行</option>
+			            <option value="浦发银行">浦发银行</option>
+			            <option value="民生银行">民生银行</option>
+			            <option value="兴业银行">兴业银行</option>
+			            <option value="深发展银行">深发展银行</option>
+			            <option value="华夏银行">华夏银行</option>
+			            <option value="光大银行">光大银行</option>
+			            <option value="广发银行">广发银行</option>
+			            <option value="中信银行">中信银行</option>
+			          </select>
+			        </li>
+			        <li class="f-line clearfix">
+			          <label class="f-label">省份</label>
+			          <select id="selProvince" onChange="provinceChange();" class="f-select" name="province">
+			            <option value="">请选择省份</option>
+			            <option value="北京">北京</option>
+			            <option value="上海">上海</option>
+			            <option value="天津">天津</option>
+			            <option value="重庆">重庆</option>
+			            <option value="浙江">浙江</option>
+			            <option value="江苏">江苏</option>
+			            <option value="广东">广东</option>
+			            <option value="福建">福建</option>
+			            <option value="湖南">湖南</option>
+			            <option value="湖北">湖北</option>
+			            <option value="辽宁">辽宁</option>
+			            <option value="吉林">吉林</option>
+			            <option value="黑龙江">黑龙江</option>
+			            <option value="河北">河北</option>
+			            <option value="河南">河南</option>
+			            <option value="山东">山东</option>
+			            <option value="陕西">陕西</option>
+			            <option value="甘肃">甘肃</option>
+			            <option value="新疆">新疆</option>
+			            <option value="青海">青海</option>
+			            <option value="山西">山西</option>
+			            <option value="四川">四川</option>
+			            <option value="贵州">贵州</option>
+			            <option value="安徽">安徽</option>
+			            <option value="江西">江西</option>
+			            <option value="云南">云南</option>
+			            <option value="内蒙古">内蒙古</option>
+			            <option value="西藏">西藏</option>
+			            <option value="广西">广西</option>
+			            <option value="宁夏">宁夏</option>
+			            <option value="海南">海南</option>
+			            <option value="香港">香港</option>
+			            <option value="澳门">澳门</option>
+			            <option value="台湾">台湾</option>
+			          </select>
+			        </li>
+			        <li class="f-line clearfix">
+			          <label class="f-label">城市</label>
+			          <select id="selCity" class="f-select" name="city">
+			            <option value="0">请选择城市</option>
+			          </select>
+			        </li>
+			        <li class="f-line clearfix">
+			          <label class="f-label">银行支行</label>
+			          <input id="idNum" class="f-input c-1" type="text" name="branch" placeholder="请输入银行支行名称" value="">
+			        </li>
+			        <li class="f-line clearfix">
+			          <label class="f-label">卡号</label>
+			          <input id="cardNum" class="f-input c-1" type="text" name="banknumber" placeholder="请输入借记卡卡号" value="">
+			        </li>
+			        <li class="f-line clearfix">
+			          <label class="f-label">姓名</label>
+			          <input id="Name" class="f-input c-1" type="text" placeholder="请输入持卡人姓名" name="busername" value="">
+			        </li>
+		      	</ul>
+      		<else/>
+	      		<ul class="form-box banks">
+	      			<li class="f-line clearfix" style="padding: 5px 0px;">
+	      				{$binfo.busername}&nbsp;&nbsp;您的银行卡
+	      			</li>
+	      			<li class="" style="height: 100px;">
+	      				<p class="bname">{$binfo.bankname}</p>
+	      				<p>{$binfo.province}{$binfo.city}{$binfo.branch}</p>
+	      				<p class="bankid">{$binfo.banknumber}</p>
+	      				<input type="hidden" name="bankname" id="Bank" value="{$binfo.bankname}"/>
+	      				<input type="hidden" name="province" id="selProvince" value="{$binfo.province}"/>
+	      				<input type="hidden" name="city" id="selCity" value="{$binfo.city}"/>
+	      				<input type="hidden" name="branch" id="idNum" value="{$binfo.branch}"/>
+	      				<input type="hidden" name="busername" id="Name" value="{$binfo.busername}"/>
+	      				<input type="hidden" name="banknumber" id="cardNum" value="{$binfo.banknumber}"/>
+	      			</li>
+	      		</ul>
+      		</if>
+      	<else/>
+	      	<ul class="form-box">
+		        <li class="f-line clearfix">
+		          <label class="f-label">选择平台</label>
+		          <select id="Bank" class="f-select" name="bankname">
+		            <option value="0">请选择平台</option>
+		            <option value="支付宝">支付宝</option>
+			            <option value="微信">微信</option>
+		            <option value="中国银行">中国银行</option>
+		            <option value="中国工商银行">中国工商银行</option>
+		            <option value="中国农业银行">中国农业银行</option>
+		            <option value="中国建设银行">中国建设银行</option>
+		            <option value="交通银行">交通银行</option>
+		            <option value="招商银行">招商银行</option>
+		            <option value="浦发银行">浦发银行</option>
+		            <option value="民生银行">民生银行</option>
+		            <option value="兴业银行">兴业银行</option>
+		            <option value="深发展银行">深发展银行</option>
+		            <option value="华夏银行">华夏银行</option>
+		            <option value="光大银行">光大银行</option>
+		            <option value="广发银行">广发银行</option>
+		            <option value="中信银行">中信银行</option>
+		          </select>
+		          
+		        </li>
+		        <li class="f-line clearfix">
+		          <label class="f-label">省份</label>
+		          <select id="selProvince" onChange="provinceChange();" class="f-select" name="province">
+		            <option value="">请选择省份/支付宝、微信请随便填写</option>
+		            <option value="北京">北京</option>
+		            <option value="上海">上海</option>
+		            <option value="天津">天津</option>
+		            <option value="重庆">重庆</option>
+		            <option value="浙江">浙江</option>
+		            <option value="江苏">江苏</option>
+		            <option value="广东">广东</option>
+		            <option value="福建">福建</option>
+		            <option value="湖南">湖南</option>
+		            <option value="湖北">湖北</option>
+		            <option value="辽宁">辽宁</option>
+		            <option value="吉林">吉林</option>
+		            <option value="黑龙江">黑龙江</option>
+		            <option value="河北">河北</option>
+		            <option value="河南">河南</option>
+		            <option value="山东">山东</option>
+		            <option value="陕西">陕西</option>
+		            <option value="甘肃">甘肃</option>
+		            <option value="新疆">新疆</option>
+		            <option value="青海">青海</option>
+		            <option value="山西">山西</option>
+		            <option value="四川">四川</option>
+		            <option value="贵州">贵州</option>
+		            <option value="安徽">安徽</option>
+		            <option value="江西">江西</option>
+		            <option value="云南">云南</option>
+		            <option value="内蒙古">内蒙古</option>
+		            <option value="西藏">西藏</option>
+		            <option value="广西">广西</option>
+		            <option value="宁夏">宁夏</option>
+		            <option value="海南">海南</option>
+		            <option value="香港">香港</option>
+		            <option value="澳门">澳门</option>
+		            <option value="台湾">台湾</option>
+		          </select>
+		        </li>
+		        <li class="f-line clearfix">
+		          <label class="f-label">城市</label>
+		          <select id="selCity" class="f-select" name="city">
+		            <option value="0">请选择城市/支付宝、微信请随便填写</option>
+		          </select>
+		        </li>
+		        <li class="f-line clearfix">
+		          <label class="f-label">银行支行</label>
+		          <input id="idNum" class="f-input c-1" type="text" name="branch" placeholder="请输入银行支行名称/支付宝、微信请随便填写" value="">
+		        </li>
+		        <li class="f-line clearfix">
+		          <label class="f-label">账号</label>
+		          <input id="cardNum" class="f-input c-1" type="text" name="banknumber" placeholder="请输入借记卡卡号/微信号/支付宝号" value="">
+		        </li>
+		        <li class="f-line clearfix">
+		          <label class="f-label">姓名</label>
+		          <input id="Name" class="f-input c-1" type="text" placeholder="请输入持卡人姓名" name="busername" value="">
+		        </li>
+	      	</ul>
+      	</notempty>
+	    <div class="f-p-line">
+	        <input id="deal-pwd" name="pwd" class="f-pwd" type="password" maxlength="6" placeholder="请输入交易密码">
+	    </div>
+      	<input type="submit" value="提 交" class="f-sub">
+    </form>
+  </div>
+</div>
+<div id="pwds"></div>
+<div class="xiaoxi"><div id="msg" class="msg"></div></div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script type="text/javascript">
+    //银行卡体现
+    $(function () {
+    	
+    	$('.banks').click(function(){
+    		if($(this).attr('class').indexOf('hover')>0){
+    			$(this).removeClass('hover');
+    		}else{
+    			$(this).addClass('hover');	
+    		}
+    		
+    	})
+    	
+	    $("#n-money").blur(function(){
+	       	var jine=$(this).val();
+	        if(jine<100){
+	       		msg('亲，提现金额不能少于100元！');
+	        }
+		});
+	     
+	     
+	    $('.b-close1').click(function(){
+	        $('.withdraw-box,.mask').hide();
+	    });
+	    $('.b-close2').click(function(){
+	        $('.tixing-box,.mask').hide();
+	    });
+	    $('.b-close').click(function(){
+	        window.location.href='/money';
+	    });
+    
+    
+    
+    var $wForm = $('#withDraw'),			//form表单
+		$nMoney = $('#n-money'),			//提现金额
+        $bankChoose = $('#Bank'),			//银行
+        $cardNum = $('#cardNum'),			//卡号
+        $wName = $('#Name'),				//姓名
+        $idNum = $('#idNum'),				//支行
+        $dPwd = $('#deal-pwd'),	 			//交易密码
+		$province=$("#selProvince"),		//省份
+    	$city=$("#selCity"),  				//城市
+    	$counts=$("#counts").val(),			//账户余额
+      	errorInfo = '服务器忙，请稍后重试';
+		$wForm.submit(function(){
+			
+      		var postData = {};
+      		
+      		if($counts<=0){
+      			msg('您的账户没有金额不能提现!');
+          		return false;
+      		}
+          	if($nMoney.val() =='' ){
+            	msg('输入金额格式不正确！');
+            	$nMoney.focus();
+            	return false;
+       		}else if($nMoney.val()<100){
+       			msg('您提现金额不能低于100！');
+            	$nMoney.focus();
+            	return false;
+       		}
+         	else if((parseInt($nMoney.val()))>parseInt($counts)+1){
+      			msg('提现金额不能大于账户余额！');
+                $nMoney.focus();
+                return false;
+      		}
+      		if($bankChoose.val() == '0') {
+                msg('请选择银行！');
+                $bankChoose.focus();
+                return false;
+            }
+            if($province.val()==''){
+         		msg('请选择省份');
+                $province.focus();
+                return false;
+       		}
+	        if($city.val()==''){
+	          	msg('请选择城市');
+                $city.focus();
+                return false;
+	       	}
+       		if($idNum.val()=='') {
+                msg('银行支行名称格式不正确！');
+                $idNum.focus();
+                return false;
+            }      
+      		if($cardNum.val()=='') {
+                msg('卡号格式不正确！');
+                $cardNum.focus();
+                return false;
+            }
+            if($wName.val() == '') {
+                msg('姓名不能为空！');
+                $wName.focus();
+                return false;
+            }
+            if($dPwd.val()=='') {
+                msg('请输入交易密码！');
+                $dPwd.focus();
+                return false;
+            }
+            postData = $(this).serialize();
+            $.ajax({
+                type: 'POST',
+                url: '{:U("User/cash")}',
+                data: postData,
+                dataType: 'json',
+				timeout:200000,
+				beforeSend:function(){
+            		$("#pwds").show();
+				},
+                success: function (data) {
+                	$("#pwds").hide();
+		            if(data==1){
+		                $("#je").html($nMoney.val());
+		              	$(".mask").show();
+		                $("#crSuccess").show();
+		            }
+  					else if(data==-3){                  
+       					$(".f-sub").removeAttr("disabled");
+        				msg('请输入正确的金额');
+   					}
+		            else if(data==10){
+		               	$(".f-sub").removeAttr("disabled");
+		                msg('银行帐号信息错误请重新提现！');			           
+		           	}
+   					else if(data==0){
+         				msg('提现失败!');
+   					}
+        			else if(data==-99){
+              			$(".f-sub").removeAttr("disabled");
+           				msg('请输入正确的交易密码！');
+   					}
+  					else{               
+       					$(".f-sub").removeAttr("disabled");  
+            			msg('操作成功！正在审核中....');
+            			//防止重复提交
+            			$('.f-sub').attr('disabled',"true");  
+						//2秒后跳转代码
+						window.setTimeout(function(){ location.href = "{:U('User/memberinfo')}"; },2000);	
+  					}
+        
+        
+    			},
+    			error: function () {
+                  	//$("#pwds").hide();
+         			//$(".f-sub").removeAttr("disabled");
+        			msg(errorInfo);
+                 	window.location.reload();        
+    			}
+        	});
+            return false;
+        });
+    });
+
+    		//定义数组，存储省份信息    
+        var province = ["北京", "上海", "天津", "重庆", "浙江", "江苏", "广东", "福建", "湖南", "湖北", "辽宁",    
+                        "吉林", "黑龙江", "河北", "河南", "山东", "陕西", "甘肃", "新疆", "青海", "山西", "四川",    
+                        "贵州", "安徽", "江西", "云南", "内蒙古", "西藏", "广西", "宁夏", "海南", "香港", "澳门", "台湾"];    
+    
+        //定义数组,存储城市信息    
+        var beijing = ["东城区", "西城区", "海淀区", "朝阳区", "丰台区", "石景山区", "通州区", "顺义区", "房山区", "大兴区", "昌平区", "怀柔区", "平谷区", "门头沟区", "延庆县", "密云县"];    
+        var shanghai = ["浦东新区", "徐汇区", "长宁区", "普陀区", "闸北区", "虹口区", "杨浦区", "黄浦区", "卢湾区", "静安区", "宝山区", "闵行区", "嘉定区", "金山区", "松江区", "青浦区", "南汇区", "奉贤区", "崇明县"];    
+        var tianjing = ["河东", "南开", "河西", "河北", "和平", "红桥", "东丽", "津南", "西青", "北辰", "塘沽", "汉沽", "大港", "蓟县", "宝坻", "宁河", "静海", "武清"];    
+        var chongqing = ["渝中区", "大渡口区", "江北区", "沙坪坝区", "九龙坡区", "南岸区", "北碚区", "万盛区", "双桥区", "渝北区", "巴南区", "万州区", "涪陵区", "黔江区", "长寿区", "江津区", "合川区", "永川区", "南川区"];    
+        var jiangsu = ["南京", "无锡", "常州", "徐州", "苏州", "南通", "连云港", "淮安", "扬州", "盐城", "镇江", "泰州", "宿迁"];    
+        var zhejiang = ["杭州", "宁波", "温州", "嘉兴", "湖州", "绍兴", "金华", "衢州", "舟山", "台州", "丽水"];    
+        var guangdong = ["广州", "韶关", "深圳", "珠海", "汕头", "佛山", "江门", "湛江", "茂名", "肇庆", "惠州", "梅州", "汕尾", "河源", "阳江", "清远", "东莞", "中山", "潮州", "揭阳","云浮"];    
+        var fujiang = ["福州", "厦门", "莆田", "三明", "泉州", "漳州", "南平", "龙岩", "宁德"];    
+        var hunan = ["长沙", "株洲", "湘潭", "衡阳", "邵阳", "岳阳", "常德", "张家界", "益阳", "郴州", "永州", "怀化", "娄底", "湘西土家苗族自治区"];    
+        var hubei = ["武汉", "襄阳", "黄石", "十堰", "宜昌", "鄂州", "荆门", "孝感", "荆州", "黄冈", "咸宁", "随州", "恩施土家族苗族自治州"];    
+        var liaoning = ["沈阳", "大连", "鞍山", "抚顺", "本溪", "丹东", "锦州", "营口", "阜新", "辽阳", "盘锦", "铁岭", "朝阳", "葫芦岛"];    
+        var jilin = ["长春", "吉林", "四平", "辽源", "通化", "白山", "松原", "白城", "延边朝鲜族自治区"];    
+        var heilongjiang = ["哈尔滨", "齐齐哈尔", "鸡西", "牡丹江", "佳木斯", "大庆", "伊春", "黑河", "大兴安岭"];    
+        var hebei = ["石家庄", "保定", "唐山", "邯郸", "承德", "廊坊", "衡水", "秦皇岛", "张家口", "邢台","沧州市"];    
+        var henan = ["郑州", "洛阳", "商丘", "安阳", "南阳", "开封", "平顶山", "焦作", "新乡", "鹤壁", "许昌", "漯河", "三门峡", "信阳", "周口", "驻马店", "济源","濮阳"];    
+        var shandong = ["济南", "青岛", "菏泽", "淄博", "枣庄", "东营", "烟台", "潍坊", "济宁", "泰安", "威海", "日照", "滨州", "德州", "聊城", "临沂"];    
+        var shangxi = ["西安", "宝鸡", "咸阳", "渭南", "铜川", "延安", "榆林", "汉中", "安康", "商洛"];    
+        var gansu = ["兰州", "嘉峪关", "金昌", "金川", "白银", "天水", "武威", "张掖", "酒泉", "平凉", "庆阳", "定西", "陇南", "临夏", "合作"];    
+        var qinghai = ["西宁", "海东地区", "海北藏族自治州", "黄南藏族自治州", "海南藏族自治州", "果洛藏族自治州", "玉树藏族自治州", "海西蒙古族藏族自治州"];    
+        var xinjiang = ["乌鲁木齐", "奎屯", "石河子", "昌吉", "吐鲁番", "库尔勒", "阿克苏", "喀什", "伊宁", "克拉玛依", "塔城", "哈密", "和田", "阿勒泰", "阿图什", "博乐"];    
+        var shanxi = ["太原", "大同", "阳泉", "长治", "晋城", "朔州", "晋中", "运城", "忻州", "临汾", "吕梁"];    
+        var sichuan = ["成都", "自贡", "攀枝花", "泸州", "德阳", "绵阳", "广元", "遂宁", "内江", "乐山", "南充", "眉山", "宜宾", "广安", "达州", "雅安", "巴中", "资阳", "阿坝藏族羌族自治州", "甘孜藏族自治州", "凉山彝族自治州"];    
+        var guizhou = ["贵阳", "六盘水", "遵义", "安顺", "黔南布依族苗族自治州", "黔西南布依族苗族自治州", "黔东南苗族侗族自治州", "铜仁", "毕节","兴义市"];    
+        var anhui = ["合肥", "芜湖", "安庆", "马鞍山", "阜阳", "六安", "滁州", "宿州", "蚌埠", "巢湖", "淮南", "宣城", "亳州", "淮北", "铜陵", "黄山", "池州"];    
+        var jiangxi = ["南昌", "九江", "景德镇", "萍乡", "新余", "鹰潭", "赣州", "宜春", "上饶", "吉安", "抚州"];    
+        var yunnan = ["昆明", "曲靖", "玉溪", "保山", "昭通", "丽江", "普洱", "临沧", "楚雄彝族自治州", "大理白族自治州", "红河哈尼族彝族自治州", "文山壮族苗族自治州", "西双版纳傣族自治州", "德宏傣族景颇族自治州", "怒江傈僳族自治州", "迪庆藏族自治州"];    
+        var neimenggu = ["呼和浩特", "包头", "乌海", "赤峰", "通辽", "鄂尔多斯", "呼伦贝尔", "巴彦淖尔", "乌兰察布","乌兰浩特"];    
+        var guangxi = ["南宁", "柳州", "桂林", "梧州", "北海", "防城港", "钦州", "贵港", "玉林", "百色", "贺州", "河池", "崇左"];    
+        var xizang = ["拉萨", "昌都地区", "林芝地区", "山南地区", "日喀则地区", "那曲地区", "阿里地区"];    
+        var ningxia = ["银川", "石嘴山", "吴忠", "固原", "中卫"];    
+        var hainan = ["海口", "三亚"];    
+       var xianggang = ["中西区", "湾仔区", "东区", "南区", "九龙城区", "油尖旺区", "观塘区", "黄大仙区", "深水埗区", "北区", "大埔区", "沙田区", "西贡区", "元朗区", "屯门区", "荃湾区", "葵青区", "离岛区"];    
+        var taiwan = ["台北", "高雄", "基隆", "台中", "台南", "新竹", "嘉义"];    
+        var aomeng = ["澳门半岛", "氹仔岛", "路环岛"];    
+    
+        //页面加载方法    
+        $(function () {    
+            //设置省份数据    
+            setProvince();    
+        });    
+    
+        //设置省份数据    
+        function setProvince() {    
+            //给省份下拉列表赋值    
+            var option, modelVal;    
+            var $sel = $("#selProvince");    
+    
+            //获取对应省份城市    
+            for (var i = 0, len = province.length; i < len; i++) {    
+                modelVal = province[i];    
+                option = "<option value='" + modelVal + "'>" + modelVal + "</option>";    
+    
+                //添加到 select 元素中    
+                $sel.append(option);    
+            }    
+    
+            //调用change事件，初始城市信息    
+             
+        }    
+    
+    
+        //根据选中的省份获取对应的城市    
+        function setCity(provinec) {    
+            var $city = $("#selCity");    
+            var proCity, option, modelVal;    
+    
+            //通过省份名称，获取省份对应城市的数组名    
+            switch (provinec) {    
+                case "北京":    
+                    proCity = beijing;    
+                    break;    
+                case "上海":    
+                    proCity = shanghai;    
+                    break;    
+                case "天津":    
+                    proCity = tianjing;    
+                    break;    
+                case "重庆":    
+                    proCity = chongqing;    
+                    break;    
+                case "浙江":    
+                    proCity = zhejiang;    
+                    break;    
+                case "江苏":    
+                    proCity = jiangsu;    
+                    break;    
+                case "广东":    
+                    proCity = guangdong;    
+                    break;    
+                case "福建":    
+                    proCity = fujiang;    
+                    break;    
+                case "湖南":    
+                    proCity = hunan;    
+                    break;    
+                case "湖北":    
+                    proCity = hubei;    
+                    break;    
+                case "辽宁":    
+                    proCity = liaoning;    
+                    break;    
+                case "吉林":    
+                    proCity = jilin;    
+                    break;    
+                case "黑龙江":    
+                    proCity = heilongjiang;    
+                    break;    
+                case "河北":    
+                    proCity = hebei;    
+                    break;    
+                case "河南":    
+                    proCity = henan;    
+                    break;    
+                case "山东":    
+                    proCity = shandong;    
+                    break;    
+                case "陕西":    
+                    proCity = shangxi;    
+                    break;    
+                case "甘肃":    
+                    proCity = gansu;    
+                    break;    
+                case "新疆":    
+                    proCity = xinjiang;    
+                    break;    
+                case "青海":    
+                    proCity = qinghai;    
+                    break;    
+                case "山西":    
+                    proCity = shanxi;    
+                    break;    
+                case "四川":    
+                    proCity = sichuan;    
+                    break;    
+                case "贵州":    
+                    proCity = guizhou;    
+                    break;    
+                case "安徽":    
+                    proCity = anhui;    
+                    break;    
+                case "江西":    
+                    proCity = jiangxi;    
+                    break;    
+                case "云南":    
+                    proCity = yunnan;    
+                    break;    
+                case "内蒙古":    
+                    proCity = neimenggu;    
+                    break;    
+                case "西藏":    
+                    proCity = xizang;    
+                    break;    
+                case "广西":    
+                    proCity = guangxi;    
+                    break;    
+                case "":    
+                    proCity = xizang;    
+                    break;    
+                case "宁夏":    
+                    proCity = ningxia;    
+                    break;    
+                case "海南":    
+                    proCity = hainan;    
+                    break;    
+                case "香港":    
+                    proCity = xianggang;    
+                    break;    
+                case "澳门":    
+                    proCity = aomeng;    
+                    break;    
+                case "台湾":    
+                    proCity = taiwan;    
+                    break;    
+            }    
+    
+            //先重置之前绑定的值    
+            $city.empty();    
+    
+            //设置对应省份的城市    
+            for (var i = 0, len = proCity.length; i < len; i++) {    
+                modelVal = proCity[i];    
+                option = "<option value='" + modelVal + "'>" + modelVal + "</option>";    
+    
+                //添加    
+                $city.append(option);    
+            }    
+    
+            
+        }    
+    
+    
+        //省份选中事件    
+        function provinceChange() {    
+            var $pro = $("#selProvince");    
+            setCity($pro.val());    
+        }    
+    
+    
+        
+
+
+</script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/article.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>文章列表</h3>
+                <div class="span8 pull-right">
+                    <input type="text" class="span6 search" placeholder="请输入新闻名称查找..." id="top_search"/>
+                    
+                    <!-- custom popup filter -->
+                    <!-- styles are located in css/elements.css -->
+                    <!-- script that enables this dropdown is located in js/theme.js -->
+                   
+                </div>
+            </div>
+			<div class="row-fluid header head2">
+				<a href="{:U('News/newsadd')}" class="btn-flat success">
+					添加文章
+				</a>
+				<a href="{:U('News/typelist')}" class="btn-flat success">
+					栏目管理
+				</a>
+				<a href="{:U('News/typelist')}" class="btn-flat success">
+					我的文档
+				</a>
+			</div>
+            <!-- Users table -->
+            <form  action="{:U('News/newsdel')}" method="post" name="del">
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span1 sortable">
+                                编号
+                            </th>
+							<th class="span1 sortable">
+                                选择
+                            </th>
+                            <th class="span5 sortable">
+                                <span class="line"></span>文章标题
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>更新时间
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>所属栏目
+                            </th>
+							<!--<th class="span2 sortable">
+                                <span class="line"></span>点击
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>发布人
+                            </th>-->
+							<th class="span2 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="ajaxback">
+                    <volist name="newlist" id="nl">
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+                            {$nl['nid']}
+                        </td>
+						<td>
+                            <input type="checkbox" name="nid[]" value="{$nl['nid']}">
+                        </td>
+                        <td>
+                            <a href="{:U('News/newsedit',array('nid'=>$nl['nid']))}" class="name">{$nl['ntitle']}</a>
+                        </td>
+                        <td>
+                            {$nl['ntime']|date='Y-m-d',###}
+                        </td>
+                        <td>
+							<a href="{:U('News/tedit',array('pid'=>$nl['fid']))}">{$nl['fclass']}</a>
+                        </td>
+                        <td>
+							<ul class="actions">
+								<li><a href="{:U('News/newsedit',array('nid'=>$nl['nid']))}"><i class="table-edit"></i></a></li>
+								<li><i class="table-settings"></i></li>
+								<li class="last"><a href="{:U('News/newsdel',array('nid'=>$nl['nid']))}" onclick="if(confirm('确定要删除吗?')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+							</ul>
+                        </td>
+                    </tr>
+                    </volist>                    
+                    </tbody>
+                </table>
+				<div class="qjcz">
+					<a id="checkall">全选</a>
+					<a id="checkallno">全不选</a>
+					<a id="check_revsern">反选</a>
+					<input type="submit" id='sbtn' onclick ="return valid();" value="批量删除">
+				</div>
+            </div>
+            </form>
+            <div class="pagination pull-right">
+                <ul>
+                	{$page}
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var eqli = $("#dashboard-menu").children().eq(1);
+	eqli.attr('class','active');
+	$("#dashboard-menu .active .submenu").css("display","block");
+	
+	
+	$("#checkall").click(function(){
+        $("input[name='nid[]']").each(function(){
+            this.checked = true;
+        });
+    });
+     
+    $("#checkallno").click(function(){
+        $("input[name='nid[]']").each(function(){
+            this.checked = false;
+        })
+    });
+     
+    $("#check_revsern").click(function(){
+        $("input[name='nid[]']").each(function(){
+            if (this.checked) {
+                this.checked = false;
+            }
+            else {
+                this.checked = true;
+            }
+        });
+    });
+    
+    $("input[type='checkbox']").click(function(){
+    	$("#sbtn").attr("onclick","if(confirm('确定要删除吗?请谨慎操作')){return true;}else{return false;}");
+    })
+});
+function valid(){
+	  var check = "";
+      $("input:checkbox[name='nid[]']:checked").each(function() {
+			check += $(this).val();
+	  });
+      if(check==''){
+      	alert('请选择要删除的文章');
+      	return false;
+      	}else{ 
+      	return true;
+      }	
+};
+//搜索结果，ajax返回搜索框搜索结果
+$('#top_search').keyup(function(){
+	keywords = $(this).val();
+	$.ajax({  
+	    type: "post",  
+	    url: "{:U('News/newslist?step=search')}",    
+	    data:{"keywords":keywords},
+	    success: function(data) {
+	    	if(data=="null"){
+            	//$("#loading").hide();
+            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！</tr></td>');
+            }else{
+		    	$nlist = "";
+	            $.each(data,function(no,items){
+	            	$nlist += '<tr class="first">';
+	            	$nlist += '<td>'+items.nid+'</td>';
+	            	$nlist += '<td><input type="checkbox" name="nid[]" value="'+items.nid+'"></td>';
+	            	$nlist += '<td><a href="{:U(\'News/newsedit\')}?pid='+items.nid+'" class="name">'+items.ntitle+'</a></td>';
+	            	$nlist += '<td>'+items.ntime+'</td>';
+	            	$nlist += '<td><a href="{:U(\'News/tedit\')}?fid='+items.fid+'">'+items.fclass+'</a></td><td>';
+	            	$nlist += '<ul class="actions">';
+	            	$nlist += '<li><a href="{:U(\'News/newsedit\')}?nid='+items.nid+'"><i class="table-edit"></i></a></li>';
+					$nlist += '<li><i class="table-settings"></i></li>';
+					$nlist += '<li class="last"><a href="{:U(\'News/newsdel\')}?nid='+items.nid+'" onclick="if(confirm(\'确定要删除吗?\')){return true;}else{return false;}"><i class="table-delete"></i></a></li>';
+	            	$nlist += '</ul></td></tr>';
+	            })
+	            $("#ajaxback").html($nlist);
+            }
+	    },
+	    error: function(data) {  
+            console.log(data);
+        }
+	  })
+})
+</script>
+</block>

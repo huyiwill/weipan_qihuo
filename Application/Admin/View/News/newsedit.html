@@ -1,0 +1,143 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+	<link href="__CSS__/lib/bootstrap-wysihtml5.css" type="text/css" rel="stylesheet" />
+	<link href="__CSS__/lib/uniform.default.css" type="text/css" rel="stylesheet" />
+	<link href="__CSS__/lib/select2.css" type="text/css" rel="stylesheet" />
+	<link href="__CSS__/lib/bootstrap.datepicker.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="__CSS__/compiled/article-add.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="form-page">
+            <div class="row-fluid form-wrapper">
+                <!-- left column -->
+                <form action="{:U('News/newsedit')}" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="aid" value="{$editnew['nid']}"/>
+                <div class="span8 column">
+					<div class="field-box">
+						<label>文章标题：</label>
+						<input class="span8" type="text" data-toggle="tooltip" data-trigger="focus" title="请输入文章标题" data-placement="right" name="ntitle" value="{$editnew.ntitle}"/>
+					</div>
+					<div class="field-box">
+						<label>文章栏目:</label>
+						<div class="ui-select span5">
+							<select style="width: 100%;" name="ncategory">
+									<volist name="nclist" id="nl">
+									<option value="{$nl['fid']}" <if condition="$nl['fid'] eq $editnew['fid']"> selected=""</if>>{$nl['fclass']}</option>
+									</volist>
+							</select>
+						</div>
+					</div>
+					<div class="field-box">
+						<label>缩略图:</label>
+						<input class="span6 inline-input" type="text" name="ncover" value="{$editnew.ncover}" />
+						<a href="javascript:;" class="pic-upload"><input class="span2 inline-input" name="input-file" type="file" value="" />点击上传图片</a>
+					</div>
+					<!--<div class="field-box">
+						<label>关键字:</label>
+						<input class="span8 inline-input" type="text" placeholder="输入的关键字以（' , '）号隔开"/>
+					</div>                         
+					<div class="field-box">
+						<label>文章摘要:</label>
+						<textarea class="span8" rows="4"></textarea>
+					</div>-->
+					<div class="field-box">
+                        <label>更新时间:</label>
+                        <input type="text" value="{$editnew['ntime']|date='m/d/Y',###}" class="input-large datepicker" name="ntime"/>
+                    </div>
+					<div class="field-box">
+						<label>文章内容:</label>
+						<div class="wysi-column">
+							<textarea id="wysi" class="span10 wysihtml5" rows="20" name="ncontent">{$editnew.ncontent}</textarea>
+						</div>
+					</div>
+                    <div class="field-box actions">
+						<input type="submit" class="btn-glow primary" value="提交"><span>或</span><input type="reset" value="重置" class="reset">
+					</div>
+                </div>
+				</form>
+            </div>
+        </div>
+    </div>
+	<!-- scripts for this page -->
+    <script src="__JS__/wysihtml5-0.3.0.js"></script>
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/bootstrap-wysihtml5-0.0.2.js"></script>
+    <script src="__JS__/bootstrap.datepicker.js"></script>
+    <script src="__JS__/jquery.uniform.min.js"></script>
+    <script src="__JS__/select2.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+
+    <!-- call this page plugins -->
+    <script type="text/javascript">
+    
+    	$("input[name=input-file]").change(function(){
+    		$("input[name=ncover]").val($(this).val());
+    	})
+        $(function () {
+
+            // add uniform plugin styles to html elements
+            $("input:checkbox, input:radio").uniform();
+
+            // select2 plugin for select elements
+            $(".select2").select2({
+                placeholder: "Select a State"
+            });
+
+            // datepicker plugin
+            $('.datepicker').datepicker().on('changeDate', function (ev) {
+                $(this).datepicker('hide');
+            });
+
+            // wysihtml5 plugin on textarea
+            $(".wysihtml5").wysihtml5({
+                "font-styles": false
+            });
+        });
+    </script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(1);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+		
+		
+		/** 
+		 * 时间对象的格式化; 
+		 */  
+		Date.prototype.format = function(format) {  
+		    /* 
+		     * eg:format="yyyy-MM-dd hh:mm:ss"; 
+		     */  
+		    var o = {  
+		        "M+" : this.getMonth() + 1, // month  
+		        "d+" : this.getDate(), // day  
+		        "h+" : this.getHours(), // hour  
+		        "m+" : this.getMinutes(), // minute  
+		        "s+" : this.getSeconds(), // second  
+		        "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter  
+		        "S" : this.getMilliseconds()  
+		        // millisecond  
+		    }  
+		  
+		    if (/(y+)/.test(format)) {  
+		        format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4  
+		                        - RegExp.$1.length));  
+		    }  
+		  
+		    for (var k in o) {  
+		        if (new RegExp("(" + k + ")").test(format)) {  
+		            format = format.replace(RegExp.$1, RegExp.$1.length == 1  
+		                            ? o[k]  
+		                            : ("00" + o[k]).substr(("" + o[k]).length));  
+		        }  
+		    }  
+		    return format;  
+		}
+		
+		var now = new Date().format("MM/dd/yyyy");
+		$(".input-large").attr("value",now);
+	});
+	</script>
+</block>

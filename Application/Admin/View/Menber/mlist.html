@@ -1,0 +1,279 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen">
+<div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                <div class="row-fluid header">
+                    <h3>客户列表</h3>
+                    <div class="span10 pull-right">
+                        <input type="text" class="span5 search" placeholder="请输入客户名称查找..." id="top_search" style="float: left;" urlkey="search"/>
+                        
+                        <!-- custom popup filter -->
+                        <!-- styles are located in css/elements.css -->
+                        <!-- script that enables this dropdown is located in js/theme.js -->
+                        <div class="ui-dropdown">
+                            <div class="head" data-toggle="tooltip" title="点我">
+                                过滤器
+                                <i class="arrow-down"></i>
+                            </div>  
+                            <div class="dialog">
+                                <div class="pointer">
+                                    <div class="arrow"></div>
+                                    <div class="arrow_border"></div>
+                                </div>
+                                <div class="body">
+                                    <p class="title">
+                                        选择过滤条件:
+                                    </p>
+                                    <div class="form">
+                                    <select name="key" id="sxkey">
+                                        <option value="uid"/>编号
+                                        <option value="username"/>用户名
+                                        <option value="utel"/>手机号码
+                                        <option value="otype"/>类型
+                                        <option value="utime"/>注册时间
+                                        <option value="balance"/>账户余额
+                                    </select>
+                                    <select name="formula" id="formula">
+										<option value="eq"/>等于
+                                        <option value="neq"/>不等于
+                                        <option value="gt"/>大于
+                                        <option value="lt"/>小于
+                                        <option value="bh"/>包含
+										<option value="bbh"/>不包含
+                                    </select>
+                                    <input type="text" value="" name="sxvalue" id="sxvalue" placeholder="亲！请按格式输入"/>
+                                    <a class="btn-flat small" urlkey="sxsearch" id="sxsearch">开始过滤</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="{:U('User/adduser')}" class="btn-flat success pull-right">
+                            <span>&#43;</span>
+                            添加客户
+                        </a>
+                    </div>
+                </div>
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span1 sortable">
+                                    编号
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>客户名
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>手机号码
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>地区
+                                </th>
+                                <th class="span1 sortable">
+                                    <span class="line"></span>微信头像
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>创建日期
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>上级
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>最近登录时间
+                                </th>	
+                                <th class="span1 sortable">
+                                    <span class="line"></span>订单数量
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>账户余额
+                                </th>
+                                <th class="span1 sortable">
+                                    <span class="line"></span>会员类别
+                                </th>
+                                <th class="span1 sortable">
+                                    <span class="line"></span>操作
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="ajaxback">
+                        <volist name="ulist" id="ult">
+                        <!-- row -->
+                        <tr class="first">
+                            <td>
+                                {$ult['uid']}
+                            </td>
+                            <td>                                
+                                <a href="{:U('Menber/mupdate',array('uid'=>$ult['uid']))}">{$ult['username']}</a>                                
+                            </td>
+                            <td>
+                                {$ult['utel']}
+                            </td>
+                            <td>
+                                {$ult['address']}
+                            </td>
+                            <td>
+                            	<img src="__IMG__/contact-img.png" class="img-circle avatar hidden-phone" />
+                            </td>
+                            <td>
+                                {$ult['utime']|date='Y-m-d',###}
+                            </td>
+                            <td>
+                                {$ult.managername}
+                            </td>
+                            <td>
+                            	{$ult['utime']|date='Y-m-d H:m',###}
+                            </td>
+                            <td>
+                            	<if condition="$ult['ocount'] eq 0">
+                            		0
+                            	<else/>
+                            		<a href="">{$ult['ocount']}</a>	
+                            	</if>
+                            </td>
+                            <td>
+                            	<font color="#f00" size="4">￥{$ult['balance']}<font>
+                            </td>
+                            <td>
+                                <if condition='$ult["otype"] eq 0'>
+                                	客户
+                                </if>
+                                <if condition='$ult["otype"] eq 1'>
+                                	代理商
+                                </if>
+                                <if condition='$ult["otype"] eq 2'>
+                                	会员单位
+                                </if>
+                                <if condition='$ult["otype"] eq 3'>
+                                	超级管理员
+                                </if>
+                            </td>
+                            <td>
+                            	<ul class="actions">
+                                    <li><a href="{:U('Menber/mupdate',array('uid'=>$ult['uid']))}"><i class="table-edit"></i></a></li>
+                                    <li class="last"><a href="{:U('User/userdel',array('uid'=>$ult['uid']))}" onclick="if(confirm('确定要删除吗?客户账户请谨慎操作！')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </volist>                        
+                        </tbody>
+                    </table>
+                    
+                </div>
+                <div class="pagination pull-right">
+                    <ul>
+                        {$page}
+                    </ul>
+                </div>
+                <!-- end users table -->
+            </div>
+        </div>
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(5);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+	
+	$('#top_search').keyup(top_serch);
+	$('#sxsearch').click(top_serch);
+	//搜索结果，ajax返回搜索框搜索结果
+	function top_serch(){
+		//获取点击参数
+		var urlkey = $(this).attr("urlkey");
+		//获取文本框值
+		var keywords = $("#top_search").val(),
+		    sxkey = $("#sxkey  option:selected").val(),
+			formula = $("#formula  option:selected").val(),
+			sxvalue = $("#sxvalue").val();
+		//重新定义提交url
+		var newurl = "";
+		if(urlkey == "search"){
+			newurl = "{:U('User/ulist?step=search')}"
+		}
+		if(urlkey == "sxsearch"){
+			newurl = "{:U('User/ulist?step=sxsearch')}"
+		}
+		$.ajax({  
+		    type: "post",  
+		    url: newurl,    
+        	data:{"keywords":keywords,"sxkey":sxkey,"formula":formula,"sxvalue":sxvalue},
+		    success: function(data) {
+		    	//console.log(data);
+		    	if(data=="null"){
+	            	//$("#loading").hide();
+	            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！</tr></td>');
+	            }else{
+			    	$ulist = "";
+		            $.each(data,function(no,items){
+		            	$ulist += '<tr class="first">';
+		            	$ulist += '<td>'+items.uid+'</td>';
+		            	$ulist += '<td><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'" class="name">'+items.username+'</a></td>';
+		            	$ulist += '<td>'+items.utel+'</td>';
+		            	$ulist += '<td>'+items.utime+'</td>';
+		            	if(items.ocount=='0'){
+		            		$ulist += '<td>0</td>';
+		            	}else{
+		            		$ulist += '<td><a href="">'+items.ocount+'</a></td>';	
+		            	}
+		            	$ulist += '<td><font color="#f00" size="4">￥'+items.balance+'<font></td>';
+		            	$ulist += '<td>';
+		            	if(items.otype == '0'){
+		            		$ulist += '会员';
+		            	}
+		            	if(items.otype == '1'){
+		            		$ulist += '正在申请经纪人';
+		            	}
+		            	if(items.otype == '2'){
+		            		$ulist += '经纪人';
+		            	}
+		            	$ulist += '<ul class="actions">';
+		            	$ulist += '<li><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'"><i class="table-edit"></i></a></li>';
+						$ulist += '<li><i class="table-settings"></i></li>';
+						$ulist += '<li class="last"><a href="{:U(\'User/userdel\')}?uid='+items.uid+'" onclick="if(confirm(\'确定要删除吗?\')){return true;}else{return false;}"><i class="table-delete"></i></a></li>';
+		            	$ulist += '</ul></td></tr>';
+		            })
+		            $("#ajaxback").html($ulist);
+	            }
+		    },
+		    error: function(data) {  
+	            console.log(data);
+	        }
+		  })
+	}
+	
+	$("#sxkey").bind("change",function(){
+		var sxkey = $(this).val();
+		switch(sxkey){
+			case "uid":
+				$("#sxvalue").attr("placeholder","格式：不允许汉字");
+				break;
+			case "username":
+				$("#sxvalue").attr("placeholder","格式：雁过留痕");
+				break;
+			case "utel":
+				$("#sxvalue").attr("placeholder","格式：15022220000");
+				break;
+			case "otype":
+				$("#sxvalue").attr("placeholder","格式：会员/经纪人");
+				break;
+			case "utime":
+				$("#sxvalue").attr("placeholder","格式：1970-10-01");
+				break;
+			case "balance":
+				$("#sxvalue").attr("placeholder","格式：不允许汉字");
+				break;
+			default:
+				$("#sxvalue").text("输入内容");
+		}
+		
+	})
+</script>
+</block>

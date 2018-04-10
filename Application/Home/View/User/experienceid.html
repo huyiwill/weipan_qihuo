@@ -1,0 +1,34 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/ticket.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+
+<div class="wrap">
+  <div class="index" style="min-height: 1114px;">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">体验券详细</h3>
+      </nav>
+    </header>
+    <div class="ticket-con">
+      <div class="con-title"> <span>{$expid.eprice}元体验券</span> <em>有效期至{$expid.endtime|date='Y-m-d',###}</em> </div>
+      <div class="con-info">
+        <p>获得途径：{$expid.getway}</p>
+        <p>获得时间：{$expid.exgtime|date='Y-m-d',###}</p>
+      </div>
+      <div class="con-detail">
+        <p>使用说明：</p>
+        <p>1、体验券必须在有效时间内使用；</p>
+        <p>2、体验券只能在建仓交易时使用；</p>
+        <p>3、使用体验券建单时，无需支付手续费；</p>
+        <p>4、使用体验券建单时，订单手数必须和使用体验券的数量一致；</p>
+        <p>5、已使用体验券的订单平仓时，盈利，则盈利部分归用户，亏损，则用户无任何损失。</p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</block>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 菜单演示 */
+.top_div{ width:100%; height:40px; position:fixed; top:0; background-color:#daac33;  z-index: 9999;}
+.dbjjDiv{ width:100%; height:40px; clear:both;}
+.ycdcdDiv{ top: 0px; bottom: 0px;left: 0px;right: 0px; position: fixed; left:-85%; background-color:#24292f; width:80%; height:150%;    z-index: 10000;}
+.ycdcdDiv ul{ width:100%;}
+.ycdcdDiv ul li{ height:auto; overflow:hidden; text-align:left; color:#fff; width:auto; margin-left:15%; clear:both;    height: 35px;
+    line-height: 30px; margin-bottom:10px; border-bottom:1px solid #2f343a;}
+.ycdcdDiv ul li a{ color:#fff; font-size:14px; display:block; height:auto; overflow:hidden; height:30px; }
+.xyyd{ left:0;}
+.ycdcdDiv .gbtb{ float:right;}
+.mainxyy{ position:absolute;}
+.ycdcdDiv span{ display:block; float:left; margin-right: 5%;}
+.ycdcdDiv ul li span img{ width:30px;}
+.top_div img{ margin-top:4px;}
+.top_div div{ float:left;}
+.top_div h1{ height:40px; line-height:40px; font-size:16px; color:#fff;}
+.cdan_div{ width:20%;}
+.jypt_div{ width:60%;}

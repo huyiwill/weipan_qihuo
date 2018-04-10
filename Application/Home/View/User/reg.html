@@ -1,0 +1,175 @@
+<extend name="Base/common"/>
+<block name="content">
+    <link rel="stylesheet" href="__CSS__/global.css">
+    <link rel="stylesheet" href="__CSS__/index.css">
+    <link rel="stylesheet" href="__CSS__/pwd.css">
+    <div class="wrap">
+        <div class="index" style="min-height: 891px;">
+            <header class="list-head">
+                <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+                    <h3 class="list-title">注册</h3>
+                </nav>
+            </header>
+            <if condition="$openid eq ''">
+                <form id="reviseForm" class="i-form" method="post" action="{:U('User/register')}" >
+                    <input type="hidden" name="puid" value="<?php echo $_GET['uid']; ?>">
+                    <input type="hidden" name="oid" value="{$oid}">
+                    <ul class="form-box">
+                        <li class="f-line clearfix">
+                            <label class="f-label">会员单位</label>
+                            <input id="c-name" class="f-input text" type="text" maxlength="16" placeholder="请输入用户名" name="username">
+                        </li>
+                        <li class="f-line clearfix">
+                            <label class="f-label">手机号</label>
+                            <input id="c-pwd" class="f-input text" type="text" maxlength="11" placeholder="请输入手机号码" name="utel">
+                        </li>
+                        <li class="f-line clearfix">
+                            <label class="f-label">密码</label>
+                            <input id="n-pwd" class="f-input text" type="password" maxlength="15" placeholder="请输入六位新密码" name="upwd">
+                        </li>
+                        <li class="f-line clearfix">
+                            <label class="f-label">确认密码</label>
+                            <input id="r-pwd" class="f-input text" type="password" maxlength="15" placeholder="再次输入六位新密码" name="repassword">
+                        </li>
+                        <!--<li class="f-line clearfix">
+                            <label class="f-label">短信验证码</label>
+                            <input id="n-pwd" class="f-input2 text" type="text " maxlength="6" placeholder="请输短息验证码" name="code">
+                            <input type="button" value="获取验证码" id="mes" class="f-sub2">
+                        </li>-->
+                    </ul>
+                    <div id='btnAgree'>
+                        <div><input name="agree" type="checkbox" value="1" class="text"  id="check" checked/>&nbsp;<span>我已阅读和同意<span id='btnBook'>《服务协议及隐私条款》</span></span></div>
+                        <div style="height:100px;overflow:scroll;border: 1px solid #d0d0d0;display: none" id="panel">
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                            内容内容内容内容内容内容内容<br>
+                        </div>
+                    </div>
+                    <input type="submit" value="完成注册" class="f-sub">
+                    <div class="forgot"><span class="fl"><a href="{:U('User/login')}">已有账号，立即登录</a></span></div>
+                </form>
+                <else/>
+
+                <form  class="i-form" method="post" action="{:U('User/myreg')}" >
+                    <input type="hidden" name="oid" value="{$oid}">
+                    <input type="hidden" name="openid" value="{$openid}">
+                    <ul class="form-box">
+                        <li class="f-line clearfix">
+                            <label class="f-label">初始密码</label>
+                            <input id="c-name" class="f-input text" type="text" maxlength="16" placeholder="请输入初始密码" name="upwd">
+                        </li>
+                    </ul>
+                    <input type="submit" value="注册" class="f-sub" id='send'>
+                </form>
+
+            </if>
+        </div>
+    </div>
+    <script src="__JS__/jquery-2.1.1.min.js"></script>
+    <script src="__JS__/script.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#mes").click(function(){
+                alert('短信已经发送，请注意查收');
+                $.ajax({
+                    type: 'POST',
+                    url: "{:U('User/smsverify')}",
+                    data: {
+                        tel:$("[name='utel']").val(),
+                    },
+                    dataType: "json"
+                });
+            });
+        });
+    </script>
+    <style type="text/css">
+        .formtips{
+            text-align:center;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+
+        $(function(){
+            //如果是必填的，则加红星标识.
+            //文本框失去焦点后
+            $('form :input').blur(function(){
+                var $parent = $(this).parent();
+                $parent.find(".formtips").remove();
+                //验证用户名
+                if( $(this).is('input[name="username"]') ){
+                    if( this.value=="" || this.value.length < 6 ){
+                        var errorMsg = '请输入至少6位的用户名.';
+                        $parent.append('<input  class="f-input formtips onError" type="text" value="'+errorMsg+'" > ');
+                    }else{
+                        $parent.append('<input class="f-input formtips onSuccess" style="display:none" type="text"  > ');
+                    }
+                }
+                //手机号码验证
+                if( $(this).is('input[name="utel"]') ){
+                    if( this.value=="" || ( this.value!="" && !/^1[3|4|5|8][0-9]\d{4,8}$/.test(this.value) ) ){
+                        var errorMsg = '请输入正确的手机号码.';
+                        $parent.append('<input  class="f-input formtips onError" type="text" value="'+errorMsg+'" > ');
+                    }else{
+                        $parent.append('<input class="f-input formtips onSuccess" style="display:none" type="text"  > ');
+                    }
+                }
+
+                //密码验证
+                if( $(this).is('input[name="upwd"]') ){
+                    if( this.value=="" ){
+                        var errorMsg = '请输入正确的密码.';
+                        $parent.append('<input  class="f-input formtips onError" type="text" value="'+errorMsg+'" > ');
+                    }else{
+                        $parent.append('<input class="f-input formtips onSuccess" style="display:none" type="text"  > ');
+                    }
+                }
+                //确认密码验证
+                if( $(this).is('input[name="repassword"]') ){
+                    if( this.value!=$('#n-pwd').val()){
+                        var errorMsg = '两次密码不一样.';
+                        $parent.append('<input  class="f-input formtips onError" type="text" value="'+errorMsg+'" > ');
+                    }else{
+                        $parent.append('<input class="f-input formtips onSuccess" style="display:none" type="text"  > ');
+                    }
+                }
+
+            }).keyup(function(){
+                $(this).triggerHandler("blur");
+            }).focus(function(){
+                $(this).triggerHandler("blur");
+            });//end blur
+            //提交，最终验证。
+            $('#send').click(function(){
+                $("form :input.text").trigger('blur');
+                var numError = $('form .onError').length;
+                if(numError){
+                    return false;
+                }
+                alert("注册成功");
+            });
+            //服务条款效果
+            $("#btnBook").click(function(){
+                $("#panel").slideToggle("slow");
+            });
+
+
+        })
+
+    </script>
+
+</block>

@@ -1,0 +1,47 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/ticket.css">
+<link rel="stylesheet" type="text/css" href="__CSS__/phb.css" />
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+<div class="main"> 
+  <div class="phb_div">
+      <div class="phb">
+          <ul>
+             <volist name="lists" id="vo" key="k">
+              <li>
+                  <div class="con_ph">
+                         <if condition="$k lt 4">
+                          <div class="xh_div qsg">{$k}</div>
+                            <else/>
+                           <div class="xh_div ">{$k}</div>
+                         </if>
+                        <div class="tx_div">
+                          <if condition="$vo.portrait eq ''">
+                             <img src="__IMG__/avatar.jpg"/>
+                              <else/>
+                             <img src="{$vo.portrait}"/>
+                           </if>
+                          
+                        </div>
+                        <div class="rm_div">{$vo.name}</div>
+                        <div class="jq_div qsg">￥{$vo.pric}</div>
+                    </div>
+                </li>
+              </volist> 
+            </ul>
+        </div>
+    </div>
+</div>
+     <!--  <div class="pagelist">{$page}</div> -->
+
+<style type="text/css">
+  .pagelist{ text-align:center; background:#f1f1f1; padding:7px 0;}
+.pagelist a{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; background:#fff; color:#6185a2;}
+.pagelist span{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; color:#6185a2; color:#fff; background:#6185a2;}
+</style>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script src="__JS__/getJuan.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</block>

@@ -1,0 +1,24 @@
+<extend name="Base/common"/>
+<block name="content">
+    <style type="text/css">
+        .col-md-6{ width:100%;}
+        .form-horizontal { width:500px;}
+    </style>
+    <div class="main sidebar-minified">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><i class="fa fa-indent red"></i><strong>
+                            <if condition="$user.uid neq ''">修改代理信息<else/>添加代理</if>
+                        </strong></h2>
+                    </div>
+
+                    <input type="text" value="{$reglink}" width="100%"/>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</block>

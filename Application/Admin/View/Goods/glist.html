@@ -1,0 +1,269 @@
+<extend name="Base/common"/>
+<block name="content">
+			
+	<!-- this page specific styles -->
+	<link rel="stylesheet" href="__CSS__/compiled/article.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>产品管理&nbsp;>&nbsp;产品列表</h3>
+                <div class="span8 pull-right">
+                    <input type="text" class="span6 search" placeholder="请输入商品名称查找..." id="top_search"/>
+                    
+                    <!-- custom popup filter -->
+                    <!-- styles are located in css/elements.css -->
+                    <!-- script that enables this dropdown is located in js/theme.js -->
+                </div>
+            </div>
+			<div class="row-fluid header head2">
+				<a href="{:U('Goods/gadd')}" class="btn-flat success">
+					添加商品
+				</a>
+				<a href="{:U('Goods/gtype')}" class="btn-flat success">
+					商品分类
+				</a>
+			</div>
+            <!-- Users table -->
+            <form  action="{:U('Goods/gdel')}" method="post" name="del">
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span1 sortable">
+								<!--<input type="checkbox">-->
+                                编号
+                            </th>
+                            <th class="span3 sortable">
+                                <span class="line"></span>商品名称
+                            </th>
+							<th class="span3 sortable">
+                                <span class="line"></span>价格/手
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>浮动盈亏
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>手续费
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>外盘价
+                            </th>
+							<th class="span3 sortable">
+                                <span class="line"></span>所属分类
+                            </th>
+                           <th class="span2 sortable">
+                                <span class="line"></span>点差x
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>点差-
+                            </th>
+							<th class="span1 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="ajaxback">
+                    <volist name="goodlist" id="gl">
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+							<input type="checkbox" name="pid[]" value="{$gl['pid']}">
+                            {$gl['pid']}
+                        </td>
+                        <td>
+                            <a href="{:U('Goods/gedit',array('pid'=>$gl['pid']))}" class="name">{$gl['ptitle']}</a>
+                        </td>
+                        <td>
+                            <font color="#f00" size="3">{$gl['uprice']}</font>元
+                        </td>
+                        <td>
+                        	{$gl['wave']}
+                        </td>
+                        <td>
+							{$gl['feeprice']}
+                        </td>
+                        <td>
+							<em <if condition='$gl["cid"] eq 1'>class="you"<elseif condition='$gl["cid"] eq 2'/>class="baiyin"<elseif condition='$gl["cid"] eq 3'/>class="tong"<else/></if>></em>
+                        </td>
+						<td>
+                            {$gl['cname']}
+                        </td>
+                       <td>
+                        	{$gl['patx']}
+                        </td>
+                        <td>
+                        	{$gl['patj']}
+                        </td>
+                        <td>
+							<ul class="actions">
+								<li style="border: 0;"><a href="{:U('Goods/gedit',array('pid'=>$gl['pid']))}"><i class="table-edit"></i></a></li>
+								<li class="last"><a href="{:U('Goods/gdel',array('pid'=>$gl['pid']))}" onclick="if(confirm('确定要删除吗?')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+							</ul>
+                        </td>
+                    </tr>
+                    </volist>
+                    </tbody>
+                </table>
+				<div class="qjcz">
+					<a id="checkall">全选</a>
+					<a id="checkallno">全不选</a>
+					<a id="check_revsern">反选</a>
+					<input type="submit" id='sbtn' onclick ="return valid();" value="批量删除">
+				</div>
+            </div>
+            <input id="yprice" type="hidden" value=""/>
+            <input id="byprice" type="hidden" value=""/>
+            <input id="toprice" type="hidden" value=""/>
+            </form>
+            <div class="pagination pull-right">
+                <ul>
+                    {$page}
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+</div>
+<!-- end main container -->
+
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">  
+	butt();
+	setInterval('butt()', 2000);
+	function butt(){  
+		//获取油的价格到页面
+		var yprice = $('#yprice').val();
+		var byprice = $('#byprice').val();
+		var toprice = $('#toprice').val();
+		$.ajax({  
+			type: "post",  
+			url: "{:U('Goods/price')}",         
+			success: function(data) { 
+				//最新油价
+				$('.you').html(data[0]);
+				$('#yprice').val(data[0]);
+				if(data[0]<yprice){
+					$('.you').attr("class","you drop");
+				}else if(data[0]==yprice){}else{
+					$('.you').attr("class","you rise");
+				}              
+			},  
+		}); 
+		//获取白银的价格到页面  
+		$.ajax({  
+			type: "post",  
+			url: "{:U('Goods/byprice')}",         
+			success: function(data) {
+				//最新白银价
+				$('.baiyin').text(data[0]); 
+				$('#byprice').val(data[0]);
+				if(data[0]<byprice){
+					$('.baiyin').attr("class","baiyin drop");
+				}else if(data[0]==byprice){}else{
+					$('.baiyin').attr("class","baiyin rise");
+				}                
+			},  
+		});
+		//获取铜的价格到页面  
+		$.ajax({  
+			type: "post",  
+			url: "{:U('Goods/toprice')}",         
+			success: function(data) {
+				//最新白银价
+				$('.tong').text(data[0]);
+				$('#toprice').val(data[0]);
+				if(data[0]<toprice){
+					$('.tong').attr("class","tong drop");
+				}else if(data[0]==toprice){}else{
+					$('.tong').attr("class","tong rise");
+				}   
+			},  
+		});
+	}
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var eqli = $("#dashboard-menu").children().eq(2);
+	eqli.attr('class','active');
+	$("#dashboard-menu .active .submenu").css("display","block");
+	
+	$("#checkall").click(function(){
+	    $("input[name='pid[]']").each(function(){
+	        this.checked = true;
+	    });
+	});
+	 
+	$("#checkallno").click(function(){
+	    $("input[name='pid[]']").each(function(){
+	        this.checked = false;
+	    })
+	});
+	 
+	$("#check_revsern").click(function(){
+	    $("input[name='pid[]']").each(function(){
+	        if (this.checked) {
+	            this.checked = false;
+	        }
+	        else {
+	            this.checked = true;
+	        }
+	    });
+	});
+	
+	$("input[type='checkbox']").click(function(){
+		$("#sbtn").attr("onclick","if(confirm('确定要删除吗?请谨慎操作')){return true;}else{return false;}");
+	})
+});
+
+function valid(){
+	  var check = "";
+      $("input:checkbox[name='pid[]']:checked").each(function() {
+			check += $(this).val();
+	  });
+      if(check==''){
+      	alert('请选择要删除的产品');
+      	return false;
+      	}else{ 
+      	return true;
+      }	
+};
+//搜索结果，ajax返回搜索框搜索结果
+$('#top_search').keyup(function(){
+	keywords = $(this).val();
+	$.ajax({  
+	    type: "post",  
+	    url: "{:U('Goods/glist?step=search')}",    
+	    data:{"keywords":keywords},
+	    success: function(data) {
+	    	if(data=="null"){
+            	//$("#loading").hide();
+            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！</tr></td>');
+            }else{
+		    	$glist = "";
+	            $.each(data,function(no,items){
+	            	$glist += '<tr class="first">';
+	            	$glist += '<td><input type="checkbox" name="pid[]" value="'+items.pid+'">'+items.pid+'</td>';
+	            	$glist += '<td><a href="{:U(\'Goods/gedit\')}?pid='+items.pid+'" class="name">'+items.ptitle+'</a></td>';
+	            	$glist += '<td>￥'+items.uprice+'</td>';
+	            	$glist += '<td>￥'+items.feeprice+'</td>';
+	            	$glist += '<td>￥'+items.cname+'<td>';
+	            	$glist += '<ul class="actions">';
+	            	$glist += '<li><a href="{:U(\'Goods/gedit\')}?pid='+items.pid+'"><i class="table-edit"></i></a></li>';
+					$glist += '<li><i class="table-settings"></i></li>';
+					$glist += '<li class="last"><a href="{:U(\'Goods/gdel\')}?pid='+items.pid+'" onclick="if(confirm(\'确定要删除吗?\')){return true;}else{return false;}"><i class="table-delete"></i></a></li>';
+	            	$glist += '</ul></td></tr>';
+	            })
+	            $("#ajaxback").html($glist);
+            }
+	    },
+	    error: function(data) {  
+            console.log(data);
+        }
+	  })
+})
+</script>
+</block>

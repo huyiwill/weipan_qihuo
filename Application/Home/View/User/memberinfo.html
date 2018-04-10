@@ -1,0 +1,46 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/account.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+
+<div class="wrap">
+  <!-- <div class="index" style="min-height: 1114px;"> -->
+  <div class="index">
+  <div class="txss">
+      <div class="tx"><if condition="$suer.portrait eq ''"><img src="__IMG__/pic.gif"><else/><img src="{$suer.portrait}"></if></div>
+        <div class="gezh">
+          <div class="grzh"><span>个人账户（元）</span><p class="a-d">{$result.balance}</p></div>
+          <div class="cztz"><a href="{:U('User/logout')}" class="acc-btn red">退出</a><a href="{:U('User/recharge')}" class="acc-btn red">充值</a> <a href="{:U('User/cash')}" class="acc-btn blue">提现</a></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="info-box clearfix"> <i class="a-3"></i>
+      <div class="info-detail clearfix"> <a href="{:U('Detailed/dtrading')}" class="acc-l">交易明细</a> </div>
+    </div>
+    <div class="info-box clearfix"> <i class="a-4"></i>
+      <div class="info-detail clearfix"> <a href="{:U('Detailed/drevenue')}" class="acc-l">收支明细</a> </div>
+    </div>
+    <div class="info-box clearfix"> <i class="a-1"></i>
+      <div class="info-detail clearfix"> <a href="{:U('User/experiencelist')}" class="acc-l">我的体验券</a> </div>
+    </div>
+    <div class="info-box clearfix"> <i class="a-6"></i>
+    <if condition="($suer.agenttype eq 0) OR ($suer.agenttype eq 1)">
+         <div class="info-detail clearfix"> <a href="{:U('Broker/applybroker')}" class="acc-l">申请经纪人</a> </div>
+    <else />
+         <div class="info-detail clearfix" style="display:block"> <a href="{:U('Broker/brokerinfo')}" class="acc-l">经纪人中心</a></div>
+    </if> 
+    </div>
+    <div class="info-box clearfix"> <i class="a-5"></i>
+      <div class="info-detail clearfix"> <a href="{:U('User/edituser')}" class="acc-l">修改登陆密码</a> </div>
+    </div>
+    <div class="info-box clearfix"> <i class="a-2"></i>
+      <div class="info-detail clearfix"> <a href="{:U('User/edituserb')}" class="acc-l">修改交易密码</a> </div>
+    </div>
+  </div>
+</div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</block>
+

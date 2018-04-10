@@ -1,0 +1,12 @@
+
+用数据库管理工具将根目录下weipan.sql数据库导入
+
+导入后修改Application/Common/Conf/config.php数据库配置文件
+
+
+后台地址：http://你的域名/index.php/Admin
+
+前台测试用户：test  abc123456  后台账号： wpadmin  abc635241
+
+
+-----------------------------------------------------------------

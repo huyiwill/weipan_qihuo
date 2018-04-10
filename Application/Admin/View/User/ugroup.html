@@ -1,0 +1,121 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>用户组设置</h3>
+            </div>
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span2 sortable">
+                                编号
+                            </th>
+                            <th class="span5 sortable">
+                                <span class="line"></span>组名称
+                            </th>
+                            <th class="span4 sortable">
+                                <span class="line"></span>管理
+                            </th>
+							<th class="span3 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+                            1
+                        </td>
+                        <td>
+                            普通用户
+                        </td>
+                        <td>
+                            <a href="">[权限设定]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user-group-users.html">[组用户]</a>
+                        </td>
+                        <td>
+							<a href="#">删除（请谨慎操作）</a>
+                        </td>
+                    </tr>
+                    <!-- row -->
+                    <tr>
+						<td>
+                            3
+                        </td>
+                        <td>
+                            vip用户
+                        </td>
+                        <td>
+                            <a href="">[权限设定]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user-group-users.html">[组用户]</a>
+                        </td>
+                        <td>
+							<a href="#">删除（请谨慎操作）</a>
+                        </td>
+                    </tr>
+                    <!-- row -->
+                    <tr>
+						<td>
+                            3
+                        </td>
+                        <td>
+                            白金用户
+                        </td>
+                        <td>
+                            <a href="">[权限设定]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user-group-users.html">[组用户]</a>
+                        </td>
+                        <td>
+							<a href="#">删除（请谨慎操作）</a>
+                        </td>
+                    </tr>
+					<!-- row -->
+                    <tr>
+						<td>
+                            4
+                        </td>
+                        <td>
+                            钻石用户
+                        </td>
+                        <td>
+                            <a href="">[权限设定]</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="user-group-users.html">[组用户]</a>
+                        </td>
+                        <td>
+							<a href="#">删除（请谨慎操作）</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination pull-right">
+                <ul>
+                    <li><a href="#">&#8249;</a></li>
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&#8250;</a></li>
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+<!-- end main container -->
+
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(4);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+</block>

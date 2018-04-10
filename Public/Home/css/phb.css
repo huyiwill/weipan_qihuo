@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* 排行榜css */
+
+.tx_div img {
+	width: 30px;
+	height: 30px;
+	/*-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;*/
+	padding-top: 5px;
+}
+.jq_div {
+	float: right;
+}
+.phb ul {
+	width: 100%;
+	margin: 0 auto;
+}
+.con_ph {
+	width: 90%;
+	margin: 0 auto;
+}
+.phb ul li {
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	clear: both;
+	list-style: none;
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+}
+.phb .xh_div {
+	width: 10%;
+	float: left;
+	height: 40px;
+}
+.phb .tx_div {
+	width: 12%;
+	float: left;
+	height: 40px;
+}
+.phb .rm_div {
+	width: 40%;
+	float: left;
+	height: 40px;
+}
+.phb .jq_div {
+	width: 20%;
+	float: right;
+	height: 40px;
+	font-size: 14px;
+}
+.qsg {
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}

@@ -1,0 +1,18 @@
+[2015-07-07 11:41:00][debug] begin notify
+[2015-07-07 11:42:48][debug] begin notify
+[2015-07-07 11:42:49][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2015-07-07 11:42:50][debug] begin notify
+[2015-07-07 11:42:51][debug] query:{"return_code":"FAIL","return_msg":"out_trade_no and transaction_id is empty"}
+[2015-07-07 11:44:12][debug] begin notify
+[2015-07-07 11:44:13][debug] query:{"appid":"wxe6c7bac7eb6b62e3","err_code":"TRANSACTION_ID_INVALID","err_code_des":"\u8ba2\u5355\u53f7\u975e\u6cd5","mch_id":"1218606001","nonce_str":"I1CPyeGYO7wWpiPP","result_code":"FAIL","return_code":"SUCCESS","return_msg":"OK","sign":"96E7FCB14B287BEDDB594CA351879AC4"}
+[2015-07-07 13:00:29][debug] begin notify
+[2015-07-07 13:00:30][debug] query:{"appid":"wxe6c7bac7eb6b62e3","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"10","fee_type":"CNY","is_subscribe":"Y","mch_id":"1218606001","nonce_str":"LWh5NAjgCvoi761s","openid":"oPNzZjtbYdsFyZNDbh1vWMj1DpSY","out_trade_no":"121860600120150707113017","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"F1C69BE07C952FC735F5D9B753EA4943","time_end":"20150707113216","total_fee":"10","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"1000600130201507070362071770"}
+[2015-07-07 13:54:26][debug] begin notify
+[2015-07-07 13:54:27][debug] query:{"appid":"wxe6c7bac7eb6b62e3","err_code":"TRANSACTION_ID_INVALID","err_code_des":"\u8ba2\u5355\u53f7\u975e\u6cd5","mch_id":"1218606001","nonce_str":"upGmCIKtxGElbpBM","result_code":"FAIL","return_code":"SUCCESS","return_msg":"OK","sign":"EB80D68E8A8EAC89887BABED0F19E42A"}
+[2015-07-07 13:57:20][debug] begin notify
+[2015-07-07 14:00:36][debug] begin notify
+[2015-07-07 14:00:36][debug] query:{"appid":"wxe6c7bac7eb6b62e3","err_code":"TRANSACTION_ID_INVALID","err_code_des":"\u8ba2\u5355\u53f7\u975e\u6cd5","mch_id":"1218606001","nonce_str":"IC0mXwXYkO3CAN1U","result_code":"FAIL","return_code":"SUCCESS","return_msg":"OK","sign":"77F593D32DD2AC1F01B7F2EEB65D4E75"}
+[2015-07-07 14:01:58][debug] begin notify
+[2015-07-07 14:01:59][debug] query:{"appid":"wxe6c7bac7eb6b62e3","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"10","fee_type":"CNY","is_subscribe":"Y","mch_id":"1218606001","nonce_str":"nikyr3H8AEq3Uq28","openid":"oPNzZjtbYdsFyZNDbh1vWMj1DpSY","out_trade_no":"121860600120150707113017","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"02DD2593D32CC4C959D6785933E91CD3","time_end":"20150707113216","total_fee":"10","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"1000600130201507070362071770"}
+[2015-07-07 14:04:17][debug] begin notify
+[2015-07-07 14:04:18][debug] query:{"appid":"wxe6c7bac7eb6b62e3","attach":"test","bank_type":"CCB_DEBIT","cash_fee":"10","fee_type":"CNY","is_subscribe":"Y","mch_id":"1218606001","nonce_str":"GUtjeTMP3SZAtiyQ","openid":"oPNzZjtbYdsFyZNDbh1vWMj1DpSY","out_trade_no":"121860600120150707113017","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"66AE3C001B9667B25FF53C4C944A48B1","time_end":"20150707113216","total_fee":"10","trade_state":"SUCCESS","trade_type":"NATIVE","transaction_id":"1000600130201507070362071770"}

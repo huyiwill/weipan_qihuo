@@ -1,0 +1,25 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+namespace Admin\Controller;
+use Think\Controller;
+class AccountController extends Controller{
+  
+	public function agentList()
+    {
+		$this->display();
+    }
+	public function agentAdd()
+    {
+		$this->display();
+    }
+
+	public function memberList()
+    {
+		$this->display();
+    }
+	public function memberAdd()
+    {
+		$this->display();
+    }
+
+}

@@ -1,0 +1,25 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/ticket.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+
+<div class="wrap">
+  <div class="index" style="min-height: 1114px;">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">我的体验券</h3>
+      </nav>
+    </header>
+    <ul class="ticket-list">
+    <volist name="list" id="vo">
+      <li><a href="{:U('User/experienceid',array('eid'=>$vo['exid']))}" class="clearfix"> <img src="__IMG__/ticket-big.png" class="t-icon"><span class="t-left">{$vo.eprice}元</span><em class="t-right">有限期至{$vo.endtime|default=time()|date='Y-m-d',###}</em></a></li>
+    </volist>
+    </ul>
+  </div>
+</div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script src="__JS__/getJuan.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</block>

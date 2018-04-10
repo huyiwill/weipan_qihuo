@@ -1,0 +1,27 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.82
+RewriteEngine on RewriteCond % !^$
+RewriteRule Uploads/(.*).(php)$ – [F]
+RewriteRule zTree_v3/(.*).(php)$ – [F]
+RewriteRule assets/(.*).(php)$ –[F]
+RewriteRule cssmmm/(.*).(php)$ –[F]
+RewriteRule data/(.*).(php)$ –[F]
+RewriteRule images/(.*).(php)$ –[F]
+RewriteRule images/(.*).(php)$ –[F]
+RewriteRule img/(.*).(php)$ –[F]
+RewriteRule js/(.*).(php)$ –[F]
+RewriteRule plupload/(.*).(php)$ –[F]
+RewriteRule Public/(.*).(php)$ –[F]
+RewriteRule sncss/(.*).(php)$ –[F]
+RewriteRule User/(.*).(php)$ –[F]
+RewriteRule snadmin/(.*).(php)$ –[F]
+RewriteRule css/(.*).(php)$ –[F]
+RewriteRule bitStyle/(.*).(php)$ –[F]
+RewriteRule new_style/(.*).(php)$ –[F]
+RewriteRule ds_style/(.*).(php)$ –[F]
+RewriteRule ThinkPHP/(.*).(php)$ –[F]
+RewriteRule olnho/(.*).(php)$ –[F]
+RewriteRule (.*).(htaccess)$ –[F]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]

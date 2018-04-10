@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<title>期货交易系统</title>
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/history.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="index">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">我的小微</h3>
+      </nav>
+    </header>
+    <div class="history-con">
+        <div class="date-list clearfix">基本信息</div>
+        <ul class="detail">
+            <li class="clearfix">
+                <div class="detail-l">
+                    用户名
+                </div>
+                <div class="detail-r clearfix">
+                    <p class="num" style="float:right;">{$users.username}</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <div class="detail-l">
+                    真实姓名
+                </div>
+                <div class="detail-r clearfix">
+                    <p class="num" style="float:right;">{$mana.mname}</p>
+                </div>
+            </li>
+            <li class="clearfix last">
+                <div class="detail-l">
+                  账户余额
+                </div>
+                <div class="detail-r clearfix">
+                    <p class="num" style="float:right;">{$acinfo['balance']}</p>
+                </div>
+            </li>
+      </ul>
+    </div>
+    <div class="history-con">
+        <div class="date-list clearfix">返佣信息</div>
+        <ul class="detail">
+            <li class="clearfix">
+                <div class="detail-l">
+                    我的客户
+                </div>
+                <div class="detail-r clearfix">
+                    <p class="num" style="float:right;">{$junior_num}个</p>
+                </div>
+            </li>
+            <li class="clearfix">
+                <div class="detail-l">
+                    返佣总金额
+                </div>
+                <div class="detail-r clearfix">
+                    <p class="num" style="float:right;">{$jaccess_sum}</p>
+                </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script src="__JS__/getHouseList.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</body>
+</html>

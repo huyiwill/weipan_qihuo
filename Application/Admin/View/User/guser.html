@@ -1,0 +1,164 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+                <h3>客户组设置&nbsp;>&nbsp;组用户</h3>
+            </div>
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span1 sortable">
+                                编号
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>客户名
+                            </th>
+                            <th class="span2 sortable">
+                                <span class="line"></span>手机号码
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>订单数量
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>账户余额
+                            </th>
+							<th class="span1 sortable">
+                                <span class="line"></span>级别
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+                            1
+                        </td>
+                        <td>
+                            安吉丽娜朱莉
+                        </td>
+                        <td>
+                            +8613991525907
+                        </td>
+                        <td>
+							<a href="">30</a>
+                        </td>
+						<td>
+							<a href="">￥36852.14</a>
+                        </td>
+						<td>
+							<a href="">普通用户</a>
+                        </td>
+						<td>
+							<a href="user-edit.html">更改</a>
+                        </td>
+                    </tr>
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+                            1
+                        </td>
+                        <td>
+                            安吉丽娜朱莉
+                        </td>
+                        <td>
+                            +8613991525907
+                        </td>
+                        <td>
+							<a href="">30</a>
+                        </td>
+						<td>
+							<a href="">￥36852.14</a>
+                        </td>
+						<td>
+							<a href="">普通用户</a>
+                        </td>
+						<td>
+							<a href="user-edit.html">更改</a>
+                        </td>
+                    </tr>
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+                            1
+                        </td>
+                        <td>
+                            安吉丽娜朱莉
+                        </td>
+                        <td>
+                            +8613991525907
+                        </td>
+                        <td>
+							<a href="">30</a>
+                        </td>
+						<td>
+							<a href="">￥36852.14</a>
+                        </td>
+						<td>
+							<a href="">普通用户</a>
+                        </td>
+						<td>
+							<a href="user-edit.html">更改</a>
+                        </td>
+                    </tr>
+					<!-- row -->
+                    <tr class="first">
+						<td>
+                            1
+                        </td>
+                        <td>
+                            安吉丽娜朱莉
+                        </td>
+                        <td>
+                            +8613991525907
+                        </td>
+                        <td>
+							<a href="">30</a>
+                        </td>
+						<td>
+							<a href="">￥36852.14</a>
+                        </td>
+						<td>
+							<a href="">普通用户</a>
+                        </td>
+						<td>
+							<a href="user-edit.html">更改</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination pull-right">
+                <ul>
+                    <li><a href="#">&#8249;</a></li>
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&#8250;</a></li>
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+    <!-- end main container -->
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(4);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+</block>

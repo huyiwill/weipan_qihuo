@@ -1,0 +1,97 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+	<link rel="stylesheet" href="__CSS__/compiled/article-add.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="form-page">
+			 <div class="row-fluid header">
+                <h3>产品管理&nbsp;>&nbsp;添加产品</h3>
+            </div>
+            <div class="row-fluid form-wrapper">
+            	<form action="{:U('Coupons/cpedit')}" method="post">
+                <!-- left column -->
+                <div class="span8 column">
+                	<input type="hidden" name="eid" value="{$editex['eid']}"/>
+					<div class="field-box">
+						<label>商品名称：</label>
+						<input class="span8" type="text" data-toggle="tooltip" data-trigger="focus" title="请输入优惠卷价格" data-placement="right" name="eprice" value="{$editex['eprice']}"/>
+					</div>
+					<div class="field-box">
+                        <label>开始时间:</label>
+                        <input type="text" value="" class="input-large datepicker" name="ntime"/>
+                    </div>
+                    <div class="field-box">
+                        <label>结束时间:</label>
+                        <input type="text" value="" class="input-large datepicker" name="ntime"/>
+                    </div>
+					<div class="field-box">
+						<label>手续费：</label>
+						<input class="span1" type="text" data-toggle="tooltip" data-trigger="focus" title="手续费，百分比" data-placement="right" value="{$editgood['feeprice']}" name="feeprice"/>
+					</div>
+					<!--<div class="field-box">
+						<label>缩略图:</label>
+						<input class="span6 inline-input" type="text" value="" />
+						<a href="javascript:;" class="pic-upload"><input class="span2 inline-input" type="file" value="" />点击上传图片</a>
+					</div>
+					<div class="field-box">
+						<label>更新时间:</label>
+						<input type="text" value="03/29/2014" class="input-large datepicker" />
+					</div>-->
+					
+                    <div class="field-box actions">
+						<input type="submit" class="btn-glow primary" value="提交"><span>或</span><input type="reset" value="重置" class="reset">
+					</div>
+                </div>
+				</form>
+                <!-- right column -->
+                <div class="span4 column pull-right">
+                   <div class="field-box"><h3>说明：</h3></div>
+				   <div class="field-box">添加商品务必正确填写手续费以及产品单价</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end main container -->
+
+
+<!-- scripts for this page -->
+<script src="__JS__/wysihtml5-0.3.0.js"></script>
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/bootstrap-wysihtml5-0.0.2.js"></script>
+<script src="__JS__/bootstrap.datepicker.js"></script>
+<script src="__JS__/jquery.uniform.min.js"></script>
+<script src="__JS__/select2.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(6);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+<!-- call this page plugins -->
+<script type="text/javascript">
+    $(function () {
+
+        // add uniform plugin styles to html elements
+        $("input:checkbox, input:radio").uniform();
+
+        // select2 plugin for select elements
+        $(".select2").select2({
+            placeholder: "Select a State"
+        });
+
+        // datepicker plugin
+        $('.datepicker').datepicker().on('changeDate', function (ev) {
+            $(this).datepicker('hide');
+        });
+
+        // wysihtml5 plugin on textarea
+        $(".wysihtml5").wysihtml5({
+            "font-styles": false
+        });
+    });
+</script>
+</block>

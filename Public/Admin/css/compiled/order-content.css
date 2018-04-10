@@ -1,0 +1,89 @@
+.order-content .sortables{text-align:center;background: #f7f7f7;padding: 10px;color: rgba(51, 69, 90, 1);}
+.order-content .noborder{border:0;}
+.order-content .titles{padding-top: 15px;}
+#pad-wrapper{margin-top:0;}
+.header{margin:30px 0;}
+.order-content .header input.search {
+  padding: 5px 6px;
+  position: relative;
+  top: -1px; }
+  .order-content .header input.search:focus {
+    box-shadow: none;
+    border: 1px solid #888; }
+.order-content .header .ui-select {
+  margin: 3px 40px 0 0; }
+.order-content .header .ui-dropdown {
+  margin-left: 20px; }
+.order-content .header a.btn-flat span {
+  font-size: 17px;
+  position: relative;
+  top: 2px;
+  margin-right: 4px; }
+.order-content .table td {
+  vertical-align: middle;
+  font-size: 13px; }
+.order-content .table td ul.actions {
+    margin: 5px 0 0 0;
+    padding: 0;
+float: right;}
+.order-content .table td ul.actions li {
+    display: inline;
+    border-right: 1px solid #d0dde9;
+    padding: 5px 6px 0px 3px;
+}
+.order-content .table td ul.actions i {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity .1s linear;
+    -moz-transition: opacity .1s linear;
+    -webkit-transition: opacity .1s linear;
+    -o-transition: opacity .1s linear;
+}
+.order-content .table img.avatar {
+  float: left;
+  margin-right: 14px;
+  max-width: 45px;
+  position: relative;
+  top: 8px; }
+.order-content .table a.name {
+  color: #3389d1;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 15px 0 0 0; }
+.order-content .table .subtext {
+  font-size: 12px;
+  margin-left: 0;
+  color: #778391;
+  font-style: italic;
+  margin-top: 0; }
+.order-content .pagination {
+  margin-top: 25px; }
+
+/* responsive */
+@media (max-width: 767px) {
+  .ui-dropdown .dialog .body {
+    width: 250px;
+    left: 58%;
+    position: relative; }
+
+  .order-content .table a.name {
+    font-size: 12px; }
+  .order-content .table td {
+    font-size: 12px; }
+  .order-content h3 {
+    display: block;
+    float: none;
+    margin-bottom: 30px; }
+  .order-content .header input.search {
+    margin-bottom: 18px; }
+  .order-content .header .ui-dropdown {
+    float: left;
+    margin-left: 0; }
+
+  .ui-dropdown .dialog .body .form input[type="text"] {
+    margin-top: 10px; }
+
+  .ui-dropdown .dialog .body .form a {
+    margin-top: 10px;
+    margin-left: 18px; } }

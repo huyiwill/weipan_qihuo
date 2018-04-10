@@ -1,0 +1,30 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+namespace Admin\Controller;
+use Think\Controller;
+class CustomerController extends Controller{
+   
+
+	public function customerlist()
+    {
+		$this->display();
+    }
+	public function customeradd()
+    {
+		$this->display();
+    }
+
+	public function customerdetail()
+    {
+		$this->display();
+    }
+	public function customermemberlist()
+    {
+		$this->display();
+    }
+	public function customermemberadd()
+    {
+		$this->display();
+    }
+	
+}

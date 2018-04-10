@@ -1,0 +1,66 @@
+<?php
+// 本类由系统自动生成，仅供测试用途
+namespace Admin\Controller;
+use Think\Controller;
+class IndexController extends Controller{
+    public function index()
+    {
+		$this->display();
+    }
+
+    public function user()
+    {
+		$this->display();
+    }
+
+	public function agentList()
+    {
+		$this->display();
+    }
+	public function agentAdd()
+    {
+		$this->display();
+    }
+
+	public function customerList()
+    {
+		$this->display();
+    }
+	public function customerAdd()
+    {
+		$this->display();
+    }
+
+	public function customerMemberList()
+    {
+		$this->display();
+    }
+	public function customerMemberAdd()
+    {
+		$this->display();
+    }
+
+	public function memberList()
+    {
+		$this->display();
+    }
+	public function memberAdd()
+    {
+		$this->display();
+    }
+
+	public function returnLogList()
+    {
+		$this->display();
+    }
+
+	public function tradeList()
+    {
+		$this->display();
+    }
+
+	public function customerDetailList()
+    {
+		$this->display();
+    }
+}

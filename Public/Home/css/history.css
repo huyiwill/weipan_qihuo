@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.history-con{
+    width: 100%;    
+}
+.wrap .index{
+	background: #ECECEC;
+}
+.sum{
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+.sum li{
+    float: left;
+    width: 30%;
+    border-right: 1px solid #d4d4d4;
+    padding: 1em;
+}
+.sum li:first-child{
+    width: 40%;
+}
+.sum li:last-child{
+    border-right: 0;
+}
+.sum li i{
+    display: block;
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+    font-weight: bold;
+}
+.sum li:first-child i{
+    text-align: right;
+}
+.sum li em{
+    display: block;
+    font-size: 2rem;
+    color: #555;
+    text-align: center;
+}
+.sum li:first-child em{
+    color: #ef4511;
+    text-align: right;
+}
+.date-list{
+    width: 90%;
+    margin:2em auto 5px;
+}
+.arrow{
+    width: 25px;
+    height: 30px;
+}
+.arrow.left{
+    float: left;
+    background: url("../images/d-left.png") center no-repeat;
+    background-size: 10px 19px;
+}
+.arrow.right{
+    float: right;
+    background: url("../images/d-right.png") center no-repeat;
+    background-size: 10px 19px;
+}
+.date-time{
+    float: left;
+   /* width: 150px;*/
+   margin: 0 30%;
+    height: 30px;
+    font-size: 1.3rem;
+    color: #555;
+    text-align: center;
+    line-height: 30px;
+}
+.detail{
+    width:100%;
+    background:#fff;
+	 max-height: 350px;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+.detail li{
+    width: 100%;
+    border-bottom: 1px solid #E3E3E3;
+}
+.detail li.last{
+	border-bottom: 0;
+}
+.detail-l{
+    width: 30%;
+    float: left;
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 40px;
+    line-height: 40px;
+}
+.detail-l span{
+    font-size: 2rem;
+}
+.detail-r{
+    width: 70%;
+    float: left;
+    color: #808080;
+}
+.detail-r p{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.detail-r p.ostyle{
+	width: 25%;
+}
+.detail-r p.ploss{
+	width: 30%;
+}
+.detail-r p.goods-type{
+	width: 45%;
+}
+
+.num{
+    font-size: 1.5rem;
+}
+.num.rise{
+    color: #ed0000;
+}
+.num.drop{
+    color: #02c32f;
+}
+.goods-type{
+    font-size:1.3rem;
+    color: #555;
+}
+.goods-type span{
+    font-size: 1rem;
+}

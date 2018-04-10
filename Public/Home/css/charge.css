@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+.account-info{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.account-info li{
+    width: 100%;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+    padding: .1em 0;
+}
+.account-info li span,
+.account-info li i{
+    color: #c52f30;
+}
+.account-info li i{
+    font-size: 1.2rem;
+}
+.charge-form{
+    width: 92%;
+    margin: 0 auto;
+}
+.c-line{
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    background: #e0e0e0 url("../images/select-arr.png") 97% no-repeat;
+    background-size: 12px 14px;
+    padding:0 1em;
+    font-size: 1.5rem;
+    color: #5a5a5a;
+    line-height: 45px;
+}
+.c-line em{
+    float: right;
+    margin-right: 4%;
+}
+.c-input{
+    float:right;
+    width: 30%;
+    margin-right: 5px;
+    border: 0;
+    font-size: 1.5rem;
+    color: #5a5a5a;
+    background: transparent;
+    text-align: right;
+    line-height: 45px;
+}
+input::-moz-placeholder {
+    color: #5a5a5a;
+}
+::-webkit-input-placeholder {
+    color: #5a5a5a;
+}
+.f-sub{
+    margin-top: 5%;
+    display:block;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: #ff7c80;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.num-list{
+    width: 100%;
+}
+.num-list li{
+    border-bottom: 1px solid #cdcdcd;
+    font-size: 1.4rem;
+    text-indent:1.2em;
+}
+.num-list li a{
+    display: block;
+    color: #303030;
+    padding: .7em 0;
+}
+.num-list li a.selected{
+    background: #c5c5c5 url("../images/num-selected.png") 95% no-repeat;
+    background-size: 18px 14px;
+    color: #fff;
+}
+.charge-box{
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+.charge-box h2{
+    font-size: 2rem;
+    color: #d71b1b;
+}
+.charge-box h3{
+    font-size: 1.8rem;
+    color: #5d5d5d;
+    text-align: center;
+}
+.charge-box h4{
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: #4d4d4d;
+}
+.charge-box h5{
+    margin-top: 5%;
+    font-size: 1.3rem;
+    color: #707070;
+    line-height: 30px;
+}
+.ch-btn{
+    width: 100%;
+    margin-top: 8%;
+}
+.ch-btn span{
+    display: block;
+    margin:5% 0 15px 0;
+    font-size: 1.3rem;
+    color: #707070;
+}
+.ch-btn a{
+    width: 48%;
+    border: 0;
+    border-radius: 5px;
+    padding: .5em 0;
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+}
+.ch-btn a.left{
+    float: left;
+    background: #e03535;
+}
+.ch-btn a.right{
+    float: right;
+    background: #b68f27;
+}
+.cancel{
+    display: block;
+    width: 90px;
+    height: 89px;
+    margin: 0 auto 10px;
+}
+/****充值成功----Start****/
+.s-header{
+    width: 100%;
+    background: #daac33;
+    padding: 2em 0;
+}
+.s-h-con{
+    width: 200px;
+    margin: 0 auto;
+    background: url("../images/s-bg.png") left no-repeat;
+    background-size: 54px 50px;
+    padding-left: 60px;
+    color: #fff;
+}
+
+.s-h-u{
+    font-size: 1.6rem;
+    line-height: .8;
+}
+.s-h-d{
+    font-size:3rem;
+    line-height: .8;
+    /*line-height: 30px;*/
+}
+.s-h-d span{
+    font-size: 1.6rem;
+}
+.info-list{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+.info-list li{
+    width: 100%;
+    padding: .5em 0;
+}
+.info-list i{
+    float: left;
+    width: 40%;
+    text-align: right;
+    font-size: 1.3rem;
+    color: #727272;
+}
+.info-list span{
+    float: left;
+    width: 60%;
+    font-size: 1.3rem;
+    color: #4d4d4d;
+}
+.info-list span.red{
+    color: #c52f2f;
+}
+.s-btn{
+    width: 100%;
+    display:block;
+    margin-top: 20px;
+    padding: .5em 0;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    background: #da5032;
+    font-size: 1.4rem;
+    color: #fff;
+    cursor: pointer;
+}
+.get-ticket{
+    width: 100%;
+    margin-top: 20px;
+    background: #daac33;
+    height: 40px;
+    font-size: 1.2rem;
+    color: #fefefe;
+    text-align: center;
+    line-height: 40px;
+}
+.get-ticket img{
+    width: 15px;
+    height: 20px;
+    margin: -5px 5px 0 5px;
+}
+.warn{
+    width: 100%;
+    margin-top: 15px;
+    background: url("../images/warn.png") left top no-repeat;
+    background-size: 25px 25px;
+    padding-left: 30px;
+    font-size: 1.2rem;
+    color:#ed0000;
+    line-height: 25px;
+}

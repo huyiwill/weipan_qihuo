@@ -1,0 +1,89 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/compiled/typelist.css" type="text/css" media="screen" />    
+<!-- main container -->
+<div class="container-fluid">
+	<div id="pad-wrapper" class="users-list">
+		<div class="row-fluid header">
+            <h3>栏目管理</h3>
+            
+        </div>
+        
+        
+        <div class="row-fluid header head2">
+            
+                <a href="{:U('News/typeadd')}" class="btn-flat success">
+                    <span>&#43;</span>
+                    添加栏目
+                </a>
+        </div>
+        
+        <!---type list---->
+		<ul class="ce">
+			<volist name="typenewlist" id="tl">
+				
+			<li class="mulu_list">
+				<span class="open"><img class="more" src="__IMG__/dedeexplode.gif"/></span>
+				<div class="muleft">
+					<input type="checkbox" name=""><a class="xz" href="{:U('News/typelist',array('fid'=>$tl['fid']))}">{$tl['fclass']}</a>
+				</div>
+			    <div class="muright"><!--<a href="" target="_blank">内容</a>|<a href="" target="_blank">增加子类</a>|--><a href="{:U('News/tedit',array('fid'=>$tl['fid']))}">更改</a>|<a href="{:U('News/newtypedel',array('fid'=>$tl['fid']))}" onclick="if(confirm('确定要删除吗?请谨慎操作')){return true;}else{return false;}">删除</a></div>
+			    <div class="clear"></div>
+			</li>
+			</volist>			
+			<div class="clear"></div>
+		</ul>
+	</div>
+</div>
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+
+<script type="text/javascript">
+	
+
+$(function(){
+    $(".ce > li >  span").click(function(){
+    	if($(this).children("img").attr("src")=="__IMG__/dedeexplode.gif"){
+	    	$(this).children("img").attr("src","__IMG__/dedecontract.gif");
+	    }else{
+	    	$(this).children("img").attr("src","__IMG__/dedeexplode.gif");
+	    }
+		 $(this).siblings(".er").toggle(300);
+		 //$(this).parents().siblings().find(".er > li > .thr").hide().parents().siblings().find(".thr_nr").hide();
+		
+	})
+	
+    $(".er > li > span").click(function(){
+    	if($(this).children("img").attr("src")=="__IMG__/dedeexplode.gif"){
+	    	$(this).children("img").attr("src","__IMG__/dedecontract.gif");
+	    }else{
+	    	$(this).children("img").attr("src","__IMG__/dedeexplode.gif");
+	    }
+        $(this).addClass("sen_x").parents().siblings().find("a").removeClass("sen_x");
+        $(this).parents().siblings().find(".thr").hide(300);	
+	    $(this).siblings(".thr").toggle(300);	
+	})
+
+    $(".thr > li > span").click(function(){
+    	if($(this).children("img").attr("src")=="__IMG__/dedeexplode.gif"){
+	    	$(this).children("img").attr("src","__IMG__/dedecontract.gif");
+	    }else{
+	    	$(this).children("img").attr("src","__IMG__/dedeexplode.gif");
+	    }
+	     $(this).addClass("xuan").parents().siblings().find("a").removeClass("xuan");
+		 $(this).parents().siblings().find(".thr_nr").hide();	
+	     $(this).siblings(".thr_nr").toggle();
+	})
+
+})
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(1);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+</block>

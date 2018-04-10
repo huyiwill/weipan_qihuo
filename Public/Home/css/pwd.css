@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+.i-form{
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.form-box{
+    width: 100%;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    background:#fff;
+    padding:0 1em;
+}
+.f-line{
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+
+}
+.f-line:last-child{
+    border-bottom: 0;
+}
+.f-label{
+    float: left;
+    width: 30%;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #4e4e4e;
+}
+.f-label2{
+    float: left;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #4e4e4e;
+}
+.f-input{
+    float: left;
+    width: 40%;
+    background:#fff;
+    height: 40px;
+    color: #d0d0d0;
+    border: 0;
+}
+.f-line .onError{width:30%;}
+.f-input2{
+    float: left;
+    width: 30%;
+    background:#fff;
+    height: 40px;
+    color: #d0d0d0;
+    border: 0;
+}
+.f-sub{
+    margin-top: 5%;
+    display:block;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: #daac33;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.f-sub2{
+    display:block; float:right;
+    width: 30%;
+    border: 0;
+    background: #2c8ff4;
+    padding: .9em .5em;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+/****新注册页面****/
+.f-r-line{
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+}
+.f-r-line:last-child{
+    border-bottom: 0;
+}
+.f-r-input{
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    font-size: 1.3rem;
+    color: #d0d0d0;
+    border: 0;
+}
+.f-code-line{
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    border:1px solid #c5c5c5;
+    border-radius: 8px;
+    background: #fafafa;
+    padding-left: 1em;
+}
+.f-r-code{
+    float: left;
+    width: 58%;
+    height: 38px;
+    background: #fafafa;
+    font-size: 1.3rem;
+    color: #d0d0d0;
+    border: 0;
+}
+.f-r-btn{
+    float: right;
+    width: 42%;
+    height: 38px;
+    background:#4362c8;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+}
+.f-c-line{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.c-c-l{
+    position: relative;
+    float:left;
+    margin:4px 5px 0 0;
+}
+.c-c-l label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccd1d9;
+    background: #fff;
+    cursor: pointer;
+}
+.c-c-l input[type=checkbox]{
+    width: 22px;
+    height: 22px;
+}
+.c-c-l input[type=checkbox]:checked + label {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccd1d9;
+}
+.c-c-l input[type=checkbox]:checked + label:after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:-3px;
+    left: 2px;
+    background: url("../images/selected.png") center no-repeat;
+    background-size: 100% 100%;
+}
+.f-c-label{
+    float: left;
+    font-size: 1.3rem;
+    color: #828282;
+    font-weight: bold;
+    line-height: 30px;
+}
+.f-c-label span,
+.f-c-label a{
+    color: #4362c8;
+}
+.f-c-label a{
+    text-decoration: underline;
+}
+.f-sub-3{
+    margin-top: 5%;
+    display:block;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: #e03535;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.f-c-text {
+	margin-top: 1.2rem;
+}
+.f-c-text P{
+	text-align: left;
+  	color: #828282;
+  	font-size: 14px;
+}
+.f-c-text P a{
+	color: #6279cd;
+	text-decoration: underline;
+}
+
+/****填写地址页面****/
+.address-form{
+    width: 100%;
+    padding-top: 5%;
+}
+.address-form h3{
+    padding:0 0 1em 1em;
+    font-size: 1.2rem;
+    color: #a2a2a2;
+}
+.address-box{
+    width: 100%;
+    border-top: 1px solid #c5c5c5;
+    background:#fafafa;
+}
+.address-line{
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+}
+.address-label{
+    float: left;
+    width: 90px;
+    height: 40px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #555;
+    text-indent: 15px;
+}
+.address-input{
+    float: left;
+    width: 63%;
+    background:#fafafa;
+    height: 40px;
+    font-size: 1.2rem;
+    color: #d0d0d0;
+    border: 0;
+}
+.address-sub{
+    display:block;
+    width: 92%;
+    margin: 5% auto 0;
+    border: 0;
+    border-radius: 5px;
+    background: #e03535;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+
+/*客户协议书agreement.html*/
+.agreenment{
+	padding: 15px 18px;
+}
+.a-list{
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.a-l-title{
+	color: #daac33;
+}
+.p-l-text{
+	color: #828282;
+}
+
+.forgot{ font-size: 1.3rem;line-height: 40px;}
+.forgot a{ color:#2c8ff4;}
+#btnAgree{font-size:1.3rem; margin-top:15px;}
+#btnBook{ color:#2c8ff4; }

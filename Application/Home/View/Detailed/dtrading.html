@@ -1,0 +1,58 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/history.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+
+<div class="wrap">
+  <div class="index" style="max-height:100%;">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">交易明细</h3>
+      </nav>
+    </header>
+    <div class="history-con">
+      <ul class="sum clearfix">
+        <li>
+          <if condition="$trading.money gt 0">
+          <em style="color:#ed0000">+{$trading.money|round=2}</em><i>总盈亏</i><else/>
+          <em style="color:#02c32f">{$trading.money|round=2}</em><i>总盈亏</i>
+          </if>
+         </li>
+        <li> <em>{$trading.count}</em> <i>总单数</i> </li>
+        <li> <em>{$trading.onumber}</em> <i>总手数</i> </li>
+      </ul>
+      <div class="date-list clearfix"><a href="{:U('Detailed/dtrading')}?today={$trading['time']|date='Y-m-d',###}&no=1" class="arrow left"></a>
+        <p class="date-time">{$trading.time|date='Y-m',###}月</p>
+        <a href="{:U('Detailed/dtrading')}?today={$trading['time']|date='Y-m-d',###}&no=2" class="arrow right"></a> </div>
+      <ul class="detail" style="max-height:100%;">
+      <volist name="list" id="vo">
+               <li class="clearfix">
+                    <div class="detail-l">
+                        <span>{$vo.selltime|date='d',###}</span>
+                    </div>
+                    <div class="detail-r clearfix">
+                        <a href="{:U('Detailed/tradingid')}?oid={$vo.oid}">
+                        <if condition="$vo.ostyle eq 1"><p class="num drop ostyle">跌</p><else/><p class="num rise ostyle">涨</p></if>
+                        <p class="goods-type">{$vo.ptitle}/{$vo.onumber}<span>手</span></p>
+                        <if condition="$vo['ploss'] gt 0"><p class="num rise ploss">+
+                        {$vo['ploss']}</p><else/><p class="num drop ploss">
+                         {$vo['ploss']}</p></if>
+                        </a>
+                    </div>
+                </li>
+       </volist>
+       </ul>
+        <div class="pagelist">{$page}</div>
+    </div>
+  </div>
+</div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+<style type="text/css">
+  .pagelist{ text-align:center; background:#f1f1f1; padding:7px 0;}
+.pagelist a{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; background:#fff; color:#6185a2;}
+.pagelist span{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; color:#6185a2; color:#fff; background:#6185a2;}
+</style>
+</block>

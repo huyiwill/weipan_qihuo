@@ -1,0 +1,102 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/new-user.css" type="text/css" media="screen" />
+
+<div class="container-fluid">
+	<div id="pad-wrapper" class="new-user">
+		<div class="row-fluid header">
+			<h3>添加栏目</h3>
+		</div>
+
+		<div class="row-fluid form-wrapper">
+			<!-- left column -->
+			<div class="span9 with-sidebar">
+				<div class="container">
+					<form class="new_user_form" action="{:U('News/typeadd')}" method="post">
+						<div class="span12 field-box" style="border-top: 1px solid #dee3ea;">
+							<label>栏目名称:</label>
+							<input class="span3" type="text" value="" name="fclass">
+						</div>
+						<!--<div class="span12 field-box">
+							<label>英文名称:</label>
+							<input class="span3" type="text" value="">
+						</div>							
+						<div class="span12 field-box">
+							<label>所属栏目:</label>
+							<div class="ui-select span4">
+								<select>
+									<option value="AK">默认为顶级栏目</option>
+									<option value="HI">新闻媒体</option>
+									<option value="HI">——新闻动态</option>
+									<option value="HI">——腾讯媒体</option>
+									<option value="CA">行业分析</option>
+									<option value="CA">——原油行情</option>
+									<option value="CA">————原油数据</option>
+									<option value="CA">————下载数据</option>
+									<option value="CA">——石油数据</option>
+									<option value="NV">关于我们</option>
+								</select>
+							</div>
+						</div>
+						<div class="span12 field-box textarea">
+							<label>栏目简介:</label>
+							<textarea class="span9">本栏目为新闻栏目.</textarea>
+							<span class="charactersleft">剩余90个字符，字段限制为100个字符</span>
+						</div>-->
+						<div class="span11 field-box actions" style="text-align: right;padding: 30px 20px 15px 0;">
+							<input type="submit" class="btn-glow primary" value="提交">
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- side right column -->
+			<div class="span3 form-sidebar pull-right">
+				<div class="btn-group toggle-inputs hidden-tablet">
+					<button class="glow left active" data-input="inline">内联输入</button>
+					<button class="glow right" data-input="normal">正常输入</button>
+				</div>
+				<div class="alert alert-info hidden-tablet">
+					<i class="icon-lightbulb pull-left"></i>
+					点击上面的按钮可以切换输入方式。
+				</div>                        
+				<h6>说明</h6>
+				<p>建议新建栏目简洁易懂</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        // toggle form between inline and normal inputs
+        var $buttons = $(".toggle-inputs button");
+        var $form = $("form.new_user_form");
+
+        $buttons.click(function () {
+            var mode = $(this).data("input");
+            $buttons.removeClass("active");
+            $(this).addClass("active");
+
+            if (mode === "inline") {
+                $form.addClass("inline-input");
+            } else {
+                $form.removeClass("inline-input");
+            }
+        });
+    });
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(1);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script>
+</block>

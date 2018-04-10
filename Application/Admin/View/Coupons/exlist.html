@@ -1,0 +1,160 @@
+<extend name="Base/common"/>
+<block name="content">
+			
+	<!-- this page specific styles -->
+	<link rel="stylesheet" href="__CSS__/compiled/article.css" type="text/css" media="screen" />
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+            <div class="row-fluid header">
+            	<h3>领取优惠劵的用户</h3>
+                <div class="span9 pull-right">
+                    <!--<input type="text" class="span5 search" placeholder="查找用户..." />-->                    
+                </div>
+            </div>
+            <!-- Users table -->
+            <form  action="{:U('Coupons/cpdel')}" method="post" name="del">
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="span2 sortable">
+								<input type="checkbox">
+                                编号
+                            </th>
+                            <th class="span3 sortable">
+                                <span class="line"></span>用户
+                            </th>
+                            <th class="span4 sortable">
+                                <span class="line"></span>优惠卷价格
+                            </th>
+							<th class="span3 sortable">
+                                <span class="line"></span>领取时间
+                            </th>
+							<th class="span3 sortable">
+                                <span class="line"></span>结束时间
+                            </th>
+                            <th class="span3 sortable">
+                                <span class="line"></span>是否可用
+                            </th>
+							<th class="span2 sortable">
+                                <span class="line"></span>操作
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="exlist" id="el">
+                    <!-- row -->
+                    <tr class="first">
+						<td>
+							<input type="checkbox" name="exid[]" value="{$el['exid']}">
+                            {$el['exid']}
+                        </td>
+                        <td>
+                        	<a href="{:U('User/updateuser',array('uid'=>$el['uid']))}" class="name">{$el['username']}</a>
+                        </td>
+                        <td>
+                            ￥{$el['eprice']}
+                        </td>
+                        <td>
+                            {$el['exgtime']|date='Y-m-d',###}
+                        </td>
+                        <td>
+                            {$el['endtime']|date='Y-m-d',###}
+                        </td>
+                        <td>
+                        	<if condition="$cl['getstyle'] eq 0">
+                            <span class="label label-info">未使用</span>
+							<elseif condition="$cl['getstyle'] eq 1" />
+                            <span class="label">已使用</span>
+							</if>
+                        </td>
+                        <td>
+							<ul class="actions">
+								<!--<li><a href="{:U('Coupons/cpedit',array('eid'=>$cl['eid']))}"><i class="table-edit"></i></a></li>
+								<li><i class="table-settings"></i></li>-->
+								<li class="last"><a href="{:U('Coupons/exdel',array('exid'=>$el['exid']))}" onclick="if(confirm('确定要删除吗?')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+							</ul>
+                        </td>
+                    </tr>
+                    </volist>
+                    </tbody>
+                </table>
+				<div class="qjcz">
+					<a id="checkall">全选</a>
+					<a id="checkallno">全不选</a>
+					<a id="check_revsern">反选</a>
+					<!--<input type="submit" id='sbtn' onclick ="return valid();" value="批量删除">-->
+				</div>
+            </div>
+            </form>
+            <div class="pagination pull-right">
+                <ul>
+                    <li><a href="#">&#8249;</a></li>
+                    <li><a class="active" href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&#8250;</a></li>
+                </ul>
+            </div>
+            <!-- end users table -->
+        </div>
+    </div>
+</div>
+<!-- end main container -->
+
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var eqli = $("#dashboard-menu").children().eq(6);
+	eqli.attr('class','active');
+	$("#dashboard-menu .active .submenu").css("display","block");
+	
+	$("#checkall").click(function(){
+	    $("input[name='eid[]']").each(function(){
+	        this.checked = true;
+	    });
+	});
+	 
+	$("#checkallno").click(function(){
+	    $("input[name='eid[]']").each(function(){
+	        this.checked = false;
+	    })
+	});
+	 
+	$("#check_revsern").click(function(){
+	    $("input[name='eid[]']").each(function(){
+	        if (this.checked) {
+	            this.checked = false;
+	        }
+	        else {
+	            this.checked = true;
+	        }
+	    });
+	});
+	
+	$("input[type='checkbox']").click(function(){
+		$("#sbtn").attr("onclick","if(confirm('确定要删除吗?请谨慎操作')){return true;}else{return false;}");
+	})
+});
+
+function valid(){
+	  var check = "";
+      $("input:checkbox[name='eid[]']:checked").each(function() {
+			check += $(this).val();
+	  });
+      if(check==''){
+      	alert('请选择要删除的产品');
+      	return false;
+      	}else{ 
+      	return true;
+      }	
+ };
+
+</script>
+</block>

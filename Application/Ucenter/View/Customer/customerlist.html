@@ -1,0 +1,83 @@
+<extend name="Base/common"/>
+<block name="content">
+<div class="main sidebar-minified">
+<style type="text/css">
+	.datatable,.datatable th{text-align:center;}
+</style>
+<!--/row-->
+			<div class="row">		
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-table red"></i><span class="break"></span><strong>客户列表</strong>
+								<div style="display: inline-block; margin-left: 20px">
+								<form id="cuntomerfrom"  method="post" action="{:U('Customer/customerlist')}">
+									<span>注册起始时间：</span><input type="text" id="StartTime" name="StartTime" onclick="return showCalendar('StartTime', 'y-mm-dd');"  />
+									<span>注册结束时间：</span><input type="text" id="EntTime" name="EntTime" onclick="return showCalendar('EntTime', 'y-mm-dd');"  />
+									<span>名字：</span><input type="text" name="search">
+										<a class="btn btn-danger" id="cuntomerbut">
+												<i class="fa">搜索</i> 
+										</a>
+								  </form>
+								 </div> 
+							</h2>
+							<div class="panel-actions">
+								<a href="" ><i class="fa fa-rotate-right"></i></a>
+								<a href="table.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+								<a href="table.html#" class="btn-close"><i class="fa fa-times"></i></a>
+							</div>
+						</div>
+						<div class="panel-body lists">
+							<table class="table table-striped table-bordered bootstrap-datatable datatable">
+							  <thead>
+								  <tr>
+									
+									  <th width="4%">编号</th>
+                                      <th width="8%">用户名</th>
+									  <th width="9%">手机</th>
+                                      <th width="8%">地区</th>
+									  <th width="7%">微信图像</th>
+                                      <th width="8%">注册时间</th>
+									  <th width="7%">上级</th>
+                                      <th width="10%">最近登录时间</th>
+									  <th width="6%">交易数量</th>
+									  <th width="8%">账户余额</th>
+									  <th width="9%">级别类型</th>
+									  <th width="10%">操作</th>
+								  </tr>
+							  </thead>   
+							  <tbody>	
+							  <volist name="ulist" id='vo' key='k'>							
+								<tr>
+									<td>{$k}</td>
+									<td>{$vo.username}</td>
+                                    <td>{$vo.utel}</td>
+                                    <td>{$vo.address}</td>
+									<td>暂时没有</td>
+                                    <td>{$vo.utime|date='Y-m-d',###}</td>
+                                    <td>{$vo.managername}</td>
+									<td>{$vo.lastlog|date='Y-m-d',###}</td>
+                                    <td>{$vo.sum}</td>
+                                    <td>{$vo.balance}</td>
+									<td>普通会员</td>
+									<td>
+										<a class="btn btn-info" href="{:U('Customer/customeradd')}?uid={$vo['uid']}">
+											<i class="fa fa-edit ">修改</i>                                            
+										</a>
+										<a class="btn btn-info" href="{:U('Customer/customerdetail')}?uid={$vo['uid']}">
+											<i class="fa fa-edit ">查看</i>                                            
+										</a>
+									</td>
+								</tr>
+								</volist>
+							  </tbody>
+						  </table> 
+						   <div class="pagelist">{$page}</div>
+						</div>
+					</div>
+				</div><!--/col-->
+			
+			</div><!--/row-->
+   
+		</div>
+ </block>

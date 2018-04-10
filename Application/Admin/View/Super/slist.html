@@ -1,0 +1,90 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen">
+<div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                <div class="row-fluid header">
+                    <h3>管理员列表</h3>                    
+                </div>
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span1 sortable">
+                                    编号
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>帐号
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>密码
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>创建时间
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>手机号码
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="ulist" id="ult">
+                        <!-- row -->
+                        <tr class="first">
+                            <td>
+                                {$ult['uid']}
+                            </td>
+                            <td>
+                                <!--<img src="__IMG__/contact-img.png" class="img-circle avatar hidden-phone" />-->
+                                <a href="{:U('Super/sedit',array('uid'=>$ult['uid']))}" class="name">{$ult['username']}</a>
+                                <if condition='$ult["ustatus"] eq 1'>
+                                <span class="subtext">管理员</span>
+                                <else/>
+                                <span class="subtext">普通客户</span>
+                                </if>
+                            </td>
+                            <td>
+                                {$ult['upwd']}
+                            </td>
+                            <td>
+                                {$ult['utime']|date='Y-m-d',###}
+                            </td>                            
+                            <td>
+                                {$ult['utel']}
+                            </td>
+                            <td>
+                                <ul class="actions">
+                                    <li><a href="{:U('Super/sedit',array('uid'=>$ult['uid']))}"><i class="table-edit"></i></a></li>
+                                    <li class="last"><a href="{:U('Super/sdel',array('uid'=>$ult['uid']))}" onclick="if(confirm('确定要删除吗?')){return true;}else{return false;}"><i class="table-delete"></i></a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        </volist>                        
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination pull-right">
+                    <ul>
+                        {$page}
+                    </ul>
+                </div>
+                <!-- end users table -->
+            </div>
+        </div>
+	<!-- scripts -->
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			var eqli = $("#dashboard-menu").children().eq(7);
+			eqli.attr('class','active');
+			$("#dashboard-menu .active .submenu").css("display","block");
+		});
+	</script>
+</block>

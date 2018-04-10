@@ -1,0 +1,279 @@
+<extend name="Base/common"/>
+<block name="content">
+        <!-- this page specific styles -->
+		<link rel="stylesheet" href="__CSS__/compiled/article-add.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="__CSS__/compiled/ui-elements.css" type="text/css" media="screen" />
+		<link href="__CSS__/lib/bootstrap.datepicker.css" type="text/css" rel="stylesheet" />
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="form-page">
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span8 column esystem">
+                    	<div class="field-box" style="height: 40px">
+                            <label>平台设置:</label>
+                            <div class="slider-frame">
+                            	<span data-on-text="关闭平台"  data-off-text="开启平台" class="slider-button on" data-isopen="{$conf.isopen}"><if condition="$conf['isopen'] eq '1'">关闭平台<else/>开启平台</if></span>
+                        	</div>
+                            <input id="iso" value="{$conf.isopen}" type="hidden">
+                        	<div class="setopen" data-on-text="平台已经关闭，请尽快开启，以免流失客户" data-off-text="平台已开启，需要关闭平台请谨慎操作">
+                            <if condition="$conf['isopen'] eq '1'">平台已经关闭，请尽快开启，以免流失客户<else/>
+                            平台已开启，需要关闭平台请谨慎操作</if></div>
+                        </div>
+                        <div class="field-box">                        	
+                            <label>网站名称：</label>
+                            <input class="span6" type="text" data-toggle="tooltip" data-trigger="focus" title="网站名称" data-placement="right" value="{$conf.webname}" name="webname"/>
+                            <span class="sysset">
+                            	<a class="btn-glow primary webname">提交</a>
+                           	</span>
+                        </div>
+                        <div class="field-box">
+                            <label>一级分销比例：</label>
+                            <input class="span6" type="text" data-toggle="tooltip" data-trigger="focus" title="一级分销比例（请填写0.001-1之间的值）" data-placement="right" value="{$conf.onelevel}" name="onelevel"/>
+                            <span class="sysset">
+                            	<a class="btn-glow primary onelevel">提交</a>
+                           	</span>
+                            <p><font color="red">注意：一级佣金=一级分销比例*总手续费*（1-平台比例）</font></p>
+                        </div>
+                        <div class="field-box">
+                            <label>二级分销比例：</label>
+                            <input class="span6" type="text" data-toggle="tooltip" data-trigger="focus" title="二级分销比例（请填写0.001-1之间的值）" data-placement="right" value="{$conf.twolevel}" name="twolevel"/>
+                            <span class="sysset">
+                            	<a class="btn-glow primary twolevel">提交</a>
+                           	</span>
+                            <p><font color="red">注意：二级佣金=二级分销比例*总手续费*（1-平台比例）</font></p>
+                        </div>
+                        <div class="field-box">
+                            <label>平台比例：</label>
+                            <input class="span6" type="text" data-toggle="tooltip" data-trigger="focus" title="平台分销比例（请填写0.001-1之间的值）" data-placement="right" value="{$conf.Pscale}" name="Pscale"/>
+                            <span class="sysset">
+                            	<a class="btn-glow primary Pscale">提交</a>
+                           	</span>
+                        </div>
+
+
+                        <!--<div class="field-box" style="margin-top: 0;height: 80px;">
+                            <label>平仓设置:</label>
+                            <div class="span8">
+                                <div class="radio">
+                                	<label>
+                                		<input type="radio" name="settime" id="settime" value="option1" checked="" />自动休市时间设置
+                                	</label>
+                                </div>
+                                <div class="radio">
+	                                <label>
+	                                    <input type="radio" name="settime" id="setclose"  value="option2" />手动休市
+	                                </label>
+                                </div>
+                                <div class="stime">
+                                	开始时间：<input type="text" value="03/29/2014" class="input-large datepicker"><br/>
+                                	结束时间：<input type="text" value="03/29/2014" class="input-large datepicker">
+                                </div>
+                            </div>
+                            <span class="sysset"><a class="btn-glow primary">提交</a></span>
+                        </div>                           -->
+                                                  
+                        <div class="field-box" style="margin-bottom: 0;">
+                            <label>网站公告:</label>
+                            <textarea class="span8" rows="4" id="notice">{$conf.notice}</textarea>
+                            <span class="sysset"><a class="btn-glow primary notice">提交</a></span>
+                            <span class="sysset" style="top:50px;"><a class="">开启</a>/<a class="">关闭</a></span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	<!-- scripts for this page -->	
+	<script src="__JS__/wysihtml5-0.3.0.js"></script>
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/bootstrap-wysihtml5-0.0.2.js"></script>
+    <script src="__JS__/bootstrap.datepicker.js"></script>
+    <script src="__JS__/jquery.uniform.min.js"></script>
+	<script src="__JS__/select2.min.js"></script>
+	<script src="__JS__/theme.js"></script>
+    <!-- call this page plugins -->
+    <script>
+    	$(".notice").click(function(){
+    		var notice = $("#notice").val();
+    		$.ajax({
+        		type:"post",
+        		url:"{:U('Super/esystem')}",
+        		data:{"notice":notice},
+        		success:function(data){
+        			alert(data);
+        		},
+        		error:function(data){
+        			alert(data);
+        		}
+        	});
+    	})
+
+    	$(".webname").click(function(){
+    		var webname = $("input[name=webname]").val();
+    		$.ajax({
+        		type:"post",
+        		url:"{:U('Super/esystem')}",
+        		data:{"webname":webname},
+        		success:function(data){
+        			alert(data);
+        		},
+        		error:function(data){
+        			alert(data);
+        		}
+        	});
+    	})
+        $(".onelevel").click(function(){
+            var onelevel = $("input[name=onelevel]").val();
+            $.ajax({
+                type:"post",
+                url:"{:U('Super/esystem')}",
+                data:{"onelevel":onelevel},
+                success:function(data){
+                    alert(data);
+                },
+                error:function(data){
+                    alert(data);
+                }
+            });
+        })
+        $(".twolevel").click(function(){
+            var twolevel = $("input[name=twolevel]").val();
+            $.ajax({
+                type:"post",
+                url:"{:U('Super/esystem')}",
+                data:{"twolevel":twolevel},
+                success:function(data){
+                    alert(data);
+                },
+                error:function(data){
+                    alert(data);
+                }
+            });
+        })
+        $(".Pscale").click(function(){
+            var Pscale = $("input[name=Pscale]").val();
+            $.ajax({
+                type:"post",
+                url:"{:U('Super/esystem')}",
+                data:{"Pscale":Pscale},
+                success:function(data){
+                    alert(data);
+                },
+                error:function(data){
+                    alert(data);
+                }
+            });
+        })
+
+    	$('.slider-button').click(function() {
+            	var isopen = $(this).attr('data-isopen');
+            	if(isopen==0){
+    				$(this).attr('data-isopen','1');
+    			}else{
+    				$(this).attr('data-isopen','0');
+    			}
+            	$.ajax({
+            		type:"post",
+            		url:"{:U('Super/esystem')}",
+            		data:{"isopen":isopen},
+            		success:function(data){
+            			alert(data);
+            		},
+            		error:function(data){
+            			alert(data);
+            		}
+            	});
+                if ($(this).hasClass("on")) {
+                    $(this).removeClass('on').html($(this).data("off-text"));
+                    $('.slider-frame').css('background-color','#d5dde4');
+                    $('.slider-frame span	').css('color','#f00');
+                } else {
+                    $(this).addClass('on').html($(this).data("on-text"));
+                    $('.slider-frame').css('background-color','#468847');
+                    $('.slider-frame span').css('color','#7e91aa');
+                }
+                if ($('.setopen').hasClass("on")) {
+                    $('.setopen').removeClass('on').html($('.setopen').data("off-text"));
+                } else {
+                    $('.setopen').addClass('on').html($('.setopen').data("on-text"));
+                }
+        	});
+    </script>
+    <script type="text/javascript">
+        $(function () {
+                
+
+            // select2 plugin for select elements
+            $(".select2").select2({
+                placeholder: "Select a State"
+            });
+
+            // datepicker plugin
+            $('.datepicker').datepicker().on('changeDate', function (ev) {
+                $(this).datepicker('hide');
+            });
+            // wysihtml5 plugin on textarea
+            $(".wysihtml5").wysihtml5({
+                "font-styles": false
+            });
+        });
+    </script>
+    <!-- call this page plugins -->
+    <script type="text/javascript">
+	    $(document).ready(function(){
+			var eqli = $("#dashboard-menu").children().eq(8);
+			eqli.attr('class','active');
+			$("#dashboard-menu .active .submenu").css("display","block");
+			
+			/** 
+			 * 时间对象的格式化; 
+			 */  
+			Date.prototype.format = function(format) {  
+			    /* 
+			     * eg:format="yyyy-MM-dd hh:mm:ss"; 
+			     */  
+			    var o = {  
+			        "M+" : this.getMonth() + 1, // month  
+			        "d+" : this.getDate(), // day  
+			        "h+" : this.getHours(), // hour  
+			        "m+" : this.getMinutes(), // minute  
+			        "s+" : this.getSeconds(), // second  
+			        "q+" : Math.floor((this.getMonth() + 3) / 3), // quarter  
+			        "S" : this.getMilliseconds()  
+			        // millisecond  
+			    }  
+			  
+			    if (/(y+)/.test(format)) {  
+			        format = format.replace(RegExp.$1, (this.getFullYear() + "").substr(4  
+			                        - RegExp.$1.length));  
+			    }  
+			  
+			    for (var k in o) {  
+			        if (new RegExp("(" + k + ")").test(format)) {  
+			            format = format.replace(RegExp.$1, RegExp.$1.length == 1  
+			                            ? o[k]  
+			                            : ("00" + o[k]).substr(("" + o[k]).length));  
+			        }  
+			    }  
+			    return format;  
+			}
+			
+			var now = new Date().format("MM/dd/yyyy");
+			$(".input-large").attr("value",now);
+		});
+        $(function () {
+            // Switch slide buttons
+            
+        });
+        
+        $("#settime").click(function(){
+        	$('.stime').animate({left:'390px',opacity: 'toggle'},600);
+        })
+        $("#setclose").click(function(){
+        	$('.stime').css('display','none');
+        })
+    </script>
+</block>

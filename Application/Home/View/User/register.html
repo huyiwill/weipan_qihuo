@@ -1,0 +1,156 @@
+<extend name="Base/common"/>
+
+
+<block name="content">
+<div class="wrap">
+  <div class="index" style="min-height: 891px;">
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">注册</h3>
+      </nav>
+    </header>
+    <form id="reviseForm" class="i-form" method="post" action="{:U('User/register')}" onSubmit="return false;">
+      <ul class="form-box">
+      	<li class="f-line clearfix">
+          <label class="f-label">会员单位</label>
+          <input id="conname" class="f-input text" type="text" maxlength="16" value="{$com['comname']}" name="conname" readonly="readonly">   
+        </li>
+         <li class="f-line clearfix">
+          <label class="f-label">用户名</label>
+          <input id="c-name" class="f-input text" type="text" maxlength="16" placeholder="请输入用户名" name="username">   
+        </li>
+        <li class="f-line clearfix">
+          <label class="f-label">手机号</label>
+          <input id="c-tel" class="f-input text" type="text" maxlength="11" placeholder="请输入手机号码" name="utel">
+        </li>
+        <li class="f-line clearfix">
+          <label class="f-label">密码</label>
+          <input id="n-pwd" class="f-input text" type="password" maxlength="15" placeholder="请输入新密码" name="upwd">
+        </li>
+        <li class="f-line clearfix">
+          <label class="f-label">确认密码</label>
+          <input id="r-pwd" class="f-input text" type="password" maxlength="15" placeholder="再次输入密码" name="repassword">
+        </li>
+        <li class="f-line clearfix">
+          <label class="f-label">短信验证码</label>
+          <input id="n-code" class="f-input2 text" type="text " maxlength="6" placeholder="短息验证码" name="code">
+          <input type="button" value="获取验证码" id="mes" class="f-sub2">
+        </li>
+      </ul>
+      <input type="hidden" id="oid" name="oid" value="{$com['uid']}"/>
+      <div id='btnAgree'>
+        <div><input name="agree" type="checkbox" value="1" class="text"  id="check" checked/>&nbsp;<span>我已阅读和同意<span id='btnBook'>《服务协议及隐私条款》</span></span></div>   
+      </div>
+      <input type="submit" value="完成注册" class="f-sub" id='send'>
+      <div class="forgot"><span class="fl"><a href="{:U('User/login')}">已有账号，立即登录</a></span></div>
+    </form>
+  </div>
+</div>
+<div id="pwds"></div>
+<div class="xiaoxi"><div id="msg" class="msg"></div></div>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $("#mes").click(function(){
+            	var code = $('input[name=utel]').val();
+            	if( code=="" || ( code!="" && !/^1[3|4|5|8][0-9]\d{4,8}$/.test(code) ) ){
+                    alert('请输入正确的手机号码！');
+                }else{
+                	alert('短信已经发送，请注意查收！');
+                }              	
+            	$.ajax({
+                	type: 'POST',
+                	url: "{:U('User/smsverify')}",
+                	data: {
+                    	tel:$("[name='utel']").val(),
+                	},
+                dataType: "json"
+            });
+            });
+        });  
+</script>
+<style type="text/css">
+  .formtips{
+      text-align:center;
+      width: 100%;
+  }
+</style>
+// <script type="text/javascript">
+//<![CDATA[
+$(function(){
+        //提交，最终验证。
+        var $wForm = $('#reviseForm'),			//form表单
+			$username = $('#c-name'),			//用户名
+        	$utel = $('#c-tel'),				//电话号码
+        	$upwd = $('#n-pwd'),				//密码
+        	$rpwd = $('#r-pwd'),				//确认密码
+        	$oid = $('#oid'),				//姓名
+      		errorInfo = '服务器忙，请稍后重试';
+        	$wForm.submit(function(){
+        		var postData = {};
+        		if($username.val() ==''){
+	      			msg('用户名不能为空!');
+	          		return false;
+	      		}
+        		if($utel.val() ==''){
+	      			msg('电话号码不能为空!');
+	          		return false;
+	      		}else if(!/^1[3|4|5|8][0-9]\d{4,8}$/.test($utel.val())){
+	      			msg('电话号码格式错误!');
+	          		return false;
+	      		}
+        		if($upwd.val() ==''){
+	      			msg('密码不能为空!');
+	          		return false;
+	      		}else if($upwd.val()!=$rpwd.val()){
+	      			msg('两次密码不同！');
+	          		return false;
+	      		}
+        		postData = $(this).serialize();
+	            $.ajax({
+	                type: 'POST',
+	                url: '{:U("User/register")}',
+	                data: postData,
+	                dataType: 'json',
+						timeout:200000,
+					beforeSend:function(){
+	            		$("#pwds").show();
+					},
+	                success: function (data) {
+	                	$("#pwds").hide();
+			            if(data==2){
+			                msg('注册失败!');
+			                
+			            }
+	   					else if(data==0){
+	         				msg('验证码错误，请重新输入!');
+	   					}
+	   					else if(data==3){
+	         				msg('用户名已经存在');
+	         				$("#c-name").val("");
+	         				$("#c-name").focus();
+	   					}
+	  					else{ 
+	            			msg('注册成功！');
+	            			setTimeout("window.location.href='login'",2000);
+	  					}
+	        
+	        
+	    			},
+	    			error: function () {
+	                  	//$("#pwds").hide();
+	         			//$(".f-sub").removeAttr("disabled");
+	        			msg(errorInfo);
+	                 	window.location.reload();        
+	    			}
+	        	});
+        	});
+
+})
+//]]>
+</script>
+
+</block>

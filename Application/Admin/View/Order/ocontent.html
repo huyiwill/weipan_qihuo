@@ -1,0 +1,203 @@
+<extend name="Base/common"/>
+<block name="content">
+	<!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/new-user.css" type="text/css" media="screen" />
+        
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="new-user">
+            <div class="row-fluid header">
+                <h3>交易明细</h3>
+				<!--<a href="javascript:void(0);" onclick="preview(1)" class="btn-flat success pull-right">
+					打印订单
+				</a>-->
+            </div>
+            <div class="row-fluid form-wrapper" id="order-print">
+	            <input type="hidden" name="uid" value="{$userme['uid']}"/>
+	            <!-- left column -->
+	            <div class="span7 with-sidebar">
+	                <div class="span9 field-box uname">
+	                    <label>客户名:</label>
+	                    <label style="text-align: left;"><a href="{:U('User/updateuser',array('uid'=>$userme['uid']))}" class="name">{$uinfo.username}</a></label>
+	                    
+	                    <label>账户余额:</label>
+	                    <if condition='$acount.balance eq 0'>
+	                    	<font color="#f00" size="4">￥0.00</font>
+	                    <else/>
+	                    	<font color="#f00" size="4">￥{$acount.balance}</font>
+	                    </if>
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>订单编号:</label>
+	                    {$oinfo['orderno']}
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>商品:</label>
+	                    {$goods['ptitle']}
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>价格:</label>
+	                    <font color="#f00" size="4">{$goods['uprice']}</font>元/手
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>订单状态:</label>
+	                    <if condition='$oinfo.ostaus eq 1'>
+                        	平仓
+                    	<else/>
+							建仓
+						</if>
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>入仓价格:</label>
+	                    <font color="#f00" size="3">{$oinfo.buyprice}</font>元
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>平仓价格:</label>
+	                    <if condition='$oinfo.ostaus eq 1'>
+                        <font color="#f00" size="3">{$oinfo.sellprice}</font>元
+	                	<else/>
+							<span <if condition='$goods.cid eq 1'>class="you"<elseif condition='$goods.cid eq 2'/>class="baiyin"<else/>class="tong"</if>></span>
+						</if>
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>手续费:</label>
+	                    <font color="#f00" size="3">{$goods.feeprice}</font>元
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>入仓金额合计:</label>
+	                    <font color="#f00" size="5">{$oinfo['onumber']*$goods['uprice']}</font>元
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>入仓时间:</label>
+	                    {$oinfo.buytime|date='Y-m-d H:m',###}
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>平仓时间:</label>
+	                    <if condition='$oinfo.selltime eq 0'>
+	                    	建仓中
+	                    <else/>
+	                    {$oinfo.selltime|date='Y-m-d H:m',###}
+	                    </if>
+	                </div>
+	                <div class="span9 field-box">
+	                    <label>本单盈亏:</label>
+	                    <if condition='$oinfo.ostaus eq 1'>
+                        	<font color="#f00" size="5">{$oinfo.ploss}</font>元
+	                	<else/>
+							<span class="ploss"></span>
+						</if>
+	                </div>
+	            </div>
+			</div>
+        </div>
+    </div>
+	<input id="yprice" type="hidden" value=""/>
+    <input id="byprice" type="hidden" value=""/>
+    <input id="toprice" type="hidden" value=""/>
+    
+    <input type="hidden" value="{$goods['wave']}" name="wave" />
+    <input type="hidden" value="{$oinfo['onumber']}" name="onumber" />
+    <input type="hidden" value="{$oinfo['buyprice']}" name="buyprice" />
+    <input type="hidden" value="{$goods['cid']}" name="cid" />
+    <input type="hidden" value="{$oinfo['ostyle']}" name="ostyle" />
+	<!-- scripts -->
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+	<script type="text/javascript">  
+		butt();
+		setInterval('butt()', 1000);
+		function butt(){  
+			//获取油的价格到页面
+			var yprice = $('#yprice').val();
+			var byprice = $('#byprice').val();
+			var toprice = $('#toprice').val();
+			$.ajax({  
+				type: "post",  
+				url: "{:U('Goods/price')}",         
+				success: function(data) { 
+					//最新油价
+					$('.you').html(data[0]);
+					$('#yprice').val(data[0]);
+					if(data[0]<yprice){
+						$('.you').attr("class","you sellprice drop");
+					}else if(data[0]==yprice){}else{
+						$('.you').attr("class","you sellprice rise");
+					}              
+				},  
+			}); 
+			//获取白银的价格到页面  
+			$.ajax({  
+				type: "post",  
+				url: "{:U('Goods/byprice')}",         
+				success: function(data) {
+					//最新白银价
+					$('.baiyin').text(data[0]); 
+					$('#byprice').val(data[0]);
+					if(data[0]<byprice){
+						$('.baiyin').attr("class","baiyin sellprice drop");
+					}else if(data[0]==byprice){}else{
+						$('.baiyin').attr("class","baiyin sellprice rise");
+					}                
+				},  
+			});
+			//获取铜的价格到页面  
+			$.ajax({  
+				type: "post",  
+				url: "{:U('Goods/toprice')}",         
+				success: function(data) {
+					//最新白银价
+					$('.tong').text(data[0]);
+					$('#toprice').val(data[0]);
+					if(data[0]<toprice){
+						$('.tong').attr("class","tong sellprice drop");
+					}else if(data[0]==toprice){}else{
+						$('.tong').attr("class","tong sellprice rise");
+					}   
+				},  
+			});
+		}
+	</script>
+	<script type="text/javascript">
+		setInterval('getPloss()', 1000);
+		function getPloss(){
+			var buyprice = $('input[name=buyprice]').val(),
+				sellprice = $('.sellprice').html(),
+				wave = $('input[name=wave]').val(),
+				onumber = $('input[name=onumber]').val(),
+				cid = $('input[name=cid]').val(),
+				ostyle = $('input[name=ostyle]').val(),
+				ploss = 0,
+				findPloss = $('.ploss');
+			if(ostyle==0){
+				if(cid==1){
+					ploss = (sellprice-buyprice)*wave*onumber*100;
+				}else{
+					ploss = (sellprice-buyprice)*wave*onumber;
+				}
+			}else{
+				if(cid==1){
+					ploss = (buyprice-sellprice)*wave*onumber*100;
+				}else{
+					ploss = (buyprice-sellprice)*wave*onumber;
+				}
+			}
+			if(ploss<0){
+				findPloss.css('color','#2fb44e')
+			}else{
+				findPloss.css('color','#ed0000')
+			}
+			if(findPloss.html()=="NaN"){
+				findPloss.html("");
+			}else{
+				findPloss.html(parseFloat(ploss).toFixed(2));
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var eqli = $("#dashboard-menu").children().eq(3);
+			eqli.attr('class','active');
+			$("#dashboard-menu .active .submenu").css("display","block");
+		});
+	</script>	
+</block>

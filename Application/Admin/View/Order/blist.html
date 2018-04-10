@@ -1,0 +1,287 @@
+<extend name="Base/common"/>
+<block name="content">
+<!-- this page specific styles -->
+<link rel="stylesheet" href="__CSS__/compiled/user-list.css" type="text/css" media="screen" />
+    
+<div class="container-fluid">
+    <div id="pad-wrapper" class="users-list">
+        <div class="row-fluid header">
+            <h3>充值和提现流水</h3>
+        </div>
+		<div class="row-fluid header head2">
+			<input type="hidden" class="span5 search" placeholder="请输入客户名称查找..." id="top_search" style="float: left;" urlkey="search"/>
+            <a href="" class="btn-flat success">
+				充值记录
+			</a>
+			<a href="" class="btn-flat success">
+				提现记录
+			</a>
+			<div class="zdmj"></div>
+			 <!-- custom popup filter -->
+			<!-- styles are located in css/elements.css -->
+			<!-- script that enables this dropdown is located in js/theme.js -->
+			<div class="ui-dropdown">
+				<div class="head" data-toggle="tooltip" title="点我">
+					过滤器
+					<i class="arrow-down"></i>
+				</div>  
+				<div class="dialog">
+					<div class="pointer">
+						<div class="arrow"></div>
+						<div class="arrow_border"></div>
+					</div>
+					<div class="body">
+						<p class="title">
+							选择过滤条件:
+						</p>
+						<div class="form">
+                            <select name="key" id="sxkey">
+                                <option value="bpid"/>编号
+                                <option value="username"/>用户名
+                                <option value="bptime"/>操作时间
+                                <option value="bptype"/>类型
+                            </select>
+                            <select name="formula" id="formula">
+								<option value="eq"/>等于
+                                <option value="neq"/>不等于
+                                <option value="gt"/>大于
+                                <option value="lt"/>小于
+                                <option value="bh"/>包含
+								<option value="bbh"/>不包含
+                            </select>
+                            <input type="text" value="" name="sxvalue" id="sxvalue" placeholder="亲！请按格式输入"/>
+                            <a class="btn-flat small" urlkey="sxsearch" id="sxsearch">开始过滤</a>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!-- Users table -->
+        <div class="row-fluid table">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th class="span2 sortable">
+                            流水编号
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>操作客户
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>充值/提现
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>操作时间
+                        </th>
+						<th class="span2 sortable">
+                            <span class="line"></span>金额
+                        </th>
+						<th class="span2 sortable">
+                            <span class="line"></span>会员账户余额
+                        </th>
+						<th class="span2 sortable">
+                            <span class="line"></span>状态
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="ajaxback">
+				<volist name="blist" id="bl">
+                <!-- row -->
+                <tr class="first">
+					
+					<td>
+                        {$bl.bno}
+                    </td>
+                    <td>
+                        <a href="{:U('User/updateuser',array('uid'=>$bl['uid']))}">{$bl.username}</a>
+                    </td>
+                    <td>
+                        {$bl.btype}
+                    </td>
+                    <td>
+                        {$bl.btime|date='Y-m-d H:m',###}
+                    </td>
+                    <td>
+						<font color="#2fb44e" size="4">-{$bl.bprice}</font>
+                    </td>
+					<td>
+						<font color="#f00" size="4">{$bl['balance']}</font>元
+                    </td>
+					<td>
+					<if condition="$bl.isverified eq 0">
+						未处理
+						<elseif condition="$relist.isverified eq 1"/>
+						已通过
+						<else/>
+						拒绝申请
+					</if>
+                    </td>
+                </tr>
+            	<div class="shtc" id="elesh{$relist.bpid}">
+					<div class="shtitle"><a class="closesh" id="closesh{$relist.bpid}" href="javascript:void(0)" >关闭</a></div>
+					<ul class="shtcu">
+						<li><label>申请用户：</label><a href="{:U('User/updateuser',array('uid'=>$relist['uid']))}">{$relist.username}</a></li>
+						<li><label>申请金额：</label>
+<font color="#f00" size="4">{$relist.bpprice}</font>元</li>
+						<li class="sqs"><label>申请操作：</label><input type="radio" name="isverified" value="1" checked="checked">同意<input type="radio" name="isverified" value="0">拒绝</li>
+						<li><label>理由：</label><textarea id="remarks{$relist.bpid}"></textarea></li>
+						<li class="lastli"><a class="btn-flat success shtj" bpid="{$relist.bpid}">提交</a></li>
+					</ul>
+				</div>
+                <!-- row -->
+				</volist>
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination pull-right">
+            <ul>
+                {$page}
+            </ul>
+        </div>
+        <!-- end users table -->
+    </div>
+</div>
+
+<!-- scripts -->
+<script src="__JS__/jquery-latest.js"></script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/theme.js"></script>
+<script src="__JS__/popup_layer.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(3);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+				
+	});
+	
+	$('#top_search').keyup(top_serch);
+	$('#sxsearch').click(top_serch);
+	//搜索结果，ajax返回搜索框搜索结果
+	function top_serch(){
+		//获取点击参数
+		var urlkey = $(this).attr("urlkey");
+		//获取文本框值
+		var keywords = $("#top_search").val(),
+		    sxkey = $("#sxkey  option:selected").val(),
+			formula = $("#formula  option:selected").val(),
+			sxvalue = $("#sxvalue").val();
+		//重新定义提交url
+		var newurl = "";
+		if(urlkey == "search"){
+			newurl = "{:U('User/recharge?step=search')}"
+		}
+		if(urlkey == "sxsearch"){
+			newurl = "{:U('User/recharge?step=sxsearch')}"
+		}
+		$.ajax({  
+		    type: "post",  
+		    url: newurl,    
+        	data:{"keywords":keywords,"sxkey":sxkey,"formula":formula,"sxvalue":sxvalue},
+		    success: function(data) {
+		    	//console.log(data);
+		    	if(data=="null"){
+	            	//$("#loading").hide();
+	            	$("#ajaxback").html('<tr class="first"><td colspan="13">没有找到结果，请重新输入！</tr></td>');
+	            }else{
+			    	$relist = "";
+		            $.each(data,function(no,items){
+		            	$relist += '<tr class="first">';
+		            	$relist += '<td>'+items.bpid+'</td>';
+		            	$relist += '<td><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'" class="name">'+items.username+'</a></td>';
+		            	$relist += '<td>'+items.bptime+'</td>';
+		            	if(items.cltime==''){
+		            		$relist += '<td>暂未处理</td>';
+		            	}else{
+		            		$relist += '<td>'+items.cltime+'</td>';
+		            	}
+		            	$relist += '<td><font color="#f00" size="4">￥'+items.bpprice+'<font></td>';
+		            	$relist += '<td>'+items.bptype+'</td>';
+		            	$relist += '<td><font color="#f00" size="4">'+items.balance+'<font></td>';
+		            	if(items.isverified=='0'){
+		            		$relist += '<td><a class="elecl" id="elecl'+items.bpid+'" bpid="'+items.bpid+'">处理/拒绝</a></td>';
+		            	}else if(items.isverified=='1'){
+		            		$relist += '<td>已通过</td>';
+		            	}else{
+		            		$relist += '<td>拒绝申请</td>';
+		            	}						
+
+		            	$relist += '</tr>';
+		            	$relist += '<div class="shtc" id="elesh'+items.bpid+'">';
+						$relist += '<div class="shtitle"><a class="closesh" id="closesh'+items.bpid+'" href="javascript:void(0)" >关闭</a></div>';
+						$relist += '<ul class="shtcu">';
+						$relist += '<li><label>申请用户：</label><a href="{:U(\'User/updateuser\')}?uid='+items.uid+'">'+items.username+'</a></li>';
+						$relist += '<li><label>申请金额：</label><font color="#f00" size="4">'+items.bpprice+'</font>元</li>';
+						$relist += '<li class="sqs"><label>申请操作：</label><input type="radio" name="isverified" value="1" checked="checked">同意<input type="radio" name="isverified" value="0">拒绝</li>';
+						$relist += '<li><label>理由：</label><textarea id="remarks'+items.bpid+'"></textarea></li>';
+						$relist += '<li class="lastli"><a class="btn-flat success shtj" bpid="'+items.bpid+'">提交</a></li>';
+						$relist += '</ul></div>';
+
+		            })
+		            $("#ajaxback").html($relist);
+	            }
+		    },
+		    error: function(data) {  
+	            console.log(data);
+	        }
+		  })
+	}
+	
+	$(".elecl").click(function(){
+		var bpid = $(this).attr("bpid");
+		$('#popupLayer').css('display','block');
+		$('#elesh'+bpid).animate({
+			right: '45%', top: 200 ,opacity: 'toggle'
+		},600);
+	})
+	$('.closesh').click(function(){
+		$('#popupLayer').css('display','none');
+		$('.shtc').css('display','none');
+	})
+	$(".shtj").click(function(){
+		var bpid = $(this).attr("bpid");
+		var isverified = $('#elesh'+bpid+' input[name="isverified"]:checked ').val();
+		var remarks = $("#remarks"+bpid).val();
+		$.ajax({  
+		    type: "post",  
+		    url: "{:U('User/upbalance')}",
+        	data:{"bpid":bpid,"isverified":isverified,"remarks":remarks},
+        	success: function(data) {
+        		if(data=="success"){
+        			$('#popupLayer').css('display','none');
+					$('.shtc').css('display','none');
+        			alert('处理成功！');
+        			window.location.reload();
+        		}else{
+        			alert('处理失败!');
+        		}
+        	},
+        	error: function(data) {  
+	            console.log(data);
+	        }
+      });
+	})
+	
+	$("#sxkey").bind("change",function(){
+		var sxkey = $(this).val();
+		switch(sxkey){
+			case "bpid":
+				$("#sxvalue").attr("placeholder","格式：不允许汉字");
+				break;
+			case "username":
+				$("#sxvalue").attr("placeholder","格式：雁过留痕");
+				break;
+			case "bptime":
+				$("#sxvalue").attr("placeholder","格式：1970-10-01");
+				break;
+			case "bptype":
+				$("#sxvalue").attr("placeholder","格式：充值/提现");
+				break;
+			default:
+				$("#sxvalue").text("输入内容");
+		}
+		
+	})
+</script>
+</block>

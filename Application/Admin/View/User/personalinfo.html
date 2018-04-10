@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人资料</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <!-- bootstrap -->
+    <link href="__CSS__/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="__CSS__/bootstrap/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="__CSS__/bootstrap/bootstrap-overrides.css" type="text/css" rel="stylesheet" />
+
+    <!-- global styles -->
+    <link rel="stylesheet" type="text/css" href="__CSS__/layout.css" />
+    <link rel="stylesheet" type="text/css" href="__CSS__/elements.css" />
+    <link rel="stylesheet" type="text/css" href="__CSS__/icons.css" />
+
+    <!-- libraries -->
+    <link rel="stylesheet" type="text/css" href="__CSS__/lib/font-awesome.css" />
+    
+    <!-- this page specific styles -->
+    <link rel="stylesheet" href="__CSS__/compiled/personal-info.css" type="text/css" media="screen" />
+
+    <!-- open sans font -->
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+            <a class="brand" href="index.html"><img src="__IMG__/logo.png" /></a>
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="active"><a href="{:U('Admin/Index/index')}">系统首页</a></li>
+                    <li><a href="{:U('News/newslist')}">文章管理</a></li>
+                    <li><a href="{:U('Goods/glist')}">产品管理</a></li>
+                    <li><a href="{:U('User/ulist')}">客户管理</a></li>
+                    <li><a href="{:U('Order/olist')}">订单管理</a></li>
+                    <li><a href="{:U('Coupons/cplist',array('style'=>'list'))}">优惠劵管理</a></li>
+                    <li><a href="{:U('Super/slist')}">系统管理员</a></li>
+                </ul>
+            </div>
+            <ul class="nav pull-right">
+                <li class="hidden-phone">
+                    <input class="search" type="text" />
+                </li>
+                <li class="settings">
+                    <a href="personal-info.html" role="button">
+                        <span class="navbar_icon"></span>
+                    </a>
+                </li>
+                <li id="fat-menu" class="dropdown">
+                    <a href="signin.html" role="button" class="logout">
+                        <span class="navbar_icon"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+	<!-- main container .wide-content is used for this layout without sidebar :)  -->
+    <div class="content wide-content">
+        <div class="container-fluid">
+            <div class="settings-wrapper" id="pad-wrapper">
+                <!-- avatar column -->
+                <div class="span3 avatar-box">
+                    <div class="personal-image">
+                        <img src="__IMG__/personal-info.png" class="avatar img-circle" />
+                        <p>上传个人照片...</p>
+                        
+                        <input type="file" />
+                    </div>
+                </div>
+
+                <!-- edit form column -->
+                <div class="span7 personal-info">
+                    <div class="alert alert-info">
+                        <i class="icon-lightbulb"></i>
+                        超级管理员信息，建议不要随意修改。
+                        <br /> 密码不要过于简单 <strong></strong> 
+                    </div>
+                    <h5 class="personal-title">管理员信息</h5>
+
+                    <form />
+                        <div class="field-box">
+                            <label>First name:</label>
+                            <input class="span5 inline-input" type="text" value="Alejandra" />
+                        </div>
+                        <div class="field-box">
+                            <label>Last name:</label>
+                            <input class="span5 inline-input" type="text" value="Galvan" />
+                        </div>
+                        <div class="field-box">
+                            <label>Company:</label>
+                            <input class="span5 inline-input" type="text" value="Design Co." />
+                        </div>
+                        <div class="field-box">
+                            <label>Email:</label>
+                            <input class="span5 inline-input" type="text" value="alejandra@design.com" />
+                        </div>
+                        <div class="field-box">
+                            <label>Time Zone:</label>
+                            <div class="ui-select">
+                                <select id="user_time_zone" name="user[time_zone]">
+                                    <option value="Hawaii" />(GMT-10:00) Hawaii
+                                    <option value="Alaska" />(GMT-09:00) Alaska
+                                    <option value="Pacific Time (US &amp; Canada)" />(GMT-08:00) Pacific Time (US &amp; Canada)
+                                    <option value="Arizona" />(GMT-07:00) Arizona
+                                    <option value="Mountain Time (US &amp; Canada)" />(GMT-07:00) Mountain Time (US &amp; Canada)
+                                    <option value="Central Time (US &amp; Canada)" selected="selected" />(GMT-06:00) Central Time (US &amp; Canada)
+                                    <option value="Eastern Time (US &amp; Canada)" />(GMT-05:00) Eastern Time (US &amp; Canada)
+                                    <option value="Indiana (East)" />(GMT-05:00) Indiana (East)                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field-box">
+                            <label>Username:</label>
+                            <input class="span5 inline-input" type="text" value="alegalvan" />
+                        </div>
+                        <div class="field-box">
+                            <label>Password:</label>
+                            <input class="span5 inline-input" type="password" value="blablablabla" />
+                        </div>
+                        <div class="field-box">
+                            <label>Confirm password:</label>
+                            <input class="span5 inline-input" type="password" value="blablablabla" />
+                        </div>
+                        <div class="span6 field-box actions">
+                            <input type="button" class="btn-glow primary" value="Save Changes" />
+                            <span>OR</span>
+                            <input type="reset" value="Cancel" class="reset" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+	<!-- scripts -->
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+
+</body>
+</html>

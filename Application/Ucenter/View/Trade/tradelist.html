@@ -1,0 +1,77 @@
+<extend name="Base/common"/>
+<block name="content">
+<div class="main sidebar-minified">
+<style type="text/css">
+	.datatable,.datatable th{text-align:center;}
+</style>
+<!--/row-->
+			<div class="row">		
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-table red"></i><span class="break"></span><strong>交易流水</strong>
+								<div style="display: inline-block; margin-left: 20px">
+								 <form id="tradefrom"  method="post" action="{:U('Trade/tradelist')}">
+									<span>起始时间：</span><input type="text" id="StartTime" name="StartTime" onclick="return showCalendar('StartTime', 'y-mm-dd');"  />
+									<span>结束时间：</span><input type="text" id="EntTime" name="EntTime" onclick="return showCalendar('EntTime', 'y-mm-dd');"  />
+									<span>名字：</span><input type="text" name="search">
+										<a class="btn btn-danger" id="tradebut">
+												<i class="fa">搜索</i> 
+										</a>
+								  </form>
+								 </div> 
+</h2>
+							<div class="panel-actions">
+								<a href="" ><i class="fa fa-rotate-right"></i></a>
+								<a href="table.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+								<a href="table.html#" class="btn-close"><i class="fa fa-times"></i></a>
+							</div>
+						</div>
+						<div class="panel-body">
+							<table class="table table-striped table-bordered bootstrap-datatable datatable">
+							  <thead>
+								  <tr>
+									  <th>编号</th> <th>用户</th> <th>上级</th> <th>平仓时间</th> <th>产品</th> <th>数量</th> <th>电话</th> <th>状态</th>  <th>买家</th> <th>卖家</th> <th>现价</th> <th>佣金</th> <th>手续费</th> <th>盈亏</th> <th>操作</th>
+								  </tr>
+							  </thead>   
+							  <tbody>
+							  <foreach name="ordlist" item="vo" >
+									<tr> 
+										<td>{$vo['orderno']}</td>
+		                                <td>{$vo.username}</td>
+		                                <td>xx有限公司</td>
+										<td>{$vo.selltime|date='Y-m-d',###}</td>
+										<td>平仓</td>
+										<td>{$vo.onumber}</td>
+		                                <td>{$vo.utel}</td>
+	
+										<if condition="$vo.ostyle eq 0">
+										<td>涨</td> <else/> <td>跌</td>
+										</if>
+										<td>bb</td>
+										<td>225</td>
+		                                <td>52</td>
+		                                <td>10</td>
+										<td>{$vo.fee}</td>
+										<td>{$vo.ploss}</td>
+										<td>
+											<a class="btn btn-danger" href="{:U('Trade/delord')}?orderno={$vo['orderno']}">
+												<i class="fa fa-trash-o ">删除</i> 
+											</a>
+										</td>
+									</tr>
+								</foreach> 
+									
+								
+								
+							  </tbody>
+						  </table> 
+						   <div class="pagelist">{$page}</div>	
+						</div>
+					</div>
+				</div><!--/col-->
+			
+			</div><!--/row-->
+   
+		</div>
+ </block>

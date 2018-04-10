@@ -1,0 +1,5 @@
+[ 2017-01-08T07:07:12+08:00 ] 42.156.251.187 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+

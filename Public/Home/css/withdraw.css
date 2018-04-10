@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.i-form{
+    width: 92%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.form-box{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    background:#fff;
+    padding:0 1em;
+}
+.f-line{
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+}
+.f-line:last-child{
+    border-bottom: 0;
+}
+.f-line em{
+    float: left;
+    height: 40px;
+    font-size: 1.3rem;
+    color: #2886aa;
+    line-height: 40px;
+}
+.f-label{
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-size: 1.3rem;
+    line-height: 40px;
+    color: #4e4e4e;
+
+}
+.f-input{
+    float: left;
+    width: 62%;
+    background:#fff;
+    height: 40px;
+    font-size: 1.3rem;
+    color: #d0d0d0;
+    border: 0;
+}
+.f-sub{
+    margin-top: 5%;
+    display:block;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background: #ff7c80;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.f-select{
+    width: 61%;
+    height: 39px;
+    float: left;
+    font-size: 1.3rem;
+    color: #d0d0d0;
+    background: url("../images/select-arr.png") right no-repeat;
+    background-size: 12px 14px;
+    border: 0 none transparent;
+}
+.f-p-line{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    background:#fff;
+    padding:0 1em;
+}
+.f-pwd{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background:#fff;
+    font-size: 1.3rem;
+    color: #d0d0d0;
+}
+/****提现成功---Start****/
+#crSuccess{
+    top: 20%;
+}
+.w-con{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.w-title{
+    width: 100%;
+    padding: .5em 0;
+    font-size: 1.5rem;
+    color: #686868;
+}
+.w-title span,
+.w-title strong{
+    color: #d30101;
+}
+.w-title span{
+    font-size: 1.5rem;
+}
+.w-title strong{
+    font-size: 2rem;
+}
+
+.w-p{
+    width: 100%;
+    padding: .3em 0 1em 0;
+    font-size: 1.4rem;
+    color: #969696;
+}
+.p-btn{
+    display: block;
+    width: 80%;
+    margin: 15px auto 0;
+    border: 0;
+    border-radius: 5px;
+    background: #daac33;
+    padding: .3em 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+}
+.b-title{
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.b-close{
+    position: absolute;
+    right: -3%;
+    top: 0;
+    width: 15%;
+    cursor: pointer;
+}
+.b-close img{
+    width: 100%;
+}
+.banks{background: url(../images/bankbg.jpg);padding-top: 10px;color: #fff;width: 99%;}
+.hover{border: 1px solid #FF790C;opacity: 0.6;}
+.banks p{line-height: 24px;}
+.bname{font-size:18px;}
+.bankid{height: 37px;font-size: 20px;text-align: right;padding-right: 10px; margin-top: 15px;}
+/****提现成功---End****/

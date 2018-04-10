@@ -1,0 +1,68 @@
+<extend name="Base/common"/>
+<block name="content">
+	<style type="text/css">
+	.col-md-6{ width:100%;}
+	.form-horizontal { width:500px;}
+</style>
+	<div class="main sidebar-minified">
+		<div class="row">
+			    <div class="col-md-6">
+			        <div class="panel panel-default">
+			            <div class="panel-heading">
+			                <h2><i class="fa fa-indent red"></i><strong><if condition="$user.uid neq ''">修改会员信息<else/>添加会员</if></strong></h2>
+			            </div>
+							<form action="{:U('Customer/customeradd')}" method="post" enctype="multipart/form-data" class="form-horizontal ">
+							<div class="panel-body">
+								 <input type="hidden" name="uid" value="{$user.uid}">
+				                 <input type="hidden" name="mid" value="{$user.mid}">
+				                <div class="form-group">
+				                    <label class="col-md-3 control-label" for="text-input">用户名</label>
+				                    <div class="col-md-9">
+				                    <if condition="$user.uid neq ''">
+				                        <input type="text"  disabled="disabled"  class="form-control" value="{$user.username}">
+				                     <else/>
+				                        <input type="text"  name="username" class="form-control" value="{$user.username}">
+				                     </if>
+				                    </div>
+				                </div>
+				                <div class="form-group">
+				                    <label class="col-md-3 control-label" for="email-input">电话</label>
+				                    <div class="col-md-9">
+				                        <input type="text" id="email-input" value="{$user.utel}" name="utel" class="form-control" >
+				                    </div>
+				                </div>
+				                <div class="form-group">
+				                    <label class="col-md-3 control-label" for="password-input">办公室地址</label>
+				                    <div class="col-md-9">
+				                        <input type="text" value="{$user.address}" name="address" class="form-control">
+				                      
+				                    </div>
+				                </div>
+				                <div class="form-group">
+				                    <label class="col-md-3 control-label" for="password-input">身份证信息</label>
+				                    <div class="col-md-9">
+				                        <input type="text" value="{$user.brokerid}" name="brokerid" class="form-control">
+				                    </div>
+				                </div>
+				                <if condition="$user.uid eq ''">
+				                <div class="form-group">
+				                    <label class="col-md-3 control-label" for="password-input">初始密码</label>
+				                    <div class="col-md-9">
+				                        <input type="text"  value="默认和用户名一样"  disabled="disabled" class="form-control">
+				                    </div>
+				                </div>
+				                </if>
+							</div>
+							<div class="panel-footer">
+			                    <button type="submit" class="btn btn-sm btn-success"><i class="fa fa-dot-circle-o"></i> 提交</button>
+		                         <a onclick="window.history.go(-1)"><button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> 返回</button></a>
+			                </div>
+		                 </form>	
+			        </div>	
+			    </div>
+				
+			 
+			        </div>
+	</div>
+
+</block>

@@ -1,0 +1,51 @@
+<extend name="Base/common"/>
+<block name="content">
+<link rel="stylesheet" href="__CSS__/global.css">
+<link rel="stylesheet" href="__CSS__/ticket.css">
+<script id="G--xyscore-load" type="text/javascript" charset="utf-8" async="" src="__JS__/xyscore_main.js"></script>
+<div class="wrap">
+  <div class="index" >
+    <header class="list-head">
+      <nav class="list-nav clearfix"> <a href="javascript:history.go(-1)" class="list-back"></a>
+        <h3 class="list-title">收支明细</h3>
+      </nav>
+    </header>
+    <ul class="ticket-list2" style="max-height:100%">
+    <volist name="list" id="vo">
+          <li><a href="{:U('Detailed/revenueid',array('jno'=>$vo['jno']))}" class="clearfix"> 
+          <if condition="$vo.jtype neq '建仓'">
+              <img src="__IMG__/sz.png" class="t-icon2">
+          <else/>
+              <img src="__IMG__/sz2.png" class="t-icon2">
+          </if>
+          <div class="t-left2">
+              <p class="pc">{$vo.jtype}({$vo.remarks} {$vo.number}手)</p>
+              <p class="ye">余额：{$vo.balance}</p>
+          </div>
+          <div class="t-right2">
+             <if condition="$vo.jtype eq '建仓'">
+              <p class="jg2">-{$vo.jincome}</p>
+            <else/>
+              <p class="jg">+{$vo.jincome}</p>
+            </if>
+            <p class="rq">{$vo.jtime|date='Y-m-d',###}</p>
+          </div>
+          <div class="clearfix"></div>
+         </a>
+          </li>
+     </volist>  
+    </ul>
+      <div class="pagelist">{$page}</div>
+  </div>
+
+</div>
+<style type="text/css">
+  .pagelist{ text-align:center; background:#f1f1f1; padding:7px 0;}
+.pagelist a{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; background:#fff; color:#6185a2;}
+.pagelist span{ margin:0 5px; border:#6185a2 solid 1px; display:inline-block; padding:2px 6px 1px; line-height:16px; color:#6185a2; color:#fff; background:#6185a2;}
+</style>
+<script src="__JS__/jquery-2.1.1.min.js"></script>
+<script src="__JS__/script.js"></script>
+<script src="__JS__/getJuan.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/sea.js" async=""></script>
+</block>
